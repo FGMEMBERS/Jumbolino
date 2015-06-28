@@ -23,43 +23,13 @@
 			livery_update.stop();
 		</unload>
 	</nasal>
-	
-	<!-- rotate the whole plane because model it is defined backwards -->
-	<animation>
-		<type>rotate</type>
-		<object-name>BABACKAI</object-name>
-		<object-name>BABODY01</object-name>
-		<object-name>BABODY02</object-name>
-		<object-name>BABODY03</object-name>
-		<object-name>BABRAKES</object-name>
-		<object-name>BAENGCUP</object-name>
-		<object-name>BAENGINE</object-name>
-		<object-name>BAHELIX</object-name>
-		<object-name>BAILERON</object-name>
-		<object-name>BAPILOT</object-name>
-		<object-name>BAPILOT01</object-name>
-		<object-name>BAPILOT02</object-name>
-		<object-name>BAPILOT03</object-name>
-		<object-name>BAPLANES</object-name>
-		<object-name>BATIRES</object-name>
-		<object-name>BAWHELLS</object-name>
-		<property>voodoomaster/model-direction</property>
-		<center>
-			<x-m>0</x-m>
-			<y-m>0</y-m>
-			<z-m>0</z-m>
-		</center>
-		<axis>
-			<x>0</x>
-			<y>0</y>
-			<z>1</z>
-		</axis>
-	</animation>
 
 	<!-- Livery Selection Animation -->
 	<animation>
 		<type>material</type>
 		<object-name>BABACKAI</object-name>
+                <object-name>fuselage</object-name>
+                <object-name>Wings</object-name>
 		<object-name>BABODY01</object-name>
 		<object-name>BABODY02</object-name>
 		<object-name>BABODY03</object-name>
