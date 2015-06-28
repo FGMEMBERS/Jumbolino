@@ -42,11 +42,8 @@
                 <object-name>HStabs</object-name>
                 <object-name>MainGears.DoorLeft</object-name>
                 <object-name>MainGears.DoorRight</object-name>
-                <object-name>MainGear.StroutLeft</object-name>
-                <object-name>MainGear.StroutRight</object-name>
                 <object-name>NoseGear.DoorLeft</object-name>
                 <object-name>NoseGear.DoorRight</object-name>
-                <object-name>NoseGear.Strout</object-name>
                 <object-name>Rudder</object-name>
                 <object-name>Slats.Left</object-name>
                 <object-name>Slats.Rigth</object-name>
@@ -57,6 +54,36 @@
 		<texture-prop>texture</texture-prop>
 		<texture>Liveries/EWG.png</texture>
 	</animation>
+	<!-- Livery System -->
+
+
+	<!-- shaders -->
+	<effect>
+                <inherits-from>Effects/Jumbolino-combShaders</inherits-from>
+	        <object-name>Aileron.Left</object-name>
+                <object-name>Aileron.Right</object-name>
+                <object-name>Door1</object-name>
+                <object-name>Door2</object-name>
+                <object-name>Door3</object-name>
+                <object-name>Door4</object-name>
+                <object-name>Elevator.Left</object-name>
+                <object-name>Elevator.Rigth</object-name>
+                <object-name>Endines</object-name>
+                <object-name>Flaps.Left</object-name>
+                <object-name>Flaps.Rigth</object-name>
+                <object-name>fuselage</object-name> 
+                <object-name>HStabs</object-name>
+                <object-name>MainGears.DoorLeft</object-name>
+                <object-name>MainGears.DoorRight</object-name>
+                <object-name>NoseGear.DoorLeft</object-name>
+                <object-name>NoseGear.DoorRight</object-name>
+                <object-name>Rudder</object-name>
+                <object-name>Slats.Left</object-name>
+                <object-name>Slats.Rigth</object-name>
+                <object-name>SpeedBrakes.TailLeft</object-name>
+                <object-name>SpeedBrakes.TailRight</object-name> 
+                <object-name>Wings</object-name>
+	</effect>
 	<!-- Livery System -->
     
 	<!-- Cockpit, with everything included in the flightdeck directed from this file -->
