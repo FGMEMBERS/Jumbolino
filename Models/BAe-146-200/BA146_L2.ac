@@ -9,7 +9,7 @@ MATERIAL "GREEN" rgb 0.0000 0.5922 0.0706  amb 1.0000 1.0000 1.0000  emis 0.0000
 MATERIAL "TIRES" rgb 0.0784 0.0784 0.0784  amb 1.0000 1.0000 1.0000  emis 0.0000 0.0000 0.0000  spec 0.4490 0.4490 0.4490  shi 12 trans 0.0000
 MATERIAL "glas" rgb 0.4200 0.4200 0.4200  amb 1.0000 1.0000 1.0000  emis 0.6000 0.6000 0.6000  spec 0.6400 0.6400 0.6400  shi 12 trans 0.5000
 OBJECT world
-name "Blender_export__BA146_L.ac"
+name "Blender_export__BA146_L2.ac"
 kids 36
 OBJECT poly
 name "Aileron.Left"

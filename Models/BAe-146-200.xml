@@ -56,8 +56,7 @@
 	</animation>
 	<!-- Livery System -->
 
-
-	<!-- shaders 
+	<!-- shaders  -->
 	<effect>
                 <inherits-from>Effects/Jumbolino-combShaders</inherits-from>
 	        <object-name>Aileron.Left</object-name>
@@ -83,7 +82,7 @@
                 <object-name>SpeedBrakes.TailLeft</object-name>
                 <object-name>SpeedBrakes.TailRight</object-name> 
                 <object-name>Wings</object-name>
-	</effect> -->
+	</effect> 
 
     
 	<!-- Cockpit, with everything included in the flightdeck directed from this file -->
