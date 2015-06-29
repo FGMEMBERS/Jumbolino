@@ -84,6 +84,14 @@
                 <object-name>Wings</object-name>
 	</effect> 
 
+      <!-- CHROME REFLECTION -->
+      <effect>
+         <inherits-from>Effects/chrome-parts</inherits-from> 
+         <object-name>EngineCups</object-name>
+         <object-name>MainGear.StroutLeft</object-name>
+         <object-name>MainGear.StroutRight</object-name>
+         <object-name>NoseGear.Strout</object-name>
+      </effect>
     
 	<!-- Cockpit, with everything included in the flightdeck directed from this file -->
 	<!-- model>
