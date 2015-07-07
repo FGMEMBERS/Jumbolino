@@ -1,12 +1,15 @@
 <?xml version="1.0"?>
 
 	<!-- 
-		************************************************************************
+	************************************************************************
+	       
 		BAe-146 Jumbolino
-		Peter Brendt (Jabberwocky)
+		Peter Brendt (Jabberwocky), IAHM-COL (3D modification to adapt
+		for Flightgear Flight Simulator, and Textures)
 
 		based on:
-		3D model taken CatNav, author unknown
+		3D model taken on http://www.CadNav.com and used as requested
+		(file: 1-140201101522.rar)
 		************************************************************************
 	-->
 
@@ -15,7 +18,7 @@
 	<sim>
 
 		<description>BAe-146 Jumbolino</description>
-		<author>Peter Brendt (Jabberwocky)</author>
+		<author>Peter Brendt (Jabberwocky), Israel Hernandez (IAHM-COL, 3D, textures)</author>
 
 		<aircraft-version>V00.00.00</aircraft-version>
 		<status>Alpha</status>
@@ -24,7 +27,7 @@
 			<FDM type="int">     0 </FDM>
 			<systems type="int"> 0 </systems>
 			<cockpit type="int"> 0 </cockpit>
-			<model type="int">   2 </model>
+			<model type="int">   1 </model>
 		</rating>
 
 		<flight-model>jsb</flight-model>
@@ -141,9 +144,10 @@
 				<from-model type="bool">true</from-model>
 				<from-model-idx type="int">0</from-model-idx>
 				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-				<x-offset-m type="double">-1.67</x-offset-m>
-				<y-offset-m type="double">-0.10</y-offset-m>
-				<z-offset-m type="double">-4.50</z-offset-m>
+				<x-offset-m type="double">-0.67</x-offset-m>
+				<y-offset-m type="double">-2.0</y-offset-m>
+				<z-offset-m type="double">-17.50</z-offset-m>
+>>>>>>> 508719d530341c8ba6b203c1115c1e1a8f1bfafe
 				<pitch-offset-deg>-13.5</pitch-offset-deg>
 				<heading-offset-deg> 0 </heading-offset-deg>
 				<default-field-of-view-deg type="double">60.0</default-field-of-view-deg>

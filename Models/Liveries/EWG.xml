@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+  <sim>
+    <model>
+      <livery>
+	<name type="string">EWG - Eurowings</name>
+	<texture>Liveries/EWG.png</texture>
+      </livery>
+    </model>
+  </sim>
+</PropertyList>
