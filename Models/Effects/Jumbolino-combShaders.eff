@@ -29,7 +29,7 @@
     <reflection-enabled type="int">1</reflection-enabled>
     <reflection-dynamic type="int">1</reflection-dynamic>
     <reflect_map-enabled type="int">1</reflect_map-enabled>
-    <reflection-correction type="float">0.22</reflection-correction>
+    <reflection-correction type="float">0.02</reflection-correction>
     <texture n="5">
       <type>cubemap</type>
       <images>
@@ -41,9 +41,9 @@
         <negative-z>Aircraft/Generic/Effects/fgfs-sky2/5.png</negative-z>
       </images>
     </texture>
-    <reflection-rainbow type="float">0.65</reflection-rainbow>
-    <reflection-fresnel type="float">0.33</reflection-fresnel>
-    <ambient_correction>0.33</ambient_correction>
+    <reflection-rainbow type="float">0.15</reflection-rainbow>
+    <reflection-fresnel type="float">0.02</reflection-fresnel>
+    <ambient_correction>0.13</ambient_correction>
   </parameters>
   <!-- ####################
   ### NORMALMAP INCLUDE ###

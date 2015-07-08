@@ -34,10 +34,10 @@
                 <object-name>Door3</object-name>
                 <object-name>Door4</object-name>
                 <object-name>Elevator.Left</object-name>
-                <object-name>Elevator.Rigth</object-name>
+                <object-name>Elevator.Right</object-name>
                 <object-name>Endines</object-name>
                 <object-name>Flaps.Left</object-name>
-                <object-name>Flaps.Rigth</object-name>
+                <object-name>Flaps.Right</object-name>
                 <object-name>fuselage</object-name>
                 <object-name>HStabs</object-name>
                 <object-name>MainGear.DoorLeft</object-name>
@@ -46,7 +46,7 @@
                 <object-name>NoseGear.DoorRight</object-name>
                 <object-name>Rudder</object-name>
                 <object-name>Slats.Left</object-name>
-                <object-name>Slats.Rigth</object-name>
+                <object-name>Slats.Right</object-name>
                 <object-name>SpeedBrakes.TailLeft</object-name>
                 <object-name>SpeedBrakes.TailRight</object-name>
                 <object-name>Wings</object-name>
@@ -66,19 +66,19 @@
                 <object-name>Door3</object-name>
                 <object-name>Door4</object-name>
                 <object-name>Elevator.Left</object-name>
-                <object-name>Elevator.Rigth</object-name>
+                <object-name>Elevator.Right</object-name>
                 <object-name>Endines</object-name>
                 <object-name>Flaps.Left</object-name>
-                <object-name>Flaps.Rigth</object-name>
+                <object-name>Flaps.Right</object-name>
                 <object-name>fuselage</object-name> 
                 <object-name>HStabs</object-name>
-                <object-name>MainGears.DoorLeft</object-name>
-                <object-name>MainGears.DoorRight</object-name>
+                <object-name>MainGear.DoorLeft</object-name>
+                <object-name>MainGear.DoorRight</object-name>
                 <object-name>NoseGear.DoorLeft</object-name>
                 <object-name>NoseGear.DoorRight</object-name>
                 <object-name>Rudder</object-name>
                 <object-name>Slats.Left</object-name>
-                <object-name>Slats.Rigth</object-name>
+                <object-name>Slats.Right</object-name>
                 <object-name>SpeedBrakes.TailLeft</object-name>
                 <object-name>SpeedBrakes.TailRight</object-name> 
                 <object-name>Wings</object-name>
