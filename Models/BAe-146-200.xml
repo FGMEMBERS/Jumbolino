@@ -94,14 +94,14 @@
       </effect>
     
 	<!-- Cockpit, with everything included in the flightdeck directed from this file -->
-	<!-- model>
-		<path>Aircraft/767/Models/FlightDeck/flightdeck.xml</path>
+	<model>
+		<path>Aircraft/Jumbolino/Models/Interior/panel/panel.ac</path>
 		<offsets>
-			<x-m>1.55</x-m>
+			<x-m>0.0</x-m>
 			<y-m>0.0</y-m>
-			<z-m>-2.9</z-m>
+			<z-m>0.0</z-m>
 		</offsets>
-	</model -->
+	</model>
 
 	<!-- Pushback -->
 	<model>
