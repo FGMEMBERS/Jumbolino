@@ -40,8 +40,8 @@
                 <object-name>Flaps.Rigth</object-name>
                 <object-name>fuselage</object-name>
                 <object-name>HStabs</object-name>
-                <object-name>MainGears.DoorLeft</object-name>
-                <object-name>MainGears.DoorRight</object-name>
+                <object-name>MainGear.DoorLeft</object-name>
+                <object-name>MainGear.DoorRight</object-name>
                 <object-name>NoseGear.DoorLeft</object-name>
                 <object-name>NoseGear.DoorRight</object-name>
                 <object-name>Rudder</object-name>
@@ -148,10 +148,17 @@
 	<!-- ############## -->
 
 	<!--       Left Gear      -->
-	<!-- animation>
+	
+	<animation>
+		<name>left_gear</name>
+		<object-name>Tires.MainGear.Left</object-name>
+		<object-name>Wheels.MainGear.Left</object-name>
+		<object-name>MainGear.StroutLeft</object-name>
+	</animation>
+
+	<animation>
 		<type>rotate</type>
 		<object-name>left_gear</object-name>
-		<object-name>left_gear2</object-name>
 		<property>gear/gear[1]/position-norm</property>
 		<interpolation>
 			<entry>
@@ -173,13 +180,20 @@
 			<y>0</y>
 			<z>0</z>
 		</axis>
-	</animation -->
+	</animation>
 
 	<!-- Right Gear -->
-	<!-- animation>
+	
+	<animation>
+		<name>right_gear</name>
+		<object-name>Tires.MainGear.Right</object-name>
+		<object-name>Wheels.MainGear.Right</object-name>
+		<object-name>MainGear.StroutRight</object-name>
+	</animation>
+
+	<animation>
 		<type>rotate</type>
 		<object-name>right_gear</object-name>
-		<object-name>right_gear2</object-name>
 		<property>gear/gear[2]/position-norm</property>
 		<interpolation>
 			<entry>
@@ -201,21 +215,16 @@
 			<y>0</y>
 			<z>0</z>
 		</axis>
-	</animation -->
+	</animation>
 
-	<!-- Front Gear -->
-	<!-- animation>
+	<animation>
 		<type>rotate</type>
-		<object-name>nose_gear</object-name>
-		<property>gear/gear[0]/position-norm</property>
+		<object-name>MainGear.DoorLeft</object-name>
+		<property>gear/gear[2]/position-norm</property>
 		<interpolation>
 			<entry>
 				<ind>0</ind>
 				<dep>120</dep>
-			</entry>
-			<entry>
-				<ind>0.2</ind>
-				<dep>115</dep>
 			</entry>
 			<entry>
 				<ind>1.0</ind>
@@ -223,23 +232,140 @@
 			</entry>
 		</interpolation>
 		<center>
-			<x-m>-22.500</x-m>
+			<x-m>6.407</x-m>
+			<y-m>-3.250</y-m>
+			<z-m>-6.200</z-m>
+		</center>
+		<axis>
+			<x>1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>MainGear.DoorRight</object-name>
+		<property>gear/gear[2]/position-norm</property>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>120</dep>
+			</entry>
+			<entry>
+				<ind>1.0</ind>
+				<dep>0</dep>
+			</entry>
+		</interpolation>
+		<center>
+			<x-m>6.407</x-m>
+			<y-m>3.250</y-m>
+			<z-m>-6.200</z-m>
+		</center>
+		<axis>
+			<x>-1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
+	<!-- Nose Gear -->
+	
+	<animation>
+		<name>nose_gear</name>
+		<object-name>Tires.NoseGear</object-name>
+		<object-name>Wheels.NoseGear</object-name>
+		<object-name>NoseGear.Strout</object-name>
+	</animation>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>nose_gear</object-name>
+		<property>gear/gear[0]/position-norm</property>
+
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>90</dep>
+			</entry>
+			<entry>
+				<ind>0.2</ind>
+				<dep>45</dep>
+			</entry>
+			<entry>
+				<ind>1.0</ind>
+				<dep>0</dep>
+			</entry>
+		</interpolation>
+		<center>
+			<x-m>-16.500</x-m>
 			<y-m>0.0</y-m>
 			<z-m>-3.550</z-m>
 		</center>
 		<axis>
 			<x>0</x>
-			<y>1</y>
+			<y>-1</y>
 			<z>0</z>
 		</axis>
-	</animation -->
+	</animation>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>NoseGear.DoorLeft</object-name>
+		<property>gear/gear[0]/position-norm</property>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>90</dep>
+			</entry>
+			<entry>
+				<ind>1.0</ind>
+				<dep>0</dep>
+			</entry>
+		</interpolation>
+		<center>
+			<x-m>6.407</x-m>
+			<y-m>-0.750</y-m>
+			<z-m>-7.200</z-m>
+		</center>
+		<axis>
+			<x>1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>NoseGear.DoorRight</object-name>
+		<property>gear/gear[0]/position-norm</property>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>90</dep>
+			</entry>
+			<entry>
+				<ind>1.0</ind>
+				<dep>0</dep>
+			</entry>
+		</interpolation>
+		<center>
+			<x-m>6.407</x-m>
+			<y-m>0.750</y-m>
+			<z-m>-7.200</z-m>
+		</center>
+		<axis>
+			<x>-1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+	</animation>
 
 	<!-- Gear disapears when raised -->
 
-	<!-- animation>
+	<animation>
 		<type>select</type>
 		<object-name>right_gear</object-name>
-		<object-name>right_gear2</object-name>
 		<condition>
 			<property>gear/gear[0]/position-norm</property>
 		</condition>
@@ -256,11 +382,10 @@
 	<animation>
 		<type>select</type>
 		<object-name>left_gear</object-name>
-		<object-name>left_gear2</object-name>
 		<condition>
 			<property>gear/gear[0]/position-norm</property>
 		</condition>
-	</animation -->
+	</animation>
 
 	<!-- Lights -->
 
@@ -859,157 +984,161 @@
         </offsets>
     </model -->
  
-<!-- ###### -->
-<!-- Rudder -->
-<!-- ###### -->
- <!-- animation>
-  <type>rotate</type>
-  <object-name>VRudder</object-name>
-  <property>controls/flight/rudder</property>
-  <factor>35</factor>
-  <offset-deg>0</offset-deg>   
-	  <axis>
-	     <x1-m> 22.2651</x1-m>
-	     <y1-m>0.0</y1-m>
-	     <z1-m>0.3841</z1-m>
-	     <x2-m> 27.7519</x2-m>
-	     <y2-m>0.0</y2-m>
-	     <z2-m>9.09162</z2-m>
-	  </axis>
- </animation -->
+	<!-- ###### -->
+	<!-- Rudder -->
+	<!-- ###### -->
 
-<!-- ########## -->
-<!-- Elevators -->
-<!-- ########## -->
- <!-- animation>
-  <type>rotate</type>
-  <object-name>RHelev</object-name>
-  <property>controls/flight/elevator</property>
-  <factor>-10</factor>
-  <offset-deg>0</offset-deg>   
-	  <axis>
-	     <x1-m> 26.0422</x1-m>
-	     <y1-m> 7.99429</y1-m>
-	     <z1-m> -0.34486</z1-m>
-	     <x2-m> 23.5044</x2-m>
-	     <y2-m> 1.27994</y2-m>
-	     <z2-m> -1.16834</z2-m>
-	  </axis>
- </animation>
+	<animation>
+		<type>rotate</type>
+		<object-name>Rudder</object-name>
+		<property>controls/flight/rudder</property>
+		<factor>35</factor>
+		<offset-deg>0</offset-deg>   
+		<axis>
+			<x1-m>29.1051</x1-m>
+			<y1-m>0.0</y1-m>
+			<z1-m>0.3841</z1-m>
+			<x2-m>34.3519</x2-m>
+			<y2-m>0.0</y2-m>
+			<z2-m>9.09162</z2-m>
+		</axis>
+	</animation>
 
- <animation>
-  <type>rotate</type>
-  <object-name>LHelev</object-name>
-  <property>controls/flight/elevator</property>
-  <factor>10</factor>
-  <offset-deg>0</offset-deg>   
-	  <axis>
-	     <x1-m> 26.0422</x1-m>
-	     <y1-m>-7.99429</y1-m>
-	     <z1-m> -0.34486</z1-m>
-	     <x2-m> 23.5044</x2-m>
-	     <y2-m>-1.27994</y2-m>
-	     <z2-m> -1.16834</z2-m>
-	  </axis>
- </animation -->
+	<!-- ########## -->
+	<!-- Elevators -->
+	<!-- ########## -->
+
+	<animation>
+		<type>rotate</type>
+		<object-name>Elevator.Right</object-name>
+		<property>controls/flight/elevator</property>
+		<factor>-15</factor>
+		<offset-deg>0</offset-deg>   
+		<axis>
+			<x1-m> 37.0044</x1-m>
+			<y1-m> 26.26997</y1-m>
+			<z1-m> 8.16834</z1-m>
+			<x2-m> 36.5044</x2-m>
+			<y2-m> 1.27994</y2-m>
+			<z2-m> 8.56834</z2-m>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>Elevator.Left</object-name>
+		<property>controls/flight/elevator</property>
+		<factor>-15</factor>
+		<offset-deg>0</offset-deg>   
+		<axis>
+			<x1-m> 36.5044</x1-m>
+			<y1-m> -1.27994</y1-m>
+			<z1-m>  8.56834</z1-m>
+			<x2-m> 37.0044</x2-m>
+			<y2-m> -26.26997</y2-m>
+			<z2-m>  8.16834</z2-m>
+		</axis>
+	</animation>
  
-<!-- ######## -->
-<!-- Ailerons -->
-<!-- ######## -->
+	<!-- ######## -->
+	<!-- Ailerons -->
+	<!-- ######## -->
 	<!-- Internal -->
-  <!-- animation>
-  <type>rotate</type>
-  <object-name>aileron_int_L</object-name>
-  <property>controls/flight/aileron</property>
-  <factor>-30</factor>
-  <axis>
-     <x1-m> 2.0559</x1-m>
-     <y1-m>-7.22886</y1-m>
-     <z1-m>-2.48597</z1-m>
-     <x2-m> 3.0258</x2-m>
-     <y2-m>-9.20542</y2-m>
-     <z2-m>-2.33461</z2-m>
-  </axis>
- </animation>
 
- <animation>
-  <type>rotate</type>
-  <object-name>aileron_int_R</object-name>
-  <property>controls/flight/aileron</property>
-  <factor>-30</factor>
-  <axis>
-     <x1-m> 2.0559</x1-m>
-     <y1-m>7.22886</y1-m>
-     <z1-m>-2.48597</z1-m>
-     <x2-m> 3.0258</x2-m>
-     <y2-m>9.20542</y2-m>
-     <z2-m>-2.33461</z2-m>
-  </axis>
- </animation --> 
+	<animation>
+		<type>rotate</type>
+		<object-name>Aileron.Left</object-name>
+		<property>controls/flight/aileron</property>
+		<factor>30</factor>
+		<axis>
+			<x1-m> 6.9559</x1-m>
+			<y1-m>-9.20542</y1-m>
+			<z1-m>-0.23461</z1-m>
+			<x2-m> 6.9559</x2-m>
+			<y2-m>-7.22886</y2-m>
+			<z2-m>-0.22886</z2-m>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>Aileron.Right</object-name>
+		<property>controls/flight/aileron</property>
+		<factor>-30</factor>
+		<axis>
+			<x1-m> 6.9559</x1-m>
+			<y1-m>7.22886</y1-m>
+			<z1-m>-0.23461</z1-m>
+			<x2-m> 6.9559</x2-m>
+			<y2-m>9.20542</y2-m>
+			<z2-m>-0.23461</z2-m>
+		</axis>
+	</animation> 
  
-<!-- Externo -->
-  <!-- animation>
-  <type>rotate</type>
-  <object-name>aileron_ext_L</object-name>
-  <property>controls/flight/aileron</property>
-  <factor>-30</factor>
-  <axis>
-     <x1-m> 6.364</x1-m>
-     <y1-m>-17.8309</y1-m>
-     <z1-m>-1.39036</z1-m>
-     <x2-m> 8.6373</x2-m>
-     <y2-m>-22.928</y2-m>
-     <z2-m>-0.90345</z2-m>
-  </axis>
- </animation -->
+	<!-- Slats -->
+	<animation>
+		<type>rotate</type>
+		<object-name>Slats.Left</object-name>
+		<property>controls/flight/aileron</property>
+		<factor>-30</factor>
+		<axis>
+			<x1-m> 0.364</x1-m>
+			<y1-m>-7.8309</y1-m>
+			<z1-m>-0.29036</z1-m>
+			<x2-m> 4.6373</x2-m>
+			<y2-m>-22.928</y2-m>
+			<z2-m>-0.29036</z2-m>
+		</axis>
+	</animation>
 
- <!-- animation>
-  <type>rotate</type>
-  <object-name>aileron_ext_R</object-name>
-  <property>controls/flight/aileron</property>
-  <factor>-30</factor>
-  <axis>
-     <x1-m> 6.364</x1-m>
-     <y1-m>17.8309</y1-m>
-     <z1-m>-1.39036</z1-m>
-     <x2-m> 8.6373</x2-m>
-     <y2-m>22.928</y2-m>
-     <z2-m>-0.90345</z2-m>
-  </axis>
- </animation --> 
+	<animation>
+		<type>rotate</type>
+		<object-name>Slats.Right</object-name>
+		<property>controls/flight/aileron</property>
+		<factor>30</factor>
+		<axis>
+			<x1-m> 4.6373</x1-m>
+			<y1-m>22.928</y1-m>
+			<z1-m>-0.29036</z1-m>
+			<x2-m> 0.364</x2-m>
+			<y2-m> 7.8309</y2-m>
+			<z2-m>-0.29036</z2-m>
+		</axis>
+	</animation> 
  
-<!-- ##### -->
-<!-- Flaps -->
-<!-- ##### -->
- <!-- animation>
-  <type>rotate</type>
-  <object-name>flapl</object-name>
-  <property>surface-positions/flap-pos-norm</property>
-  <factor>-30</factor>
-  <axis>
-     <x1-m> 1.9652</x1-m>
-     <y1-m>-2.64224</y1-m>
-     <z1-m>-3.77504</z1-m>
-     <x2-m> 2.0446</x2-m>
-     <y2-m>-7.26919</y2-m>
-     <z2-m>-2.96595</z2-m>
-  </axis>
- </animation -->
+	<!-- ##### -->
+	<!-- Flaps -->
+	<!-- ##### -->
 
- <!-- animation>
-  <type>rotate</type>
-  <object-name>flapr</object-name>
-  <property>surface-positions/flap-pos-norm</property>
-  <factor>30</factor>
-  <axis>
-     <x1-m> 1.9652</x1-m>
-     <y1-m> 2.64224</y1-m>
-     <z1-m>-3.77504</z1-m>
-     <x2-m> 2.0446</x2-m>
-     <y2-m> 7.26919</y2-m>
-     <z2-m>-2.96595</z2-m>
-  </axis>
- </animation -->
+	<animation>
+		<type>rotate</type>
+		<object-name>Flaps.Left</object-name>
+		<property>surface-positions/flap-pos-norm</property>
+		<factor>30</factor>
+		<axis>
+			<x1-m> 5.0446</x1-m>
+			<y1-m>-7.26919</y1-m>
+			<z1-m>-0.96595</z1-m>
+			<x2-m> 4.4652</x2-m>
+			<y2-m>-2.64224</y2-m>
+			<z2-m>-0.96595</z2-m>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>Flaps.Right</object-name>
+		<property>surface-positions/flap-pos-norm</property>
+		<factor>30</factor>
+		<axis>
+			<x1-m> 4.4652</x1-m>
+			<y1-m> 2.64224</y1-m>
+			<z1-m>-0.96595</z1-m>
+			<x2-m> 5.0446</x2-m>
+			<y2-m> 7.26919</y2-m>
+			<z2-m>-0.96595</z2-m>
+		</axis>
+	</animation>
  
  <!-- animation>
   <type>rotate</type>

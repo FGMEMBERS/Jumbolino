@@ -11453,7 +11453,7 @@ refs 3
 66 0.719005 0.526484
 kids 0
 OBJECT poly
-name "Elevator.Rigth"
+name "Elevator.Right"
 loc 34.6200294 8.3247213 0.0132778
 crease 0.6108652353286743
 texture "EWG.png"
@@ -31326,7 +31326,7 @@ refs 4
 65 0.285362 0.277451
 kids 0
 OBJECT poly
-name "Flaps.Rigth"
+name "Flaps.Right"
 loc 2.5444508 -1.1492126 0.0132773
 crease 0.6108652353286743
 texture "EWG.png"
@@ -125128,7 +125128,7 @@ refs 3
 77 0.649937 0.408434
 kids 0
 OBJECT poly
-name "MainGears.DoorLeft"
+name "MainGear.DoorLeft"
 loc 7.5536137 0.4901835 0.0132778
 crease 0.6108652353286743
 texture "EWG.png"
@@ -126076,7 +126076,7 @@ refs 4
 16 0.483088 0.057955
 kids 0
 OBJECT poly
-name "MainGears.DoorRight"
+name "MainGear.DoorRight"
 loc 7.5536137 0.4901835 0.0132778
 crease 0.6108652353286743
 texture "EWG.png"
@@ -134835,7 +134835,7 @@ refs 4
 15 0.332309 0.383000
 kids 0
 OBJECT poly
-name "Slats.Rigth"
+name "Slats.Right"
 loc 2.5444508 -1.1492126 0.0132773
 crease 0.6108652353286743
 texture "EWG.png"

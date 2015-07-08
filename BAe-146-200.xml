@@ -47,7 +47,7 @@
    <vtailarea unit="FT2">  166.40 </vtailarea>
    <vtailarm  unit="FT" >   41.85 </vtailarm>
    <location name="AERORP" unit="IN">
-     <x> 613.80 </x>
+     <x> 3.80 </x>
      <y>   0.00 </y>
      <z>   0.00 </z>
    </location>
@@ -59,7 +59,7 @@
    <location name="VRP" unit="IN">
      <x>-100</x>
      <y>0</y>
-     <z>200</z>
+     <z>330</z>
    </location>
  </metrics>
 
@@ -69,7 +69,7 @@
    <izz unit="SLUG*FT2">    693305 </izz>
    <emptywt unit="LBS" >     52684 </emptywt>
    <location name="CG" unit="IN">
-     <x> 613.80 </x>
+     <x> 3.80 </x>
      <y>   0.00 </y>
      <z> -27.90 </z>
    </location>
@@ -77,7 +77,7 @@
     <description> 14555 LBS + full (25761 LBS) fuel should bring model up to entered max weight</description>
     <weight unit="LBS">   7277.5 </weight>
     <location name="POINTMASS" unit="IN">
-      <x> 613.80 </x>
+      <x> 5.80 </x>
       <y>   0.00 </y>
       <z> -27.90 </z>
     </location>
@@ -88,15 +88,15 @@
 
   <contact type="BOGEY" name="NOSE">
    <location unit="IN">
-     <x> 145.08 </x>
+     <x> -145.08 </x>
      <y>   0.00 </y>
-     <z> -133.92 </z>
+     <z> -30.00 </z>
    </location>
    <static_friction>  0.80 </static_friction>
    <dynamic_friction> 0.50 </dynamic_friction>
    <rolling_friction> 0.02 </rolling_friction>
    <spring_coeff unit="LBS/FT">      27900.00 </spring_coeff>
-   <damping_coeff unit="LBS/FT/SEC"> 46500.00 </damping_coeff>
+   <damping_coeff unit="LBS/FT/SEC"> 13500.00 </damping_coeff>
    <max_steer unit="DEG"> 5.00 </max_steer>
    <brake_group>NONE</brake_group>
    <retractable>1</retractable>
@@ -104,9 +104,9 @@
 
   <contact type="BOGEY" name="LEFT_MAIN">
    <location unit="IN">
-     <x> 638.35 </x>
+     <x> 338.35 </x>
      <y> -92.88 </y>
-     <z> -133.92 </z>
+     <z>   0.00 </z>
    </location>
    <static_friction>  0.80 </static_friction>
    <dynamic_friction> 0.50 </dynamic_friction>
@@ -120,9 +120,9 @@
 
   <contact type="BOGEY" name="RIGHT_MAIN">
    <location unit="IN">
-     <x> 638.35 </x>
+     <x> 338.35 </x>
      <y>  92.88 </y>
-     <z> -133.92 </z>
+     <z>   0.00 </z>
    </location>
    <static_friction>  0.80 </static_friction>
    <dynamic_friction> 0.50 </dynamic_friction>
@@ -134,7 +134,7 @@
    <retractable>1</retractable>
   </contact>
 
-  <contact type="STRUCTURE" name="LEFT_WING">
+  <!-- contact type="STRUCTURE" name="LEFT_WING">
     <location unit="IN">
      <x> 613.80 </x>
      <y> -43.00 </y>
@@ -156,7 +156,7 @@
     <dynamic_friction> 1.00 </dynamic_friction>
     <spring_coeff unit="LBS/FT">      93000.00 </spring_coeff>
     <damping_coeff unit="LBS/FT/SEC"> 93000.00 </damping_coeff>
-  </contact>
+  </contact -->
 
  </ground_reactions>
 
@@ -164,7 +164,7 @@
 
    <engine file="ALF502R5">
     <location unit="IN">
-      <x> 613.80 </x>
+      <x> 3.80 </x>
       <y> -172.00 </y>
       <z> -40.00 </z>
     </location>
@@ -176,7 +176,7 @@
     <feed>5</feed>
     <thruster file="direct">
      <location unit="IN">
-       <x> 613.80 </x>
+       <x> 3.80 </x>
        <y> -172.00 </y>
        <z> -40.00 </z>
      </location>
@@ -190,7 +190,7 @@
 
    <engine file="ALF502R5">
     <location unit="IN">
-      <x> 613.80 </x>
+      <x> 3.80 </x>
       <y> -172.00 </y>
       <z> -40.00 </z>
     </location>
@@ -202,7 +202,7 @@
     <feed>6</feed>
     <thruster file="direct">
      <location unit="IN">
-       <x> 613.80 </x>
+       <x> 3.80 </x>
        <y> -172.00 </y>
        <z> -40.00 </z>
      </location>
@@ -216,7 +216,7 @@
 
    <engine file="ALF502R5">
     <location unit="IN">
-      <x> 613.80 </x>
+      <x> 3.80 </x>
       <y> 172.00 </y>
       <z> -40.00 </z>
     </location>
@@ -228,7 +228,7 @@
     <feed>7</feed>
     <thruster file="direct">
      <location unit="IN">
-       <x> 613.80 </x>
+       <x> 3.80 </x>
        <y> 172.00 </y>
        <z> -40.00 </z>
      </location>
@@ -242,7 +242,7 @@
 
    <engine file="ALF502R5">
     <location unit="IN">
-      <x> 613.80 </x>
+      <x> 3.80 </x>
       <y> 172.00 </y>
       <z> -40.00 </z>
     </location>
@@ -254,7 +254,7 @@
     <feed>8</feed>
     <thruster file="direct">
      <location unit="IN">
-       <x> 613.80 </x>
+       <x> 3.80 </x>
        <y> 172.00 </y>
        <z> -40.00 </z>
      </location>
@@ -268,7 +268,7 @@
 
   <tank type="FUEL" number="0">
      <location unit="IN">
-       <x> 613.80 </x>
+       <x> 3.80 </x>
        <y>   0.00 </y>
        <z> -27.90 </z>
      </location>
@@ -278,7 +278,7 @@
 
   <tank type="FUEL" number="1">
      <location unit="IN">
-       <x> 613.80 </x>
+       <x> 3.80 </x>
        <y>   0.00 </y>
        <z> -27.90 </z>
      </location>
@@ -288,7 +288,7 @@
 
   <tank type="FUEL" number="2">
      <location unit="IN">
-       <x> 613.80 </x>
+       <x> 3.80 </x>
        <y>   0.00 </y>
        <z> -27.90 </z>
      </location>
@@ -298,7 +298,7 @@
 
   <tank type="FUEL" number="3">
      <location unit="IN">
-       <x> 613.80 </x>
+       <x> 3.80 </x>
        <y>   0.00 </y>
        <z> -27.90 </z>
      </location>
@@ -308,7 +308,7 @@
 
   <tank type="FUEL" number="4">
      <location unit="IN">
-       <x> 613.80 </x>
+       <x> 3.80 </x>
        <y>   0.00 </y>
        <z> -27.90 </z>
      </location>
@@ -318,7 +318,7 @@
 
   <tank type="FUEL" number="5">
      <location unit="IN">
-       <x> 613.80 </x>
+       <x> 3.80 </x>
        <y>   0.00 </y>
        <z> -27.90 </z>
      </location>
@@ -328,7 +328,7 @@
 
   <tank type="FUEL" number="6">
      <location unit="IN">
-       <x> 613.80 </x>
+       <x> 3.80 </x>
        <y>   0.00 </y>
        <z> -27.90 </z>
      </location>
@@ -338,7 +338,7 @@
 
   <tank type="FUEL" number="7">
      <location unit="IN">
-       <x> 613.80 </x>
+       <x> 3.80 </x>
        <y>   0.00 </y>
        <z> -27.90 </z>
      </location>
@@ -348,7 +348,7 @@
 
   <tank type="FUEL" number="8">
      <location unit="IN">
-       <x> 613.80 </x>
+       <x> 3.80 </x>
        <y>   0.00 </y>
        <z> -27.90 </z>
      </location>
