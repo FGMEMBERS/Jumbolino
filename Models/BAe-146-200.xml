@@ -42,8 +42,7 @@
                 <object-name>HStabs</object-name>
                 <object-name>MainGear.DoorLeft</object-name>
                 <object-name>MainGear.DoorRight</object-name>
-                <object-name>NoseGear.DoorLeft</object-name>
-                <object-name>NoseGear.DoorRight</object-name>
+                <object-name>NoseGear.Door</object-name>
                 <object-name>Rudder</object-name>
                 <object-name>Slats.Left</object-name>
                 <object-name>Slats.Right</object-name>
@@ -74,8 +73,7 @@
                 <object-name>HStabs</object-name>
                 <object-name>MainGear.DoorLeft</object-name>
                 <object-name>MainGear.DoorRight</object-name>
-                <object-name>NoseGear.DoorLeft</object-name>
-                <object-name>NoseGear.DoorRight</object-name>
+                <object-name>NoseGear.Door</object-name>
                 <object-name>Rudder</object-name>
                 <object-name>Slats.Left</object-name>
                 <object-name>Slats.Right</object-name>
