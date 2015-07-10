@@ -119,23 +119,6 @@
 
 		<!-- All the views (crew stations + 1 more to allow moving around + extras liek Tail Camera) -->
 
-		<!-- view n="0">
-			<name>Pilot</name>
-			<type>lookFrom</type>
-			<internal archive="y" type="bool">true</internal>
-			<config>
-				<from-model type="bool">true</from-model>
-				<from-model-idx type="int">0</from-model-idx>
-				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-				<x-offset-m archive="y"> -0.33 </x-offset-m> < Right >
-				<y-offset-m archive="y">  0.47 </y-offset-m> < Up    >
-				<z-offset-m archive="y">  2.22 </z-offset-m> < Back  >
-				<pitch-offset-deg> -5 </pitch-offset-deg>
-				<heading-offset-deg> 0 </heading-offset-deg>
-				<default-field-of-view-deg> 70 </default-field-of-view-deg>
-			</config>
-		</view -->
-
 		<view n="0">
 			<name>Pilot</name>
 			<type>lookfrom</type>
@@ -144,33 +127,63 @@
 				<from-model type="bool">true</from-model>
 				<from-model-idx type="int">0</from-model-idx>
 				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-				<x-offset-m type="double">-0.67</x-offset-m>
-				<y-offset-m type="double">-2.5</y-offset-m>
-				<z-offset-m type="double">-17.25</z-offset-m>
-				<pitch-offset-deg>-13.5</pitch-offset-deg>
+				<x-offset-m type="double">-1.05</x-offset-m>	<!-- Right -->
+				<y-offset-m type="double">-2.50</y-offset-m>	<!-- Up -->
+				<z-offset-m type="double">-16.75</z-offset-m>	<!-- Back -->
+				<pitch-offset-deg>0.00</pitch-offset-deg>
+				<heading-offset-deg> 0 </heading-offset-deg>
+				<default-field-of-view-deg type="double">60.0</default-field-of-view-deg>
+			</config>
+		</view>
+
+		<view n="1">
+			<name>First Officer</name>
+			<type>lookfrom</type>
+			<internal type="bool">true</internal>
+			<config>
+				<from-model type="bool">true</from-model>
+				<from-model-idx type="int">0</from-model-idx>
+				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
+				<x-offset-m type="double">1.05</x-offset-m>	<!-- Right -->
+				<y-offset-m type="double">-2.50</y-offset-m>	<!-- Up -->
+				<z-offset-m type="double">-16.75</z-offset-m>	<!-- Back -->
+				<pitch-offset-deg>0.00</pitch-offset-deg>
 				<heading-offset-deg> 0 </heading-offset-deg>
 				<default-field-of-view-deg type="double">60.0</default-field-of-view-deg>
 			</config>
 		</view>
 
 		<view n="100">
-			<name>Wing View</name>
+			<name>Wing View Left</name>
 			<type>lookfrom</type>
-			<internal archive="y">false</internal>
+			<internal type="bool">true</internal>
 			<config>
 				<from-model type="bool">true</from-model>
 				<from-model-idx type="int">0</from-model-idx>
 				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-				<default-field-of-view-deg type="double">55</default-field-of-view-deg>
-				<pitch-offset-deg>-8.0</pitch-offset-deg>
-				<heading-offset-deg type="double">90</heading-offset-deg>
-				<!-- parallel to the panel -->
-				<x-offset-m archive="y"> -2.65 </x-offset-m>
-				<!--Left/Right -->
-				<y-offset-m archive="y"> 0.66 </y-offset-m>
-				<!--Up/Down -->
-				<z-offset-m archive="y"> 5.80 </z-offset-m>
-				<!--Fdw/Back -->
+				<x-offset-m type="double">-10.00</x-offset-m>	<!-- Right -->
+				<y-offset-m type="double"> 2.50</y-offset-m>	<!-- Up -->
+				<z-offset-m type="double"> 5.20</z-offset-m>	<!-- Back -->
+				<pitch-offset-deg>0.00</pitch-offset-deg>
+				<heading-offset-deg> 0 </heading-offset-deg>
+				<default-field-of-view-deg type="double">60.0</default-field-of-view-deg>
+			</config>
+		</view>
+
+		<view n="101">
+			<name>Wing View Right</name>
+			<type>lookfrom</type>
+			<internal type="bool">true</internal>
+			<config>
+				<from-model type="bool">true</from-model>
+				<from-model-idx type="int">0</from-model-idx>
+				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
+				<x-offset-m type="double"> 10.00</x-offset-m>	<!-- Right -->
+				<y-offset-m type="double"> 2.50</y-offset-m>	<!-- Up -->
+				<z-offset-m type="double"> 5.20</z-offset-m>	<!-- Back -->
+				<pitch-offset-deg>0.00</pitch-offset-deg>
+				<heading-offset-deg> 0 </heading-offset-deg>
+				<default-field-of-view-deg type="double">60.0</default-field-of-view-deg>
 			</config>
 		</view>
 
@@ -182,92 +195,43 @@
 				<from-model type="bool">true</from-model>
 				<from-model-idx type="int">0</from-model-idx>
 				<ground-level-nearplane-m type="double">6f</ground-level-nearplane-m>
-				<x-offset-m type="double">0.00</x-offset-m>
-				<y-offset-m type="double">13.20</y-offset-m>
-				<z-offset-m type="double">25.55</z-offset-m>
+				<x-offset-m type="double">0.00</x-offset-m>	<!-- Right -->
+				<y-offset-m type="double">5.20</y-offset-m>	<!-- Up -->
+				<z-offset-m type="double">25.05</z-offset-m>	<!-- Back -->
 				<pitch-offset-deg>-10</pitch-offset-deg>
 				<default-field-of-view-deg type="double">65.0</default-field-of-view-deg>
 			</config>
-			<dynamic>
-				<enabled type="bool">false</enabled>
-			</dynamic>
 		</view>
 
-		<view n="1501">
-			<name>Right Turbofan</name>
-			<type>lookfrom</type>
-			<internal archive="y">false</internal>
-			<config>
-				<from-model type="bool">true</from-model>
-				<from-model-idx type="int">0</from-model-idx>
-				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-				<default-field-of-view-deg type="double">55</default-field-of-view-deg>
-				<pitch-offset-deg>-14.0</pitch-offset-deg>
-				<heading-offset-deg type="double">260.55</heading-offset-deg>
-				<!-- parallel to the panel -->
-				<x-offset-m archive="y"> 2.24714 </x-offset-m>
-				<!--Left/Right -->
-				<y-offset-m archive="y"> 0.66 </y-offset-m>
-				<!--Up/Down -->
-				<z-offset-m archive="y"> 1.64343 </z-offset-m>
-				<!--Fdw/Back -->
-			</config>
-		</view>
-
-		<view n="1502">
+		<view n="103">
 			<name>Landing Gear</name>
 			<type>lookfrom</type>
-			<internal archive="y">false</internal>
+			<internal type="bool">false</internal>
 			<config>
 				<from-model type="bool">true</from-model>
 				<from-model-idx type="int">0</from-model-idx>
-				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-				<default-field-of-view-deg type="double">55</default-field-of-view-deg>
-				<pitch-offset-deg>-8.0</pitch-offset-deg>
-				<heading-offset-deg type="double">0</heading-offset-deg>
-				<!-- parallel to the panel -->
-				<x-offset-m archive="y"> 0.0 </x-offset-m>
-				<!--Left/Right -->
-				<y-offset-m archive="y"> -4.5 </y-offset-m>
-				<!--Up/Down -->
-				<z-offset-m archive="y"> 6.91416 </z-offset-m>
-				<!--Fdw/Back -->
+				<ground-level-nearplane-m type="double">6f</ground-level-nearplane-m>
+				<x-offset-m type="double">0.00</x-offset-m>	<!-- Right -->
+				<y-offset-m type="double">-9.30</y-offset-m>	<!-- Up -->
+				<z-offset-m type="double">4.50</z-offset-m>	<!-- Back -->
+				<pitch-offset-deg>-10</pitch-offset-deg>
+				<default-field-of-view-deg type="double">65.0</default-field-of-view-deg>
 			</config>
 		</view>
 
-		<view n="1503">
+		<view n="104">
 			<name>Cabin</name>
 			<type>lookfrom</type>
-			<internal archive="y">true</internal>
+			<internal type="bool">false</internal>
 			<config>
 				<from-model type="bool">true</from-model>
 				<from-model-idx type="int">0</from-model-idx>
-				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-				<default-field-of-view-deg type="double">55</default-field-of-view-deg>
-				<heading-offset-deg type="double">0</heading-offset-deg>
-				<!-- x/y/z == (esquerda, direita)/(cima, baixo)/(frente, tras) -->
-		                <x-offset-m type="double">0.0</x-offset-m>
-                		<y-offset-m type="double">-0.3</y-offset-m>
-                		<z-offset-m type="double">-22.00</z-offset-m>
-				<pitch-offset-deg archive="y">-1.55</pitch-offset-deg>
-			</config>
-		</view>
-
-		<view n="1504">
-			<name>Copilot</name>
-			<type>lookfrom</type>
-			<internal archive="y">true</internal>
-			<config>
-				<from-model type="bool">true</from-model>
-				<from-model-idx type="int">0</from-model-idx>
-				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-				<default-field-of-view-deg type="double">55</default-field-of-view-deg>
-				<heading-offset-deg type="double">0</heading-offset-deg>
-				<!-- x/y/z == (esquerda, direita)/(cima, baixo)/(frente, tras) -->
-		                <x-offset-m type="double"> 0.67</x-offset-m>
-		                <y-offset-m type="double">-0.30</y-offset-m>
-		                <z-offset-m type="double">-23.50</z-offset-m>
-				<pitch-offset-deg archive="y">-12.5</pitch-offset-deg>
+				<ground-level-nearplane-m type="double">6f</ground-level-nearplane-m>
+				<x-offset-m type="double"> 0.00</x-offset-m>	<!-- Right -->
+				<y-offset-m type="double">-2.50</y-offset-m>	<!-- Up -->
+				<z-offset-m type="double"> 16.75</z-offset-m>	<!-- Back -->
+				<pitch-offset-deg>-10</pitch-offset-deg>
+				<default-field-of-view-deg type="double">65.0</default-field-of-view-deg>
 			</config>
 		</view>
 
@@ -646,6 +610,20 @@
 		</keyboard>
 	</input>
   
+	<autopilot>
+
+		<settings>
+			<kts-mach-select type="string">kts</kts-mach-select>
+			<max-pitch type="float">6.0</max-pitch>
+			<bank-angle-limit-deg type="int">45</bank-angle-limit-deg>
+		</settings>
+
+		<internal>
+			<max-pitch type="float">6.0</max-pitch>
+		</internal>
+
+	</autopilot>
+
 	<!-- Voodoomaster plane specific initializations -->
 	<voodoomaster>
 		<steering-wheel type="int">0</steering-wheel>

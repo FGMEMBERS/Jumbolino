@@ -598,10 +598,10 @@
           <table>
             <independentVar lookup="row">aero/alpha-rad</independentVar>
             <tableData>
-              -0.20 -0.680
-               0.00  0.200
-               0.23  1.200
-               0.60  0.600
+              -0.20 -0.880
+               0.00  0.600
+               0.23  1.600
+               0.60  1.000
             </tableData>
           </table>
       </product>
@@ -613,7 +613,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/flap-pos-deg</property>
-           <value> 0.05000 </value>
+           <value> 0.04500 </value>
        </product>
     </function>
 
@@ -633,7 +633,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/elevator-pos-rad</property>
-           <value>0.2</value>
+           <value>0.25</value>
        </product>
     </function>
 
