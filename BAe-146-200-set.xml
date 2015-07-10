@@ -84,15 +84,11 @@
 		</autostart>
 
 		<flaps>
-			<setting>0.000</setting>
-			<setting>0.125</setting>
-			<setting>0.250</setting>
-			<setting>0.375</setting>
-			<setting>0.500</setting>
-			<setting>0.625</setting>
-			<setting>0.750</setting>
-			<setting>0.875</setting>
-			<setting>1.000</setting>
+			<setting>0.000</setting>	<!--  0 deg -->
+			<setting>0.545</setting>	<!-- 18 deg -->
+			<setting>0.727</setting>	<!-- 24 deg -->
+			<setting>0.909</setting>	<!-- 30 deg -->
+			<setting>1.000</setting>	<!-- 33 deg -->
 		</flaps>
 
 		<virtual-cockpit archive="y">true</virtual-cockpit>
@@ -402,6 +398,17 @@
 			</default>
 		</menubar>
 
+		<!-- Systems -->
+		<systems>
+			<path>Aircraft/Jumbolino/Systems/Jumbolino.xml</path>
+			<electrical>
+				<path>Aircraft/Generic/generic-electrical.xml</path>
+			</electrical>
+			<autopilot>
+				<path>Aircraft/JPack/Voodoomaster/Systems/SYS8_0_autopilot.xml</path>
+			</autopilot>
+		</systems>
+
 	</sim>
 
 	<consumables>
@@ -466,7 +473,7 @@
 	<payload>
 
 		<weight n="0">
-			<name>Crew</name>
+			<name>Cockpit Crew</name>
 			<!-- pilot + copilot -->
 			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[0]" />
 			<min-lb type="double">  200</min-lb>
@@ -474,35 +481,19 @@
 		</weight>
 
 		<weight n="1">
-			<!-- boom operator + load master -->
+			<!-- Cabin -->
 			<name>Refuel ops</name>
 			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[1]" />
-			<min-lb type="double">  200</min-lb>
+			<min-lb type="double">    0</min-lb>
 			<max-lb type="double">  400</max-lb>
 		</weight>
 
 		<weight n="2">
-			<!-- AirVac team (KC-46) or TechTeam (Workshop) -->
-			<name>Tech ops</name>
+			<!-- Passengers -->
+			<name>Passengers</name>
 			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[2]" />
-			<min-lb type="double">    0</min-lb>
-			<max-lb type="double"> 3000</max-lb>
-		</weight>
-
-		<weight n="3">
-			<!-- 3 operators -->
-			<name>Radar ops</name>
-			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[3]" />
-			<min-lb type="double">    0</min-lb>
-			<max-lb type="double">  600</max-lb>
-		</weight>
-
-		<weight n="4">
-			<!-- Spare parts -->
-			<name>Spare parts</name>
-			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[4]" />
-			<min-lb type="double">    0</min-lb>
-			<max-lb type="double">65000</max-lb>
+			<min-lb type="double">     0</min-lb>
+			<max-lb type="double"> 14000</max-lb>
 		</weight>
 
 	</payload>
@@ -540,17 +531,6 @@
 			<anti-ice type="string">controls/ice/eng2/auto</anti-ice>
 		</eng2>
 	</controls>
-
-	<!-- Systems parallel to sim -->
-	<systems>
-		<path>Aircraft/Jumbolino/Systems/Jumbolino.xml</path>
-		<electrical>
-			<path>Aircraft/Generic/generic-electrical.xml</path>
-		</electrical>
-		<autopilot>
-			<path>Aircraft/JPack/Voodoomaster/Systems/SYS8_0_autopilot.xml</path>
-		</autopilot>
-	</systems>
 
 	<!-- #### ai submodels -->
 
@@ -614,12 +594,15 @@
 
 		<settings>
 			<kts-mach-select type="string">kts</kts-mach-select>
-			<max-pitch type="float">6.0</max-pitch>
-			<bank-angle-limit-deg type="int">45</bank-angle-limit-deg>
+			<max-pitch type="float">4.0</max-pitch>
+			<min-pitch type="float">-4.0</min-pitch>
+			<bank-angle-limit-deg type="int">35</bank-angle-limit-deg>
 		</settings>
 
 		<internal>
-			<max-pitch type="float">6.0</max-pitch>
+			<target-pitch-deg type="float">0.00</target-pitch-deg>
+			<max-pitch type="float">4.0</max-pitch>
+			<min-pitch type="float">-4.0</min-pitch>
 		</internal>
 
 	</autopilot>
@@ -632,6 +615,12 @@
 		<pushback>
 			<activated type="bool">false</activated>
 		</pushback>
+		<turret n="0">
+			<device type="string">TurretForward</device>
+			<turret-x type="float">1.0</turret-x>
+			<turret-y type="float">1.0</turret-y>
+			<turret-z type="float">1.0</turret-z>
+		</turret>
 	</voodoomaster>
 
 	<instrumentation>
@@ -642,32 +631,26 @@
 		<ndfull>
 			<ground-factor type="double">1</ground-factor>		
 		</ndfull>
-		<path>Aircraft/767/Systems/instrumentation.xml</path>
+		<path>Aircraft/Jumbolino/Systems/instrumentation.xml</path>
 	</instrumentation>
-
-	<multiplay>
-		<generic>
-			<int n="10" alias="voodoomaster/radar[0]/antenna-r"/>
-		</generic>
-	</multiplay>
 
 	<tanker type="bool">true</tanker>
 
 	<nasal>
 		<Jumbolino>
-			<file>Aircraft/Jumbolino/Nasal/Electrical.nas</file>
+			<!-- file>Aircraft/Jumbolino/Nasal/Electrical.nas</file -->
 			<file>Aircraft/Jumbolino/Nasal/Fuelsystem.nas</file>
 			<!-- file>Aircraft/Jumbolino/Nasal/flightdirector.nas</file -->
 			<file>Aircraft/Jumbolino/Nasal/Jumbolino.nas</file>
 			<!-- file>Aircraft/Jumbolino/Nasal/lighting.nas</file -->
-			<file>Aircraft/Jumbolino/Nasal/Sys-Info.nas</file>
-			<file>Aircraft/Jumbolino/Nasal/Anti-Ice.nas</file>
-			<file>Aircraft/JPack/Voodoomaster/Nasal/Instruments/MFD/mfd-navigation.nas</file>
-			<file>Aircraft/JPack/Voodoomaster/Nasal/Instruments/MFD/nd-fullscreen.nas</file>
+			<!-- file>Aircraft/Jumbolino/Nasal/Sys-Info.nas</file -->
+			<!-- file>Aircraft/Jumbolino/Nasal/Anti-Ice.nas</file -->
+			<!-- file>Aircraft/JPack/Voodoomaster/Nasal/Instruments/MFD/mfd-navigation.nas</file -->
+			<!-- file>Aircraft/JPack/Voodoomaster/Nasal/Instruments/MFD/nd-fullscreen.nas</file -->
 		</Jumbolino>
-		<walk>
+		<!-- walk>
 			<file>Aircraft/Jumbolino/Nasal/walk.nas</file>
-		</walk>
+		</walk -->
 		<!-- failures>
 			<file>Aircraft/767/Nasal/Failures.nas</file>
 		</failures -->

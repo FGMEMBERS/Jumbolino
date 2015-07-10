@@ -1,88 +1,110 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="http://jsbsim.sourceforge.net/JSBSim.xsl"?>
+
 <fdm_config name="BAe-146-200" version="2.0" release="ALPHA"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 
- <fileheader>
-  <author> Aeromatic v 0.95 </author>
-  <filecreationdate>2015-06-12</filecreationdate>
-  <version>$Revision: 1.15 $</version>
-  <description> Models a BAe-146-200. </description>
- </fileheader>
+	<fileheader>
+		<author> Aeromatic v 0.95 </author>
+		<filecreationdate>2015-06-12</filecreationdate>
+		<version>$Revision: 1.15 $</version>
+		<description> Models a BAe-146-200. </description>
+	</fileheader>
 
-<!--
-  File:     BAe-146-200.xml
-  Inputs:
-    name:          BAe-146-200
-    type:          two-engine transonic transport
-    max weight:    93000 lb
-    wing span:     86 ft
-    length:        93'10" ft
-    wing area:     832 sq-ft
-    gear type:     tricycle
-    retractable?:  yes
-    # engines:     4
-    engine type:   turbine
-    engine layout: wings
-    yaw damper?    yes
-  Outputs:
-    wing loading:  111.78 lb/sq-ft
-    payload:       14555.0 lbs
-    CL-alpha:      4.4 per radian
-    CL-0:          0.2
-    CL-max:        1.2
-    CD-0:          0.02
-    K:             0.043
+	<!--
+		File:     BAe-146-200.xml
+		Inputs:
+			name:          BAe-146-200
+			type:          four-engine transonic transport
+			max weight:    93000 lb
+			wing span:     86 ft
+			length:        93'10" ft
+			wing area:     832 sq-ft
+			gear type:     tricycle
+			retractable?:  yes
+			# engines:     4
+			engine type:   turbine
+			engine layout: wings
+			yaw damper?    yes
+		Outputs:
+			wing loading:  111.78 lb/sq-ft
+			payload:       14555.0 lbs
+			CL-alpha:      4.4 per radian
+			CL-0:          0.2
+			CL-max:        1.2
+			CD-0:          0.02
+			K:             0.043
+	-->
 
--->
+	<metrics>
+		<wingarea  unit="FT2">  832.00 </wingarea>
+		<wingspan  unit="FT" >   86.00 </wingspan>
+		<wing_incidence>          2.00 </wing_incidence>
+		<chord     unit="FT" >    9.67 </chord>
+		<htailarea unit="FT2">  208.00 </htailarea>
+		<htailarm  unit="FT" >   41.85 </htailarm>
+		<vtailarea unit="FT2">  166.40 </vtailarea>
+		<vtailarm  unit="FT" >   41.85 </vtailarm>
+		<location name="AERORP" unit="IN">
+			<x>   3.60 </x>
+			<y>   0.00 </y>
+			<z>   0.00 </z>
+		</location>
+		<location name="EYEPOINT" unit="IN">
+			<x>  78.12 </x>
+			<y> -30.00 </y>
+			<z>  70.00 </z>
+		</location>
+		<location name="VRP" unit="IN">
+			<x>-100</x>
+			<y>0</y>
+			<z>330</z>
+		</location>
+	</metrics>
 
- <metrics>
-   <wingarea  unit="FT2">  832.00 </wingarea>
-   <wingspan  unit="FT" >   86.00 </wingspan>
-   <wing_incidence>          2.00 </wing_incidence>
-   <chord     unit="FT" >    9.67 </chord>
-   <htailarea unit="FT2">  208.00 </htailarea>
-   <htailarm  unit="FT" >   41.85 </htailarm>
-   <vtailarea unit="FT2">  166.40 </vtailarea>
-   <vtailarm  unit="FT" >   41.85 </vtailarm>
-   <location name="AERORP" unit="IN">
-     <x> 3.80 </x>
-     <y>   0.00 </y>
-     <z>   0.00 </z>
-   </location>
-   <location name="EYEPOINT" unit="IN">
-     <x>  78.12 </x>
-     <y> -30.00 </y>
-     <z>  70.00 </z>
-   </location>
-   <location name="VRP" unit="IN">
-     <x>-100</x>
-     <y>0</y>
-     <z>330</z>
-   </location>
- </metrics>
+	<mass_balance>
+		<ixx unit="SLUG*FT2">    189077 </ixx>
+		<iyy unit="SLUG*FT2">    510853 </iyy>
+		<izz unit="SLUG*FT2">    693305 </izz>
+		<emptywt unit="LBS" >     52684 </emptywt>
+		<location name="CG" unit="IN">
+			<x>   3.80 </x>
+			<y>   0.00 </y>
+			<z> -27.90 </z>
+		</location>
 
- <mass_balance>
-   <ixx unit="SLUG*FT2">    189077 </ixx>
-   <iyy unit="SLUG*FT2">    510853 </iyy>
-   <izz unit="SLUG*FT2">    693305 </izz>
-   <emptywt unit="LBS" >     52684 </emptywt>
-   <location name="CG" unit="IN">
-     <x> 3.80 </x>
-     <y>   0.00 </y>
-     <z> -27.90 </z>
-   </location>
-   <pointmass name="Payload">
-    <description> 14555 LBS + full (25761 LBS) fuel should bring model up to entered max weight</description>
-    <weight unit="LBS">   7277.5 </weight>
-    <location name="POINTMASS" unit="IN">
-      <x> 5.80 </x>
-      <y>   0.00 </y>
-      <z> -27.90 </z>
-    </location>
-  </pointmass> 
- </mass_balance>
+		<pointmass name="Cockpit Crew">
+			<description>Cockpit Crew</description>
+			<weight unit="LBS"> 400.00</weight>
+			<location name="POINTMASS" unit="IN">
+				<x>-100.80 </x>
+				<y>   0.00 </y>
+				<z> -27.90 </z>
+			</location>
+		</pointmass> 
+
+		<pointmass name="Cabin Crew">
+			<description>Cabin Crew</description>
+			<weight unit="LBS"> 400.00</weight>
+			<location name="POINTMASS" unit="IN">
+				<x> 3.80 </x>
+				<y>   0.00 </y>
+				<z> -27.90 </z>
+			</location>
+		</pointmass> 
+
+		<pointmass name="Passengers">
+			<description>Passengers</description>
+			<weight unit="LBS"> 14000.00</weight>
+			<location name="POINTMASS" unit="IN">
+				<x> 5.80 </x>
+				<y>   0.00 </y>
+				<z> -27.90 </z>
+			</location>
+		</pointmass> 
+
+	</mass_balance>
 
  <ground_reactions>
 
@@ -522,11 +544,19 @@
           <time>      0 </time>
        </setting>
        <setting>
-          <position> 15 </position>
+          <position> 18 </position>
           <time>      4 </time>
        </setting>
        <setting>
+          <position> 24 </position>
+          <time>      3 </time>
+       </setting>
+       <setting>
           <position> 30 </position>
+          <time>      3 </time>
+       </setting>
+       <setting>
+          <position> 33 </position>
           <time>      3 </time>
        </setting>
      </traverse>
@@ -537,7 +567,7 @@
       <input>fcs/flap-pos-deg</input>
       <domain>
         <min>  0 </min>
-        <max> 30 </max>
+        <max> 33 </max>
       </domain>
       <range>
         <min> 0 </min>
@@ -597,12 +627,18 @@
           <property>metrics/Sw-sqft</property>
           <table>
             <independentVar lookup="row">aero/alpha-rad</independentVar>
-            <tableData>
-              -0.20 -0.880
-               0.00  0.600
-               0.23  1.600
-               0.60  1.000
-            </tableData>
+		<tableData>
+			-0.20 -1.080
+			 0.00  0.800
+			 0.23  1.800
+			 0.60  1.200
+		</tableData>
+            <!-- tableData>
+              -0.20 -0.580
+               0.00  0.300
+               0.23  1.300
+               0.60  0.700
+            </tableData -->
           </table>
       </product>
     </function>
@@ -613,7 +649,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/flap-pos-deg</property>
-           <value> 0.04500 </value>
+           <value> 0.05000 </value>
        </product>
     </function>
 
@@ -633,7 +669,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/elevator-pos-rad</property>
-           <value>0.25</value>
+           <value>0.20</value>
        </product>
     </function>
 
@@ -692,7 +728,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/flap-pos-deg</property>
-           <value> 0.00197 </value>
+           <value> 0.0015 </value>
          </product>
     </function>
 

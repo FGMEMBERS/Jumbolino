@@ -1077,8 +1077,8 @@
 	<animation>
 		<type>rotate</type>
 		<object-name>Slats.Left</object-name>
-		<property>controls/flight/aileron</property>
-		<factor>-30</factor>
+		<property>surface-positions/flap-pos-norm</property>
+		<factor>30</factor>
 		<axis>
 			<x1-m> 0.364</x1-m>
 			<y1-m>-7.8309</y1-m>
@@ -1092,7 +1092,7 @@
 	<animation>
 		<type>rotate</type>
 		<object-name>Slats.Right</object-name>
-		<property>controls/flight/aileron</property>
+		<property>surface-positions/flap-pos-norm</property>
 		<factor>30</factor>
 		<axis>
 			<x1-m> 4.6373</x1-m>
@@ -1112,7 +1112,7 @@
 		<type>rotate</type>
 		<object-name>Flaps.Left</object-name>
 		<property>surface-positions/flap-pos-norm</property>
-		<factor>30</factor>
+		<factor>33</factor>
 		<axis>
 			<x1-m> 5.0446</x1-m>
 			<y1-m>-7.26919</y1-m>
@@ -1127,7 +1127,7 @@
 		<type>rotate</type>
 		<object-name>Flaps.Right</object-name>
 		<property>surface-positions/flap-pos-norm</property>
-		<factor>30</factor>
+		<factor>33</factor>
 		<axis>
 			<x1-m> 4.4652</x1-m>
 			<y1-m> 2.64224</y1-m>
@@ -1508,5 +1508,15 @@
         <object-name>RFflapwing2_std</object-name>
 
     </animation -->
+  
+<!-- forward top turret -->
+<model>
+	<path>Aircraft/JPack/Voodoomaster/Models/Turrets/Turret/turretForward.xml</path>
+	<offsets>
+		<x-m>  0,0000</x-m>
+		<y-m>  0.0000 </y-m>
+		<z-m>  0.0000 </z-m>
+	</offsets>
+</model>
 
 </PropertyList>
