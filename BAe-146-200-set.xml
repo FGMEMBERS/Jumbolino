@@ -594,14 +594,14 @@
 
 		<settings>
 			<kts-mach-select type="string">kts</kts-mach-select>
-			<max-pitch type="float">4.0</max-pitch>
+			<max-pitch type="float">6.0</max-pitch>
 			<min-pitch type="float">-4.0</min-pitch>
 			<bank-angle-limit-deg type="int">35</bank-angle-limit-deg>
 		</settings>
 
 		<internal>
 			<target-pitch-deg type="float">0.00</target-pitch-deg>
-			<max-pitch type="float">4.0</max-pitch>
+			<max-pitch type="float">6.0</max-pitch>
 			<min-pitch type="float">-4.0</min-pitch>
 		</internal>
 
