@@ -54,7 +54,7 @@ var checkFuel=func() {
 		setprop("/consumables/fuel/tank[7]/level-lbs",getprop("/consumables/fuel/tank[7]/level-lbs")+amount);
 	}
 
-	# carburator tank 8 is on engine 4, right outboard ####################################################################
+	# feeder tank 8 is on engine 4, right outboard ####################################################################
 	target=getprop("/consumables/fuel/tank[8]/level-lbs");
 	if (target<1200) {
 		amount=1200-target;

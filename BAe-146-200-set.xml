@@ -76,7 +76,7 @@
 		<chase-distance-m type="double" archive="y">-50.0</chase-distance-m>
 
 		<sound>
-			<path>Aircraft/Jumbolino/Sounds/BAe-146-200/Sounds.xml</path>
+			<path>Aircraft/Jumbolino/Sounds/Sounds.xml</path>
 		</sound>
 
 		<autostart>
@@ -95,6 +95,13 @@
 
 		<!-- Instrumentation in sim -->
 		<instrumentation include="Systems/instrumentation.xml"></instrumentation>
+
+		<!-- Integrated Systems -->
+		<systems>
+			<autopilot>
+				<path>Aircraft/JPack/Voodoomaster/Systems/SYS8_0_autopilot.xml</path>
+			</autopilot>
+		</systems>
 
 		<!-- #### MP section if exists -->
 		
@@ -398,17 +405,6 @@
 			</default>
 		</menubar>
 
-		<!-- Systems -->
-		<systems>
-			<path>Aircraft/Jumbolino/Systems/Jumbolino.xml</path>
-			<electrical>
-				<path>Aircraft/Generic/generic-electrical.xml</path>
-			</electrical>
-			<autopilot>
-				<path>Aircraft/JPack/Voodoomaster/Systems/SYS8_0_autopilot.xml</path>
-			</autopilot>
-		</systems>
-
 	</sim>
 
 	<consumables>
@@ -589,6 +585,14 @@
 			</key -->
 		</keyboard>
 	</input>
+
+	<!-- Stand-Alone Systems -->
+	<systems>
+		<path>Aircraft/Jumbolino/Systems/Jumbolino.xml</path>
+		<electrical>
+			<path>Aircraft/Generic/generic-electrical.xml</path>
+		</electrical>
+	</systems>
   
 	<autopilot>
 
@@ -623,7 +627,7 @@
 		</turret>
 	</voodoomaster>
 
-	<instrumentation>
+	<!-- instrumentation>
 		<sysinfo>
 			<first>0</first>
 			<max>0</max>
@@ -632,7 +636,7 @@
 			<ground-factor type="double">1</ground-factor>		
 		</ndfull>
 		<path>Aircraft/Jumbolino/Systems/instrumentation.xml</path>
-	</instrumentation>
+	</instrumentation -->
 
 	<tanker type="bool">true</tanker>
 
