@@ -100,6 +100,16 @@
 	  <z-m>0.0</z-m>
 	</offsets>
       </model>
+      <!--Instruments -->
+      <model>
+	<name>panel-instrumentation</name>
+	<path>Aircraft/Jumbolino/Models/Interior/Instruments/panel.xml</path>
+	<offsets>
+	  <x-m>0.0</x-m>
+	  <y-m>0.0</y-m>
+	  <z-m>0.0</z-m>
+	</offsets>
+      </model>
       <!-- Passengers Cabin -->
       <model>
 	<path>Aircraft/Jumbolino/Models/Interior/panel/paxCabin.ac</path>
@@ -109,23 +119,23 @@
 	  <z-m>0.0</z-m>
 	</offsets>
       </model>
-
-	<!-- Pushback -->
-	<model>
-		<name>Pushback</name>
-		<path>Aircraft/Jumbolino/Models/Pushback/Goldhofert.xml</path>
-		<condition>
-			<less-than-equals>
-				<property>velocities/airspeed-kt</property>
-				<value>80</value>
-			</less-than-equals>
-		</condition>
-		<offsets>
-			<x-m>-23.0</x-m>
-			<y-m>-0.03</y-m>
-			<z-m>-6.00</z-m>
-		</offsets>
-	</model>
+      
+      <!-- Pushback -->
+      <model>
+	<name>Pushback</name>
+	<path>Aircraft/Jumbolino/Models/Pushback/Goldhofert.xml</path>
+	<condition>
+	  <less-than-equals>
+	    <property>velocities/airspeed-kt</property>
+	    <value>80</value>
+	  </less-than-equals>
+	</condition>
+	<offsets>
+	  <x-m>-23.0</x-m>
+	  <y-m>-0.03</y-m>
+	  <z-m>-6.00</z-m>
+	</offsets>
+      </model>
 
 	<!-- Une ombre pour OSG -->
 	<!-- model>
