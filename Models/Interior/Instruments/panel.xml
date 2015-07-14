@@ -26,16 +26,29 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 <PropertyList>
   <!-- Clock is a template to exemplify addition of more instruments
-       It is recommended to folow that standard, including/copying/modifying the
+       It is recommended to follow that standard, including/copying/modifying the
        content to the directory ./Models/Interior/Instruments, then
-       linking here, and adjusting offset to a proper location -->
+       linking here, and adjusting offset to a proper location 
+	   
+	   z= up/down
+	   y= left/right
+	   x= back/front -->
   <model>
-    <name>clock</name>
-    <path>Aircraft/Jumbolino/Models/Interior/Instruments/clock/clock.xml</path>
+    <name>ai</name>
+    <path>Aircraft/Jumbolino/Models/Interior/Instruments/adi/adi.xml</path>
     <offsets>
       <x-m>-19.15649</x-m>
       <y-m>-1.77379</y-m>
       <z-m>-3.90616</z-m>
+    </offsets>
+  </model>
+  <model>
+    <name>ai</name>
+    <path>Aircraft/Jumbolino/Models/Interior/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m>-19.18650</x-m>
+      <y-m>-1.17379</y-m>
+      <z-m>-3.80616</z-m>
     </offsets>
   </model>
 </PropertyList>
