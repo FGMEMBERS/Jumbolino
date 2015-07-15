@@ -25,7 +25,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 -->
 
 <PropertyList>
-  <!-- Clock is a template to exemplify addition of more instruments
+  <!-- Top instrument is a template to exemplify addition of more instruments
        It is recommended to follow that standard, including/copying/modifying the
        content to the directory ./Models/Interior/Instruments, then
        linking here, and adjusting offset to a proper location 
@@ -35,7 +35,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 	   x= back/front -->
   <model>
     <name>ai</name>
-    <path>Aircraft/Jumbolino/Models/Interior/Instruments/adi/adi.xml</path>
+    <path>Aircraft/Jumbolino/Models/Interior/Instruments/ai/ai.xml</path>
     <offsets>
       <x-m>-19.15649</x-m>
       <y-m>-1.77379</y-m>
@@ -44,10 +44,28 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
   </model>
   <model>
     <name>ai</name>
-    <path>Aircraft/Jumbolino/Models/Interior/Instruments/ai/ai.xml</path>
+    <path>Aircraft/Jumbolino/Models/Interior/Instruments/ai-707/ai.xml</path>
     <offsets>
       <x-m>-19.18650</x-m>
       <y-m>-1.17379</y-m>
+      <z-m>-3.80616</z-m>
+    </offsets>
+  </model>
+  <model>
+    <name>asi</name>
+    <path>Aircraft/Jumbolino/Models/Interior/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m>-19.08650</x-m>
+      <y-m>-1.27379</y-m>
+      <z-m>-3.80616</z-m>
+    </offsets>
+  </model>
+  <model>
+    <name>asi</name>
+    <path>Aircraft/Jumbolino/Models/Interior/Instruments/asi-707/asi.xml</path>
+    <offsets>
+      <x-m>-19.08650</x-m>
+      <y-m>-1.07379</y-m>
       <z-m>-3.80616</z-m>
     </offsets>
   </model>
