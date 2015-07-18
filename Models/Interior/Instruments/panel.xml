@@ -61,15 +61,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
       <z-m>-3.90616</z-m>
     </offsets>
   </model>
-  <model>
-    <name>ai</name>
-    <path>Aircraft/Jumbolino/Models/Interior/Instruments/ai-707/ai.xml</path>
-    <offsets>
-      <x-m>-19.20000</x-m>
-      <y-m>-1.17379</y-m>
-      <z-m>-3.80616</z-m>
-    </offsets>
-  </model>
     <model>
     <name>vsi</name>
     <path>Aircraft/Jumbolino/Models/Interior/Instruments/vsi-dhc6/vsi.xml</path>
@@ -79,35 +70,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
       <z-m>-3.80616</z-m>
     </offsets>
   </model>
-  <model>
-    <name>asi</name>
-    <path>Aircraft/Jumbolino/Models/Interior/Instruments/alt-c172p/alt.xml</path>
-    <offsets>
-      <x-m>-19.15050</x-m>
-      <y-m>-0.98379</y-m>
-      <z-m>-3.80616</z-m>
-    </offsets>
-  </model>
-  <model>
-    <name>asi</name>
-    <path>Aircraft/Jumbolino/Models/Interior/Instruments/asi-707/asi.xml</path>
-    <offsets>
-      <x-m>-19.16050</x-m>
-      <y-m>-1.07379</y-m>
-      <z-m>-3.80616</z-m>
-    </offsets>
-  </model>
-=======
-	<!-- 
-	Top instrument is a template to exemplify addition of more instruments
-	It is recommended to follow that standard, including/copying/modifying the
-	content to the directory ./Models/Interior/Instruments, then
-	linking here, and adjusting offset to a proper location 
-	   
-	z= up/down
-	y= left/right
-	x= back/front 
-	-->
 
 	<!-- model>
 		<name>ai</name>
@@ -592,6 +554,4 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<y-offset>2.8</y-offset>
 		<z-offset>2.8</z-offset>
 	</animation>
-
->>>>>>> 379e28a7e58fcb1300e6691ddb193d670ef036e5
 </PropertyList>
