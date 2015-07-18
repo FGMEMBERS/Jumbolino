@@ -478,7 +478,7 @@
 
 		<weight n="1">
 			<!-- Cabin -->
-			<name>Refuel ops</name>
+			<name>Cabin Crew</name>
 			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[1]" />
 			<min-lb type="double">    0</min-lb>
 			<max-lb type="double">  400</max-lb>
@@ -493,6 +493,12 @@
 		</weight>
 
 	</payload>
+
+	<limits>
+		<mass-and-balance>
+			<maximum-takeoff-mass-lbs>93000</maximum-takeoff-mass-lbs>
+		</mass-and-balance>
+	</limits>
 
 	<controls>
 		<engines>
@@ -571,18 +577,65 @@
 				</binding>
 			</key>
 
-			<!-- key n="127">
+			<key n="2">
+				<name>Ctrl-B</name>
+				<desc>Toggle speedbrakes.</desc>
+				<binding>
+					<command>property-cycle</command>
+					<property>controls/flight/speedbrake</property>
+					<value>0</value>
+					<value>1</value>
+				</binding>
+			</key>
+
+			<key n="1">
+				<name>Ctrl-A</name>
+				<desc>AP off</desc>
+				<binding>
+					<command>property-assign</command>
+					<property>/autopilot/locks/altitude</property>
+					<value></value>
+				</binding>
+				<binding>
+					<command>property-assign</command>
+					<property>/autopilot/locks/heading</property>
+					<value></value>
+				</binding>
+				<binding>
+					<command>property-assign</command>
+					<property>/autopilot/locks/speed</property>
+					<value></value>
+				</binding>
+			</key>
+
+			<key n="127">
 				<name>Delete</name>
 				<desc>Toggle Reversers</desc>
 				<binding>
-					<command>property-toggle</command>
-					<property>controls/engines/engine[0]/reverser</property>
+					<command>property-cycle</command>
+					<property>fdm/jsbsim/propulsion/engine/reverser-angle-rad</property>
+					<value>180</value>
+					<value>0</value>
 				</binding>
 				<binding>
-					<command>property-toggle</command>
-					<property>controls/engines/engine[1]/reverser</property>
+					<command>property-cycle</command>
+					<property>fdm/jsbsim/propulsion/engine[1]/reverser-angle-rad</property>
+					<value>180</value>
+					<value>0</value>
 				</binding>
-			</key -->
+				<binding>
+					<command>property-cycle</command>
+					<property>fdm/jsbsim/propulsion/engine[2]/reverser-angle-rad</property>
+					<value>180</value>
+					<value>0</value>
+				</binding>
+				<binding>
+					<command>property-cycle</command>
+					<property>fdm/jsbsim/propulsion/engine[3]/reverser-angle-rad</property>
+					<value>180</value>
+					<value>0</value>
+				</binding>
+			</key>
 		</keyboard>
 	</input>
 
@@ -598,15 +651,15 @@
 
 		<settings>
 			<kts-mach-select type="string">kts</kts-mach-select>
-			<max-pitch type="float">6.0</max-pitch>
-			<min-pitch type="float">-4.0</min-pitch>
+			<max-pitch type="double">6.0</max-pitch>
+			<min-pitch type="double">-4.0</min-pitch>
 			<bank-angle-limit-deg type="int">35</bank-angle-limit-deg>
 		</settings>
 
 		<internal>
-			<target-pitch-deg type="float">0.00</target-pitch-deg>
-			<max-pitch type="float">6.0</max-pitch>
-			<min-pitch type="float">-4.0</min-pitch>
+			<target-pitch-deg type="double">0.00</target-pitch-deg>
+			<max-pitch type="double">6.0</max-pitch>
+			<min-pitch type="double">-4.0</min-pitch>
 		</internal>
 
 	</autopilot>
@@ -619,12 +672,6 @@
 		<pushback>
 			<activated type="bool">false</activated>
 		</pushback>
-		<turret n="0">
-			<device type="string">TurretForward</device>
-			<turret-x type="float">1.0</turret-x>
-			<turret-y type="float">1.0</turret-y>
-			<turret-z type="float">1.0</turret-z>
-		</turret>
 	</voodoomaster>
 
 	<!-- instrumentation>

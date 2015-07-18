@@ -328,12 +328,12 @@
 
 	<animation>
 		<type>rotate</type>
-		<object-name>NoseGear.DoorLeft</object-name>
+		<object-name>NoseGear.Door</object-name>
 		<property>gear/gear[0]/position-norm</property>
 		<interpolation>
 			<entry>
 				<ind>0</ind>
-				<dep>90</dep>
+				<dep>111</dep>
 			</entry>
 			<entry>
 				<ind>1.0</ind>
@@ -341,39 +341,13 @@
 			</entry>
 		</interpolation>
 		<center>
-			<x-m>6.407</x-m>
+			<x-m>-18.150</x-m>
 			<y-m>-0.750</y-m>
-			<z-m>-7.200</z-m>
+			<z-m>-7.260</z-m>
 		</center>
 		<axis>
-			<x>1</x>
-			<y>0</y>
-			<z>0</z>
-		</axis>
-	</animation>
-
-	<animation>
-		<type>rotate</type>
-		<object-name>NoseGear.DoorRight</object-name>
-		<property>gear/gear[0]/position-norm</property>
-		<interpolation>
-			<entry>
-				<ind>0</ind>
-				<dep>90</dep>
-			</entry>
-			<entry>
-				<ind>1.0</ind>
-				<dep>0</dep>
-			</entry>
-		</interpolation>
-		<center>
-			<x-m>6.407</x-m>
-			<y-m>0.750</y-m>
-			<z-m>-7.200</z-m>
-		</center>
-		<axis>
-			<x>-1</x>
-			<y>0</y>
+			<x>0</x>
+			<y>1</y>
 			<z>0</z>
 		</axis>
 	</animation>
@@ -1222,40 +1196,39 @@
   </axis>
  </animation -->
  
-<!-- ############ -->
-<!--  Speedbrake  -->
-<!-- ############ -->
- <!-- animation>
-  <type>rotate</type>
-  <object-name>speedbrakel</object-name>
-  <property>surface-positions/speedbrake-norm</property>
-  <factor>-75</factor>
-  <offset-deg>0</offset-deg>   
-	  <axis>
-	     <x1-m> 1.80099</x1-m>
-	     <y1-m>-6.82084</y1-m>
-	     <z1-m>-2.4767</z1-m>
-	     <x2-m> 1.49268</x2-m>
-	     <y2-m>-3.3113</y2-m>
-	     <z2-m>-3.00889</z2-m>
-	  </axis>
- </animation -->  
+	<!-- ############ -->
+	<!--  Speedbrake  -->
+	<!-- ############ -->
 
- <!-- animation>
-  <type>rotate</type>
-  <object-name>speedbraker</object-name>
-  <property>surface-positions/speedbrake-norm</property>
-  <factor>75</factor>
-  <offset-deg>0</offset-deg>   
-	  <axis>
-	     <x1-m> 1.80099</x1-m>
-	     <y1-m> 6.82084</y1-m>
-	     <z1-m>-2.4767</z1-m>
-	     <x2-m> 1.49268</x2-m>
-	     <y2-m> 3.3113</y2-m>
-	     <z2-m>-3.00889</z2-m>
-	  </axis>
- </animation -->  
+	<animation>
+		<type>rotate</type>
+		<object-name>SpeedBrakes.TailLeft</object-name>
+		<property>surface-positions/speedbrake-pos-norm</property>
+		<factor>-85</factor>
+		<axis>
+			<x1-m>28.3519</x1-m>
+			<y1-m>0.0</y1-m>
+			<z1-m>-2.3841</z1-m>
+			<x2-m>28.3519</x2-m>
+			<y2-m>0.0</y2-m>
+			<z2-m>0.09162</z2-m>
+		</axis>
+	</animation>  
+
+	<animation>
+		<type>rotate</type>
+		<object-name>SpeedBrakes.TailRight</object-name>
+		<property>surface-positions/speedbrake-pos-norm</property>
+		<factor>85</factor>
+		<axis>
+			<x1-m>28.3519</x1-m>
+			<y1-m>0.0</y1-m>
+			<z1-m>-2.3841</z1-m>
+			<x2-m>28.3519</x2-m>
+			<y2-m>0.0</y2-m>
+			<z2-m>0.09162</z2-m>
+		</axis>
+	</animation>  
  
  
  <!-- animation>
@@ -1527,15 +1500,5 @@
         <object-name>RFflapwing2_std</object-name>
 
     </animation -->
-  
-<!-- forward top turret -->
-<model>
-	<path>Aircraft/JPack/Voodoomaster/Models/Turrets/Turret/turretForward.xml</path>
-	<offsets>
-		<x-m>  0,0000</x-m>
-		<y-m>  0.0000 </y-m>
-		<z-m>  0.0000 </z-m>
-	</offsets>
-</model>
 
 </PropertyList>

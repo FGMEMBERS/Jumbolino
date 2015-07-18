@@ -632,10 +632,10 @@
 					<table>
 						<independentVar lookup="row">aero/alpha-rad</independentVar>
 						<tableData>
-							-0.20 -1.880
-							 0.00  0.600
-							 0.23  1.600
-							 0.60  1.000
+							-0.20 -1.780
+							 0.00  0.500
+							 0.23  1.500
+							 0.60  0.900
 						</tableData>
 						<!-- tableData>
 							-0.20 -0.580
@@ -657,7 +657,7 @@
 				</product>
 			</function>
 
-			<function name="aero/force/Lift_speedbrake">
+			<!-- function name="aero/force/Lift_speedbrake">
 				<description>Delta Lift due to speedbrake</description>
 				<product>
 					<property>aero/qbar-psf</property>
@@ -665,7 +665,7 @@
 					<property>fcs/speedbrake-pos-norm</property>
 					<value>-0.1</value>
 				</product>
-			</function>
+			</function -->
 
 			<function name="aero/force/Lift_elevator">
 				<description>Lift due to Elevator Deflection</description>
@@ -732,7 +732,7 @@
 					<property>aero/qbar-psf</property>
 					<property>metrics/Sw-sqft</property>
 					<property>fcs/flap-pos-deg</property>
-					<value> 0.0015 </value>
+					<value> 0.0012 </value>
 				</product>
 			</function>
 
@@ -752,7 +752,7 @@
 					<property>aero/qbar-psf</property>
 					<property>metrics/Sw-sqft</property>
 					<property>fcs/speedbrake-pos-norm</property>
-					<value>0.02</value>
+					<value>0.055</value>
 				</product>
 			</function>
 
