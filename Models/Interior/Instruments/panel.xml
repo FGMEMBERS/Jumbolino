@@ -5,13 +5,9 @@ Panel Instrumentation
 
 :copyright: 2015 Peter Brendt (JWocky)
 :copyright: 2015 Israel Hernandez (IAHM-COL)
-:copyright: 2015 Jonathan
+:copyright: 2015 Jonathan (legoboyvdlp)
 License: GPL2 or later. See ./COPYING
-Some Instruments are taken from several aircraft: 
-707 - Artificial Horizon and Air Speed Indicator
-C172P - Altimeter and Turn Coordinator
-DHC-6 - VOR + ADF needles + Vertical speed indicator
-727 - Engine
+Some Instruments are taken from the 707 for Fligthgear by M. Kraus 2013
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -29,46 +25,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 -->
 
 <PropertyList>
-  <!--
-	   z= up/down
-	   y= left/right
-	   x= back/front -->
-  <model>
-    <name>ai</name>
-    <path>Aircraft/Jumbolino/Models/Interior/Instruments/adf-dhc6/adf.xml</path>
-    <offsets>
-      <x-m>-19.08650</x-m>
-      <y-m>-1.27379</y-m>
-      <z-m>-3.90616</z-m>
-    </offsets>
-  </model>
-    <model>
-    <name>ai</name>
-    <path>Aircraft/Jumbolino/Models/Interior/Instruments/tc-c172p/tc.xml</path>
-    <offsets>
-      <x-m>-19.08650</x-m>
-      <y-m>-1.17379</y-m>
-      <z-m>-3.90616</z-m>
-    </offsets>
-  </model>
-    <model>
-    <name>ai</name>
-    <path>Aircraft/Jumbolino/Models/Interior/Instruments/ki206-dhc6/ki206.xml</path>
-    <offsets>
-      <x-m>-19.08650</x-m>
-      <y-m>-0.98379</y-m>
-      <z-m>-3.90616</z-m>
-    </offsets>
-  </model>
-    <model>
-    <name>vsi</name>
-    <path>Aircraft/Jumbolino/Models/Interior/Instruments/vsi-dhc6/vsi.xml</path>
-    <offsets>
-      <x-m>-19.08650</x-m>
-      <y-m>-1.27379</y-m>
-      <z-m>-3.80616</z-m>
-    </offsets>
-  </model>
+	<!-- 
+	Top instrument is a template to exemplify addition of more instruments
+	It is recommended to follow that standard, including/copying/modifying the
+	content to the directory ./Models/Interior/Instruments, then
+	linking here, and adjusting offset to a proper location 
+	   
+	z= up/down
+	y= left/right
+	x= back/front 
+	-->
 
 	<!-- model>
 		<name>ai</name>
@@ -553,4 +519,5 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<y-offset>2.8</y-offset>
 		<z-offset>2.8</z-offset>
 	</animation>
+
 </PropertyList>
