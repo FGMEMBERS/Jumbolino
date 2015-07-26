@@ -13,7 +13,7 @@
 		************************************************************************
 	-->
 
-	<PropertyList>
+	<PropertyList include="Aircraft/JPack/Interface.xml">
 
 	<sim>
 
@@ -329,7 +329,7 @@
 			</text>
 		</help>
 
-		<menubar include="Aircraft/JPack/InterfaceMenubar.xml">
+		<menubar>
 			<default>
 				<menu n="100">
 					<label>Jumbolino</label>
@@ -500,7 +500,7 @@
 		</mass-and-balance>
 	</limits>
 
-	<controls include="Aircraft/JPack/InterfaceControls.xml">
+	<controls>
 		<engines>
 			<engine n="0">
 				<rpm>0</rpm>
@@ -533,8 +533,6 @@
 			<anti-ice type="string">controls/ice/eng2/auto</anti-ice>
 		</eng2>
 	</controls>
-
-	<fdm include="Aircraft/JPack/InterfaceFDM.xml"></fdm>
 
 	<!-- #### ai submodels -->
 
@@ -649,7 +647,7 @@
 		</electrical>
 	</systems>
   
-	<autopilot include="Aircraft/JPack/InterfaceAutopilot.xml">
+	<autopilot>
 
 		<settings>
 			<kts-mach-select type="string">kts</kts-mach-select>
@@ -667,7 +665,7 @@
 	</autopilot>
 
 	<!-- Voodoomaster plane specific initializations -->
-	<voodoomaster include="Aircraft/JPack/InterfaceVoodoomaster.xml">
+	<voodoomaster>
 		<steering-wheel type="int">0</steering-wheel>
 		<steering-type type="string">TriCycle</steering-type>	<!-- Alternativ: Taildragger-lock or TriCycle -->
 		<model-direction>180.00</model-direction>
@@ -675,8 +673,6 @@
 			<activated type="bool">false</activated>
 		</pushback>
 	</voodoomaster>
-
-	<skynet include="Aircraft/JPack/InterfaceSkynet.xml"></skynet>
 
 	<!-- instrumentation>
 		<sysinfo>
@@ -689,7 +685,9 @@
 		<path>Aircraft/Jumbolino/Systems/instrumentation.xml</path>
 	</instrumentation -->
 
-	<nasal include="Aircraft/JPack/InterfaceNasal.xml">
+	<tanker type="bool">true</tanker>
+
+	<nasal>
 		<Jumbolino>
 			<!-- file>Aircraft/Jumbolino/Nasal/Electrical.nas</file -->
 			<file>Aircraft/Jumbolino/Nasal/Fuelsystem.nas</file>
