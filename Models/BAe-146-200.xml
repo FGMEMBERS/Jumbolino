@@ -92,7 +92,6 @@
       </effect>
     
       <!-- Cockpit, with everything included in the flightdeck directed from this file -->
-      <!--
       <model>
 	<path>Aircraft/Jumbolino/Models/Interior/panel/panel.ac</path>
 	<offsets>
@@ -100,7 +99,7 @@
 	  <y-m>0.0</y-m>
 	  <z-m>0.0</z-m>
 	</offsets>
-      </model>-->
+      </model>
       <!--Instruments -->
       <!--
 	  <model>
@@ -113,7 +112,7 @@
 	</offsets>
       </model>-->
       <!-- Passengers Cabin -->
-      <!--<model>
+      <model>
 	<path>Aircraft/Jumbolino/Models/Interior/panel/paxCabin.ac</path>
 	<offsets>
 	  <x-m>0.0</x-m>
@@ -121,8 +120,7 @@
 	  <z-m>0.0</z-m>
 	</offsets>
       </model>
-      -->
-      
+            
       <!-- Pushback -->
       <model>
 	<name>Pushback</name>
