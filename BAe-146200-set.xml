@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <PropertyList include="halifax-jsbsim-cnf.xml"> -->
+<PropertyList include="BAe-146-200-base.xml">
+
+  <sim>
+    
+    <description>BAe-146-200</description>
+    <author>BARANGER Emmanuel, StuartC</author>
+    
+    <rating>
+      <FDM type="int">     2 </FDM>
+      <systems type="int"> 1 </systems>
+      <cockpit type="int"> 1 </cockpit>
+      <model type="int">   4 </model>
+    </rating>
+
+  </sim>
+
+</PropertyList>
+

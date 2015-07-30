@@ -597,6 +597,19 @@
 				<output>gear/gear-pos-norm</output>
 			</kinematic>
 
+			<scheduled_gain name="Scheduled Steer Pos Deg">
+				<input>fcs/steer-cmd-norm</input>
+				<table>
+					<independentVar>velocities/vg-fps</independentVar>
+					<tableData>
+						 30.0        65.0
+						 60.0        5.0
+						 150.0       1.0
+					</tableData>
+				</table>
+				<output>fcs/steer-pos-deg</output>
+			</scheduled_gain> 
+
 		</channel>
 
 		<channel name="Speedbrake">
