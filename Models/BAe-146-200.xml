@@ -987,12 +987,12 @@
 		<factor>35</factor>
 		<offset-deg>0</offset-deg>   
 		<axis>
-			<x1-m>29.1051</x1-m>
-			<y1-m>0.0</y1-m>
-			<z1-m>0.3841</z1-m>
-			<x2-m>34.3519</x2-m>
-			<y2-m>0.0</y2-m>
-			<z2-m>9.09162</z2-m>
+			<x1-m> 11.1752</x1-m>
+			<y1-m> 0.00</y1-m>
+			<z1-m>-0.41595</z1-m>
+			<x2-m> 13.1752</x2-m>
+			<y2-m> 0.00</y2-m>
+			<z2-m> 3.01595</z2-m>
 		</axis>
 	</animation>
 
@@ -1007,14 +1007,24 @@
 		<factor>-15</factor>
 		<offset-deg>0</offset-deg>   
 		<axis>
-			<x1-m> 37.0044</x1-m>
-			<y1-m> 26.26997</y1-m>
-			<z1-m> 8.16834</z1-m>
-			<x2-m> 36.5044</x2-m>
-			<y2-m> 1.27994</y2-m>
-			<z2-m> 8.56834</z2-m>
+			<x1-m> 14.5252</x1-m>
+			<y1-m> -0.40</y1-m>
+			<z1-m> 4.01595</z1-m>
+			<x2-m> 15.0252</x2-m>
+			<y2-m> -5.40</y2-m>
+			<z2-m> 3.71595</z2-m>
 		</axis>
 	</animation>
+  
+<!-- forward top turret -->
+<model>
+	<path>Aircraft/JPack/Voodoomaster/Models/Turrets/Turret/turretForward.xml</path>
+	<offsets>
+			<x-m> 15.0252</x-m>
+			<y-m> -5.40</y-m>
+			<z-m> 3.71595</z-m>
+	</offsets>
+</model>
 
 	<animation>
 		<type>rotate</type>
@@ -1074,12 +1084,12 @@
 		<property>surface-positions/flap-pos-norm</property>
 		<factor>30</factor>
 		<axis>
-			<x1-m> 0.364</x1-m>
-			<y1-m>-7.8309</y1-m>
-			<z1-m>-0.29036</z1-m>
-			<x2-m> 4.6373</x2-m>
-			<y2-m>-22.928</y2-m>
-			<z2-m>-0.29036</z2-m>
+			<x1-m> -2.3552</x1-m>
+			<y1-m>-2.04224</y1-m>
+			<z1-m>-0.06595</z1-m>
+			<x2-m> 0.7752</x2-m>
+			<y2-m>-13.04224</y2-m>
+			<z2-m>-0.31595</z2-m>
 		</axis>
 	</animation>
 
@@ -1087,14 +1097,14 @@
 		<type>rotate</type>
 		<object-name>Slats.Right</object-name>
 		<property>surface-positions/flap-pos-norm</property>
-		<factor>30</factor>
+		<factor>-30</factor>
 		<axis>
-			<x1-m> 4.6373</x1-m>
-			<y1-m>22.928</y1-m>
-			<z1-m>-0.29036</z1-m>
-			<x2-m> 0.364</x2-m>
-			<y2-m> 7.8309</y2-m>
-			<z2-m>-0.29036</z2-m>
+			<x1-m> -2.3552</x1-m>
+			<y1-m> 2.04224</y1-m>
+			<z1-m>-0.06595</z1-m>
+			<x2-m> 0.7752</x2-m>
+			<y2-m> 13.04224</y2-m>
+			<z2-m>-0.31595</z2-m>
 		</axis>
 	</animation> 
  
@@ -1106,14 +1116,14 @@
 		<type>rotate</type>
 		<object-name>Flaps.Left</object-name>
 		<property>surface-positions/flap-pos-norm</property>
-		<factor>33</factor>
+		<factor>-33</factor>
 		<axis>
-			<x1-m> 5.0446</x1-m>
-			<y1-m>-7.26919</y1-m>
-			<z1-m>-0.96595</z1-m>
-			<x2-m> 4.4652</x2-m>
-			<y2-m>-2.64224</y2-m>
-			<z2-m>-0.96595</z2-m>
+			<x1-m> 0.2246</x1-m>
+			<y1-m>-1.85919</y1-m>
+			<z1-m>-0.06595</z1-m>
+			<x2-m> 0.8052</x2-m>
+			<y2-m>-7.24224</y2-m>
+			<z2-m>-0.06595</z2-m>
 		</axis>
 	</animation>
 
@@ -1123,12 +1133,12 @@
 		<property>surface-positions/flap-pos-norm</property>
 		<factor>33</factor>
 		<axis>
-			<x1-m> 4.4652</x1-m>
-			<y1-m> 2.64224</y1-m>
-			<z1-m>-0.96595</z1-m>
-			<x2-m> 5.0446</x2-m>
-			<y2-m> 7.26919</y2-m>
-			<z2-m>-0.96595</z2-m>
+			<x1-m> 0.2246</x1-m>
+			<y1-m>1.85919</y1-m>
+			<z1-m>-0.06595</z1-m>
+			<x2-m> 0.8052</x2-m>
+			<y2-m>7.24224</y2-m>
+			<z2-m>-0.06595</z2-m>
 		</axis>
 	</animation>
  

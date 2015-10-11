@@ -672,6 +672,12 @@
 		<pushback>
 			<activated type="bool">false</activated>
 		</pushback>
+		<turret n="1">
+			<device type="string">TurretForward</device>
+			<turret-x type="float">1.0</turret-x>
+			<turret-y type="float">1.0</turret-y>
+			<turret-z type="float">1.0</turret-z>
+		</turret>
 	</voodoomaster>
 
 	<!-- instrumentation>
