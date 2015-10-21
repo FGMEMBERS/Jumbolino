@@ -71,6 +71,15 @@
 			<fuel>false</fuel>	<!-- false is default -->
 		</freeze>
 
+		<gui>
+			<dialogs>
+				<autopilot>
+					<kts-select type="bool">true</kts-select>
+					<mach-select tpye="bool">false</mach-select>
+				</autopilot>
+			</dialogs>
+		</gui>
+
 		<fuel-fraction>0.8</fuel-fraction>
 
 		<chase-distance-m type="double" archive="y">-50.0</chase-distance-m>
@@ -331,6 +340,20 @@
 
 		<menubar>
 			<default>
+				<menu n="3">
+					<item>
+						<name>autopilot</name>
+						<label>Autopilot Settings</label>
+						<binding>
+							<command>nasal</command>
+							<script>
+								var autopilot = gui.Dialog.new("sim/gui/dialogs/autopilot/dialog", 
+											"Aircraft/JPack/Voodoomaster/Dialogs/autopilot8.xml");
+								autopilot.open();
+							</script>
+						</binding>
+					</item>
+				</menu>
 				<menu n="100">
 					<label>Jumbolino</label>
 					<enabled type="bool">true</enabled>

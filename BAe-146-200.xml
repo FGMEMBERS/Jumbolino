@@ -46,20 +46,20 @@
 		<htailarm  unit="FT" >   41.85 </htailarm>
 		<vtailarea unit="FT2">  166.40 </vtailarea>
 		<vtailarm  unit="FT" >   41.85 </vtailarm>
-		<location name="AERORP" unit="IN">
-			<x>   5.80 </x>
+		<location name="AERORP" unit="M">
+			<x>   0.20 </x>
 			<y>   0.00 </y>
 			<z>   0.00 </z>
 		</location>
-		<location name="EYEPOINT" unit="IN">
-			<x>  78.12 </x>
-			<y> -30.00 </y>
-			<z>  70.00 </z>
+		<location name="EYEPOINT" unit="M">
+			<x> -10.80 </x>
+			<y>   0.00 </y>
+			<z>  -1.82 </z>
 		</location>
-		<location name="VRP" unit="IN">
-			<x>-100</x>
-			<y>0</y>
-			<z>330</z>
+		<location name="VRP" unit="M">
+			<x>  0.00</x>
+			<y>  0.00</y>
+			<z>  8.05</z>
 		</location>
 	</metrics>
 
@@ -68,39 +68,39 @@
 		<iyy unit="SLUG*FT2">    510853 </iyy>
 		<izz unit="SLUG*FT2">    693305 </izz>
 		<emptywt unit="LBS" >     52684 </emptywt>
-		<location name="CG" unit="IN">
-			<x>   5.80 </x>
+		<location name="CG" unit="M">
+			<x>  -0.05 </x>
 			<y>   0.00 </y>
-			<z> -27.90 </z>
+			<z>   0.00 </z>
 		</location>
 
 		<pointmass name="Cockpit Crew">
 			<description>Cockpit Crew</description>
 			<weight unit="LBS"> 400.00</weight>
-			<location name="POINTMASS" unit="IN">
-				<x>-100.80 </x>
+			<location name="POINTMASS" unit="M">
+				<x> -10.80 </x>
 				<y>   0.00 </y>
-				<z> -98.80 </z>
+				<z>  -1.82 </z>
 			</location>
 		</pointmass> 
 
 		<pointmass name="Cabin Crew">
 			<description>Cabin Crew</description>
 			<weight unit="LBS"> 400.00</weight>
-			<location name="POINTMASS" unit="IN">
-				<x> 5.80 </x>
+			<location name="POINTMASS" unit="M">
+				<x>  -1.15 </x>
 				<y>   0.00 </y>
-				<z> -98.80 </z>
+				<z>  -0.35 </z>
 			</location>
 		</pointmass> 
 
 		<pointmass name="Passengers">
 			<description>Passengers</description>
 			<weight unit="LBS"> 14000.00</weight>
-			<location name="POINTMASS" unit="IN">
-				<x> 5.80 </x>
-				<y>   0.00 </y>
-				<z> -98.80 </z>
+			<location name="POINTMASS" unit="M">
+				<x>  0.08 </x>
+				<y>  0.00 </y>
+				<z> -1.82 </z>
 			</location>
 		</pointmass> 
 
@@ -109,10 +109,10 @@
 	<ground_reactions>
 
 		<contact type="BOGEY" name="NOSE">
-			<location unit="IN">
-				<x> -145.08 </x>
-				<y>   0.00 </y>
-				<z> -30.00 </z>
+			<location unit="M">
+				<x> -10.3810 </x>
+				<y>   0.0000 </y>
+				<z>  -0.8000 </z>
 			</location>
 			<static_friction>  0.80 </static_friction>
 			<dynamic_friction> 0.50 </dynamic_friction>
@@ -125,10 +125,10 @@
 		</contact>
 
 		<contact type="BOGEY" name="LEFT_MAIN">
-			<location unit="IN">
-				<x> 338.35 </x>
-				<y> -92.88 </y>
-				<z>   0.00 </z>
+			<location unit="M">
+				<x>   1.2680 </x>
+				<y>  -2.8800 </y>
+				<z>  -0.8000 </z>
 			</location>
 			<static_friction>  0.80 </static_friction>
 			<dynamic_friction> 0.50 </dynamic_friction>
@@ -141,10 +141,10 @@
 		</contact>
 
 		<contact type="BOGEY" name="RIGHT_MAIN">
-			<location unit="IN">
-				<x> 338.35 </x>
-				<y>  92.88 </y>
-				<z>   0.00 </z>
+			<location unit="M">
+				<x>   1.2680 </x>
+				<y>   2.8800 </y>
+				<z>  -0.8000 </z>
 			</location>
 			<static_friction>  0.80 </static_friction>
 			<dynamic_friction> 0.50 </dynamic_friction>
@@ -185,10 +185,10 @@
 	<propulsion>
 
 		<engine file="ALF502R5">
-			<location unit="IN">
-				<x> 6.80 </x>
-				<y> -272.00 </y>
-				<z> -20.00 </z>
+			<location unit="M">
+				<x> -3.2744 </x>
+				<y> -6.7058 </y>
+				<z> -1.3522 </z>
 			</location>
 			<orient unit="DEG">
 				<pitch> 0.00 </pitch>
@@ -197,10 +197,10 @@
 			</orient>
 			<feed>5</feed>
 			<thruster file="direct">
-				<location unit="IN">
-					<x> 6.80 </x>
-					<y> -272.00 </y>
-					<z> -20.00 </z>
+				<location unit="M">
+					<x> -1.2744 </x>
+					<y> -6.7058 </y>
+					<z> -1.3522 </z>
 				</location>
 				<orient unit="DEG">
 					<pitch> 0.00 </pitch>
@@ -211,10 +211,10 @@
 		</engine>
 
 		<engine file="ALF502R5">
-			<location unit="IN">
-				<x> 3.80 </x>
-				<y> -172.00 </y>
-				<z> -40.00 </z>
+			<location unit="M">
+				<x> -4.0698 </x>
+				<y> -4.2257 </y>
+				<z> -1.3522 </z>
 			</location>
 			<orient unit="DEG">
 				<pitch> 0.00 </pitch>
@@ -223,10 +223,10 @@
 			</orient>
 			<feed>6</feed>
 			<thruster file="direct">
-				<location unit="IN">
-					<x> 3.80 </x>
-					<y> -172.00 </y>
-					<z> -40.00 </z>
+				<location unit="M">
+					<x> -2.0698 </x>
+					<y> -4.2257 </y>
+					<z> -1.3522 </z>
 				</location>
 				<orient unit="DEG">
 					<pitch> 0.00 </pitch>
@@ -236,12 +236,11 @@
 			</thruster>
 		</engine>
 
-
 		<engine file="ALF502R5">
-			<location unit="IN">
-				<x> 3.80 </x>
-				<y> 172.00 </y>
-				<z> -40.00 </z>
+			<location unit="M">
+				<x> -4.0698 </x>
+				<y>  4.2257 </y>
+				<z> -1.3522 </z>
 			</location>
 			<orient unit="DEG">
 				<pitch> 0.00 </pitch>
@@ -250,10 +249,10 @@
 			</orient>
 			<feed>7</feed>
 			<thruster file="direct">
-				<location unit="IN">
-					<x> 3.80 </x>
-					<y> 172.00 </y>
-					<z> -40.00 </z>
+				<location unit="M">
+					<x> -2.0698 </x>
+					<y>  4.2257 </y>
+					<z> -1.3522 </z>
 				</location>
 				<orient unit="DEG">
 					<pitch> 0.00 </pitch>
@@ -264,10 +263,10 @@
 		</engine>
 
 		<engine file="ALF502R5">
-			<location unit="IN">
-				<x> 6.80 </x>
-				<y> 272.00 </y>
-				<z> -20.00 </z>
+			<location unit="M">
+				<x> -3.2744 </x>
+				<y>  6.7058 </y>
+				<z> -1.3522 </z>
 			</location>
 			<orient unit="DEG">
 				<pitch> 0.00 </pitch>
@@ -276,10 +275,10 @@
 			</orient>
 			<feed>8</feed>
 			<thruster file="direct">
-				<location unit="IN">
-					<x> 6.80 </x>
-					<y> 272.00 </y>
-					<z> -20.00 </z>
+				<location unit="M">
+					<x> -1.2744 </x>
+					<y>  6.7058 </y>
+					<z> -1.3522 </z>
 				</location>
 				<orient unit="DEG">
 					<pitch> 0.00 </pitch>
@@ -290,20 +289,20 @@
 		</engine>
 
 		<tank type="FUEL" number="0">	<!-- left wing -->
-			<location unit="IN">
-				<x> 5.80 </x>
-				<y> -165.00 </y>
-				<z> -1.90 </z>
+			<location unit="M">
+				<x>   0.8000 </x>
+				<y>  -5.0000 </y>
+				<z>  -0.3900 </z>
 			</location>
 			<capacity unit="LBS"> 8120.00 </capacity>
 			<contents unit="LBS"> 8120.00 </contents>
 		</tank>
 
 		<tank type="FUEL" number="1">	<!-- left wing aux -->
-			<location unit="IN">
-				<x> 6.80 </x>
-				<y> -320.00 </y>
-				<z> -1.90 </z>
+			<location unit="M">
+				<x>  0.65 </x>
+				<y> -9.00 </y>
+				<z> -0.39 </z>
 			</location>
 			<capacity unit="LBS"> 1032.00 </capacity>
 			<contents unit="LBS"> 1032.00 </contents>
@@ -311,69 +310,69 @@
 
 		<tank type="FUEL" number="2">	<!-- center -->
 			<location unit="IN">
-				<x> 6.80 </x>
+				<x>  -1.08 </x>
 				<y>   0.00 </y>
-				<z> -27.90 </z>
+				<z>   0.10 </z>
 			</location>
 			<capacity unit="LBS"> 4400.00 </capacity>
 			<contents unit="LBS"> 4400.00 </contents>
 		</tank>
 
-		<tank type="FUEL" number="3">	<!-- right aux -->
-			<location unit="IN">
-				<x> 6.80 </x>
-				<y> 320.00 </y>
-				<z> -1.90 </z>
+		<tank type="FUEL" number="3">	<!-- right wing aux -->
+			<location unit="M">
+				<x>  0.65 </x>
+				<y>  9.00 </y>
+				<z> -0.39 </z>
 			</location>
 			<capacity unit="LBS"> 1032.00 </capacity>
 			<contents unit="LBS"> 1032.00 </contents>
 		</tank>
 
 		<tank type="FUEL" number="4">	<!-- right wing -->
-			<location unit="IN">
-				<x> 5.80 </x>
-				<y> 165.00 </y>
-				<z> -1.90 </z>
+			<location unit="M">
+				<x>   0.8000 </x>
+				<y>   5.0000 </y>
+				<z>  -0.3900 </z>
 			</location>
 			<capacity unit="LBS"> 8120.00 </capacity>
 			<contents unit="LBS"> 8120.00 </contents>
 		</tank>
 
 		<tank type="FUEL" number="5">	<!-- feeder eng.1 -->
-			<location unit="IN">
-				<x> 6.80 </x>
-				<y> -252.00 </y>
-				<z> -2.00 </z>
+			<location unit="M">
+				<x> -2.2744 </x>
+				<y> -6.7058 </y>
+				<z> -0.3522 </z>
 			</location>
 			<capacity unit="LBS"> 1200.00 </capacity>
 			<contents unit="LBS"> 1200.00 </contents>
 		</tank>
 
 		<tank type="FUEL" number="6">	<!-- feeder eng.2 -->
-			<location unit="IN">
-				<x> 3.80 </x>
-				<y> -152.00 </y>
-				<z> -2.00 </z>
+			<location unit="M">
+				<x> -3.0698 </x>
+				<y> -4.2257 </y>
+				<z> -0.3522 </z>
 			</location>
 			<capacity unit="LBS"> 1200.00 </capacity>
 			<contents unit="LBS"> 1200.00 </contents>
 		</tank>
 
 		<tank type="FUEL" number="7">	<!-- feeder eng.3 -->
-			<location unit="IN">
-				<x> 3.80 </x>
-				<y> 152.00 </y>
-				<z> -2.00 </z>
+			<location unit="M">
+				<x> -3.0698 </x>
+				<y>  4.2257 </y>
+				<z> -0.3522 </z>
 			</location>
 			<capacity unit="LBS"> 1200.00 </capacity>
 			<contents unit="LBS"> 1200.00 </contents>
 		</tank>
 
 		<tank type="FUEL" number="8">	<!-- feeder eng.4 -->
-			<location unit="IN">
-				<x> 6.80 </x>
-				<y> 252.00 </y>
-				<z> -2.00 </z>
+			<location unit="M">
+				<x> -2.2744 </x>
+				<y>  6.7058 </y>
+				<z> -0.3522 </z>
 			</location>
 			<capacity unit="LBS"> 1200.00 </capacity>
 			<contents unit="LBS"> 1200.00 </contents>
@@ -645,12 +644,12 @@
 					<table>
 						<independentVar lookup="row">aero/alpha-rad</independentVar>
 						<tableData>
-							-0.20 -1.780
-							 0.00  0.500
-							 0.23  1.500
-							 0.60  0.900
+							-0.20 -0.580
+							 0.00  0.300
+							 0.23  1.300
+							 0.60  0.700
 						</tableData>
-						<!-- tableData>
+						<!-- tableData original>
 							-0.20 -0.580
 							 0.00  0.300
 							 0.23  1.300
@@ -666,7 +665,7 @@
 					<property>aero/qbar-psf</property>
 					<property>metrics/Sw-sqft</property>
 					<property>fcs/flap-pos-deg</property>
-					<value> 0.05000 </value>
+					<value> 0.03500 </value>
 				</product>
 			</function>
 
