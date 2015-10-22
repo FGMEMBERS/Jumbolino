@@ -47,39 +47,50 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 	</model -->
 
 	<!-- AI pilot side main -->
+    
+      <!-- Cockpit, with everything included in the flightdeck directed from this file -->
+      <model>
+	<path>Aircraft/Jumbolino/Models/Interior/panel/panel.ac</path>
+	<offsets>
+	  <x-m>0.0</x-m>
+	  <y-m>0.0</y-m>
+	  <z-m>0.0</z-m>
+	</offsets>
+      </model>
+
 	<model>
 		<path>Aircraft/Jumbolino/Models/Interior/Instruments/ai-707/ai1_1.xml</path>
 		<offsets>
-			<x-m>-19.18650</x-m>
-			<y-m>-1.18379</y-m>
-			<z-m>-3.75616</z-m>
+			<x-m>-10.39050</x-m>
+			<y-m>-0.56379</y-m>
+			<z-m>-1.78616</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>ai1_1</object-name>>
 		<type>scale</type>
-		<x-offset>2.5</x-offset>
-		<y-offset>2.5</y-offset>
-		<z-offset>2.5</z-offset>
+		<x-offset>1.25</x-offset>
+		<y-offset>1.25</y-offset>
+		<z-offset>1.25</z-offset>
 	</animation>
 
 	<!-- ALT pilot side main -->
 	<model>
 		<path>Aircraft/Jumbolino/Models/Interior/Instruments/Altimeter/alt1.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.94379</y-m>
-			<z-m>-3.79616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.40379</y-m>
+			<z-m>-1.79616</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>alt1</object-name>>
 		<type>scale</type>
-		<x-offset>2.5</x-offset>
-		<y-offset>2.5</y-offset>
-		<z-offset>2.5</z-offset>
+		<x-offset>1.25</x-offset>
+		<y-offset>1.25</y-offset>
+		<z-offset>1.25</z-offset>
 	</animation>
 
 	<!-- ASI pilot side -->
@@ -87,54 +98,54 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 	<model>
 		<path>Aircraft/Jumbolino/Models/Interior/Instruments/asi-707/asi1.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-1.41379</y-m>
-			<z-m>-3.80616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.71379</y-m>
+			<z-m>-1.80616</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>asi1</object-name>>
 		<type>scale</type>
-		<x-offset>2.5</x-offset>
-		<y-offset>2.5</y-offset>
-		<z-offset>2.5</z-offset>
+		<x-offset>1.25</x-offset>
+		<y-offset>1.25</y-offset>
+		<z-offset>1.25</z-offset>
 	</animation>
 
 	<!-- AI first officer side -->
 	<model>
 		<path>Aircraft/Jumbolino/Models/Interior/Instruments/ai-707/ai1_2.xml</path>
 		<offsets>
-			<x-m>-19.18650</x-m>
-			<y-m> 1.18379</y-m>
-			<z-m>-3.75616</z-m>
+			<x-m>-10.39050</x-m>
+			<y-m> 0.47379</y-m>
+			<z-m>-1.78616</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>ai1_2</object-name>>
 		<type>scale</type>
-		<x-offset>2.5</x-offset>
-		<y-offset>2.5</y-offset>
-		<z-offset>2.5</z-offset>
+		<x-offset>1.25</x-offset>
+		<y-offset>1.25</y-offset>
+		<z-offset>1.25</z-offset>
 	</animation>
 
 	<!-- ALT first officer side -->
 	<model>
 		<path>Aircraft/Jumbolino/Models/Interior/Instruments/Altimeter/alt1.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m> 1.41379</y-m>
-			<z-m>-3.79616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m> 0.64379</y-m>
+			<z-m>-1.79616</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
-		<object-name>alt2</object-name>>
+		<object-name>alt1</object-name>>
 		<type>scale</type>
-		<x-offset>2.5</x-offset>
-		<y-offset>2.5</y-offset>
-		<z-offset>2.5</z-offset>
+		<x-offset>1.25</x-offset>
+		<y-offset>1.25</y-offset>
+		<z-offset>1.25</z-offset>
 	</animation>
 
 	<!-- ASI first officer side -->
@@ -142,36 +153,36 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 	<model>
 		<path>Aircraft/Jumbolino/Models/Interior/Instruments/asi-707/asi2.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m> 0.95379</y-m>
-			<z-m>-3.80616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m> 0.32679</y-m>
+			<z-m>-1.79616</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>asi2</object-name>>
 		<type>scale</type>
-		<x-offset>2.5</x-offset>
-		<y-offset>2.5</y-offset>
-		<z-offset>2.5</z-offset>
+		<x-offset>1.25</x-offset>
+		<y-offset>1.25</y-offset>
+		<z-offset>1.25</z-offset>
 	</animation>
 
 	<!-- EPR1 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/epr_1.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.57379</y-m>
-			<z-m>-3.70616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.23579</y-m>
+			<z-m>-1.72016</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>epr1</object-name>>
 		<type>scale</type>
-		<x-offset>3</x-offset>
-		<y-offset>3</y-offset>
-		<z-offset>3</z-offset>
+		<x-offset>1.5</x-offset>
+		<y-offset>1.5</y-offset>
+		<z-offset>1.5</z-offset>
 	</animation>
 
 	<!--
@@ -182,342 +193,342 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/epr_2.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.45379</y-m>
-			<z-m>-3.70616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.17679</y-m>
+			<z-m>-1.72016</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>epr2</object-name>>
 		<type>scale</type>
-		<x-offset>3</x-offset>
-		<y-offset>3</y-offset>
-		<z-offset>3</z-offset>
+		<x-offset>1.5</x-offset>
+		<y-offset>1.5</y-offset>
+		<z-offset>1.5</z-offset>
 	</animation>
 
 	<!-- EPR3 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/epr_3.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.33379</y-m>
-			<z-m>-3.70616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.11579</y-m>
+			<z-m>-1.72016</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>epr3</object-name>>
 		<type>scale</type>
-		<x-offset>3</x-offset>
-		<y-offset>3</y-offset>
-		<z-offset>3</z-offset>
+		<x-offset>1.5</x-offset>
+		<y-offset>1.5</y-offset>
+		<z-offset>1.5</z-offset>
 	</animation>
 
 	<!-- EPR4 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/epr_4.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.21379</y-m>
-			<z-m>-3.70616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.05679</y-m>
+			<z-m>-1.72016</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>epr4</object-name>>
 		<type>scale</type>
-		<x-offset>3</x-offset>
-		<y-offset>3</y-offset>
-		<z-offset>3</z-offset>
+		<x-offset>1.5</x-offset>
+		<y-offset>1.5</y-offset>
+		<z-offset>1.5</z-offset>
 	</animation>
 
 	<!-- N1_1 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/n1_1.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.57379</y-m>
-			<z-m>-3.82616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.23579</y-m>
+			<z-m>-1.78516</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>n1_1</object-name>>
 		<type>scale</type>
-		<x-offset>2.8</x-offset>
-		<y-offset>2.8</y-offset>
-		<z-offset>2.8</z-offset>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
 	</animation>
 
 	<!-- N1_2 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/n1_2.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.45379</y-m>
-			<z-m>-3.82616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.17679</y-m>
+			<z-m>-1.78516</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>n1_2</object-name>>
 		<type>scale</type>
-		<x-offset>2.8</x-offset>
-		<y-offset>2.8</y-offset>
-		<z-offset>2.8</z-offset>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
 	</animation>
 
 	<!-- N1_3 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/n1_3.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.33379</y-m>
-			<z-m>-3.82616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.11579</y-m>
+			<z-m>-1.78516</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>n1_3</object-name>>
 		<type>scale</type>
-		<x-offset>2.8</x-offset>
-		<y-offset>2.8</y-offset>
-		<z-offset>2.8</z-offset>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
 	</animation>
 
 	<!-- N1_4 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/n1_4.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.21379</y-m>
-			<z-m>-3.82616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.05679</y-m>
+			<z-m>-1.78516</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>n1_4</object-name>>
 		<type>scale</type>
-		<x-offset>2.8</x-offset>
-		<y-offset>2.8</y-offset>
-		<z-offset>2.8</z-offset>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
 	</animation>
 
 	<!-- N2_1 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/n2_1.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.57379</y-m>
-			<z-m>-3.94616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.23579</y-m>
+			<z-m>-1.85016</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>n2_1</object-name>>
 		<type>scale</type>
-		<x-offset>2.8</x-offset>
-		<y-offset>2.8</y-offset>
-		<z-offset>2.8</z-offset>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
 	</animation>
 
 	<!-- N2_2 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/n2_2.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.45379</y-m>
-			<z-m>-3.94616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.17679</y-m>
+			<z-m>-1.85016</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>n2_2</object-name>>
 		<type>scale</type>
-		<x-offset>2.8</x-offset>
-		<y-offset>2.8</y-offset>
-		<z-offset>2.8</z-offset>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
 	</animation>
 
 	<!-- N2_3 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/n2_3.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.33379</y-m>
-			<z-m>-3.94616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.11579</y-m>
+			<z-m>-1.85016</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>n2_3</object-name>>
 		<type>scale</type>
-		<x-offset>2.8</x-offset>
-		<y-offset>2.8</y-offset>
-		<z-offset>2.8</z-offset>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
 	</animation>
 
 	<!-- N2_4 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/n2_4.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.21379</y-m>
-			<z-m>-3.94616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.05679</y-m>
+			<z-m>-1.85016</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>n2_4</object-name>>
 		<type>scale</type>
-		<x-offset>2.8</x-offset>
-		<y-offset>2.8</y-offset>
-		<z-offset>2.8</z-offset>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
 	</animation>
 
 	<!-- EXH1 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/exh_1.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.57379</y-m>
-			<z-m>-4.06616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.23579</y-m>
+			<z-m>-1.91516</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>exh1</object-name>>
 		<type>scale</type>
-		<x-offset>2.8</x-offset>
-		<y-offset>2.8</y-offset>
-		<z-offset>2.8</z-offset>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
 	</animation>
 
 	<!-- EXH2 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/exh_2.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.45379</y-m>
-			<z-m>-4.06616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.17679</y-m>
+			<z-m>-1.91516</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>exh2</object-name>>
 		<type>scale</type>
-		<x-offset>2.8</x-offset>
-		<y-offset>2.8</y-offset>
-		<z-offset>2.8</z-offset>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
 	</animation>
 
 	<!-- EXH3 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/exh_3.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.33379</y-m>
-			<z-m>-4.06616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.11579</y-m>
+			<z-m>-1.91516</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>exh3</object-name>>
 		<type>scale</type>
-		<x-offset>2.8</x-offset>
-		<y-offset>2.8</y-offset>
-		<z-offset>2.8</z-offset>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
 	</animation>
 
 	<!-- EXH4 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/exh_4.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.21379</y-m>
-			<z-m>-4.06616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.05679</y-m>
+			<z-m>-1.91516</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>exh4</object-name>>
 		<type>scale</type>
-		<x-offset>2.8</x-offset>
-		<y-offset>2.8</y-offset>
-		<z-offset>2.8</z-offset>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
 	</animation>
 
 	<!-- FFKGH1 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/ffkgh_1.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.57379</y-m>
-			<z-m>-4.18616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.23579</y-m>
+			<z-m>-1.98016</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>ffkgh_1</object-name>>
 		<type>scale</type>
-		<x-offset>2.8</x-offset>
-		<y-offset>2.8</y-offset>
-		<z-offset>2.8</z-offset>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
 	</animation>
 
 	<!-- FFKGH2 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/ffkgh_2.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.45379</y-m>
-			<z-m>-4.18616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.17679</y-m>
+			<z-m>-1.98016</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>ffkgh_2</object-name>>
 		<type>scale</type>
-		<x-offset>2.8</x-offset>
-		<y-offset>2.8</y-offset>
-		<z-offset>2.8</z-offset>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
 	</animation>
 
 	<!-- FFKG3 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/ffkgh_3.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.33379</y-m>
-			<z-m>-4.186616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.11579</y-m>
+			<z-m>-1.98016</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>ffkgh_3</object-name>>
 		<type>scale</type>
-		<x-offset>2.8</x-offset>
-		<y-offset>2.8</y-offset>
-		<z-offset>2.8</z-offset>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
 	</animation>
 
 	<!-- FFKGH4 -->
 	<model>
 		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/ffkgh_4.xml</path>
 		<offsets>
-			<x-m>-19.08650</x-m>
-			<y-m>-0.21379</y-m>
-			<z-m>-4.18616</z-m>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.05679</y-m>
+			<z-m>-1.98016</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>ffkgh_4</object-name>>
 		<type>scale</type>
-		<x-offset>2.8</x-offset>
-		<y-offset>2.8</y-offset>
-		<z-offset>2.8</z-offset>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
 	</animation>
 
 </PropertyList>

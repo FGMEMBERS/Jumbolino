@@ -71,6 +71,15 @@
 			<fuel>false</fuel>	<!-- false is default -->
 		</freeze>
 
+		<gui>
+			<dialogs>
+				<autopilot>
+					<kts-select type="bool">true</kts-select>
+					<mach-select tpye="bool">false</mach-select>
+				</autopilot>
+			</dialogs>
+		</gui>
+
 		<fuel-fraction>0.8</fuel-fraction>
 
 		<chase-distance-m type="double" archive="y">-50.0</chase-distance-m>
@@ -130,9 +139,9 @@
 				<from-model type="bool">true</from-model>
 				<from-model-idx type="int">0</from-model-idx>
 				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-				<x-offset-m type="double">-1.05</x-offset-m>	<!-- Right -->
-				<y-offset-m type="double">-2.50</y-offset-m>	<!-- Up -->
-				<z-offset-m type="double">-16.75</z-offset-m>	<!-- Back -->
+				<x-offset-m type="double">-0.55</x-offset-m>	<!-- Right -->
+				<y-offset-m type="double">-5.75</y-offset-m>	<!-- Up -->
+				<z-offset-m type="double">-9.175</z-offset-m>	<!-- Back -->
 				<pitch-offset-deg>0.00</pitch-offset-deg>
 				<heading-offset-deg> 0 </heading-offset-deg>
 				<default-field-of-view-deg type="double">60.0</default-field-of-view-deg>
@@ -147,9 +156,9 @@
 				<from-model type="bool">true</from-model>
 				<from-model-idx type="int">0</from-model-idx>
 				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-				<x-offset-m type="double">1.05</x-offset-m>	<!-- Right -->
-				<y-offset-m type="double">-2.50</y-offset-m>	<!-- Up -->
-				<z-offset-m type="double">-16.75</z-offset-m>	<!-- Back -->
+				<x-offset-m type="double"> 0.55</x-offset-m>	<!-- Right -->
+				<y-offset-m type="double">-5.75</y-offset-m>	<!-- Up -->
+				<z-offset-m type="double">-9.175</z-offset-m>	<!-- Back -->
 				<pitch-offset-deg>0.00</pitch-offset-deg>
 				<heading-offset-deg> 0 </heading-offset-deg>
 				<default-field-of-view-deg type="double">60.0</default-field-of-view-deg>
@@ -165,8 +174,8 @@
 				<from-model-idx type="int">0</from-model-idx>
 				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
 				<x-offset-m type="double">-10.00</x-offset-m>	<!-- Right -->
-				<y-offset-m type="double"> 2.50</y-offset-m>	<!-- Up -->
-				<z-offset-m type="double"> 5.20</z-offset-m>	<!-- Back -->
+				<y-offset-m type="double">-3.90</y-offset-m>	<!-- Up -->
+				<z-offset-m type="double"> 4.20</z-offset-m>	<!-- Back -->
 				<pitch-offset-deg>0.00</pitch-offset-deg>
 				<heading-offset-deg> 0 </heading-offset-deg>
 				<default-field-of-view-deg type="double">60.0</default-field-of-view-deg>
@@ -181,9 +190,9 @@
 				<from-model type="bool">true</from-model>
 				<from-model-idx type="int">0</from-model-idx>
 				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-				<x-offset-m type="double"> 10.00</x-offset-m>	<!-- Right -->
-				<y-offset-m type="double"> 2.50</y-offset-m>	<!-- Up -->
-				<z-offset-m type="double"> 5.20</z-offset-m>	<!-- Back -->
+				<x-offset-m type="double">10.00</x-offset-m>	<!-- Right -->
+				<y-offset-m type="double">-3.90</y-offset-m>	<!-- Up -->
+				<z-offset-m type="double"> 4.20</z-offset-m>	<!-- Back -->
 				<pitch-offset-deg>0.00</pitch-offset-deg>
 				<heading-offset-deg> 0 </heading-offset-deg>
 				<default-field-of-view-deg type="double">60.0</default-field-of-view-deg>
@@ -231,8 +240,8 @@
 				<from-model-idx type="int">0</from-model-idx>
 				<ground-level-nearplane-m type="double">6f</ground-level-nearplane-m>
 				<x-offset-m type="double"> 0.00</x-offset-m>	<!-- Right -->
-				<y-offset-m type="double">-2.50</y-offset-m>	<!-- Up -->
-				<z-offset-m type="double"> 16.75</z-offset-m>	<!-- Back -->
+				<y-offset-m type="double">-5.10</y-offset-m>	<!-- Up -->
+				<z-offset-m type="double"> 4.75</z-offset-m>	<!-- Back -->
 				<pitch-offset-deg>-10</pitch-offset-deg>
 				<default-field-of-view-deg type="double">65.0</default-field-of-view-deg>
 			</config>
@@ -331,6 +340,20 @@
 
 		<menubar>
 			<default>
+				<menu n="3">
+					<item>
+						<name>autopilot</name>
+						<label>Autopilot Settings</label>
+						<binding>
+							<command>nasal</command>
+							<script>
+								var autopilot = gui.Dialog.new("sim/gui/dialogs/autopilot/dialog", 
+											"Aircraft/JPack/Voodoomaster/Dialogs/autopilot8.xml");
+								autopilot.open();
+							</script>
+						</binding>
+					</item>
+				</menu>
 				<menu n="100">
 					<label>Jumbolino</label>
 					<enabled type="bool">true</enabled>
@@ -672,6 +695,12 @@
 		<pushback>
 			<activated type="bool">false</activated>
 		</pushback>
+		<turret n="1">
+			<device type="string">TurretForward</device>
+			<turret-x type="float">1.0</turret-x>
+			<turret-y type="float">1.0</turret-y>
+			<turret-z type="float">1.0</turret-z>
+		</turret>
 	</voodoomaster>
 
 	<!-- instrumentation>
