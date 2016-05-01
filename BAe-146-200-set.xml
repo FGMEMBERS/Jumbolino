@@ -86,6 +86,7 @@
 
 		<sound>
 			<path>Aircraft/Jumbolino/Sounds/Sounds.xml</path>
+			<path>Aircraft/Jumbolino/Sounds/internal-Sounds.xml</path>
 		</sound>
 
 		<autostart>
