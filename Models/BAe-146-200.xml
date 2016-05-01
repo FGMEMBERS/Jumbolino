@@ -369,6 +369,48 @@
 		</condition>
 	</animation>
 
+<!-- Contrails -->
+	
+	<model>
+		<path>Aircraft/Jumbolino/Models/Effects/contrail.xm</path>
+		<name>contrails.left</name>     
+		<offsets>
+			<x-m> 20.3057</x-m>
+			<y-m>-15.8057</y-m>
+			<z-m> -1.36293</z-m>
+		</offsets>
+	</model>
+
+	<model>
+		<path>Aircraft/Jumbolino/Models/Effects/contrail.xm</path>	
+		<name>contrails.right</name>     
+		<offsets>
+			<x-m> 10.6645</x-m>
+			<y-m> -6.1412</y-m>
+			<z-m> -2.54287</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Jumbolino/Models/Effects/contrail.xm</path>
+		<name>contrails.left</name>     
+		<offsets>
+			<x-m> 20.3057</x-m>
+			<y-m> 15.8057</y-m>
+			<z-m> -1.36293</z-m>
+		</offsets>
+	</model>
+
+	<model>
+		<path>Aircraft/Jumbolino/Models/Effects/contrail.xm</path>	
+		<name>contrails.right</name>     
+		<offsets>
+			<x-m> 10.6645</x-m>
+			<y-m>  6.1412</y-m>
+			<z-m> -2.54287</z-m>
+		</offsets>
+	</model>
+
+
 	<!-- Lights -->
 
 	<!-- model>
