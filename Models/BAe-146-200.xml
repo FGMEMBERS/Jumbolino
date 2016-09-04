@@ -372,7 +372,7 @@
 <!-- Contrails -->
 	
 	<model>
-		<path>Aircraft/Jumbolino/Models/Effects/contrail.xm</path>
+		<path>Aircraft/Jumbolino/Models/Effects/contrail.xml</path>
 		<name>contrails.left</name>     
 		<offsets>
 			<x-m> 20.3057</x-m>
@@ -382,7 +382,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/Jumbolino/Models/Effects/contrail.xm</path>	
+		<path>Aircraft/Jumbolino/Models/Effects/contrail.xml</path>	
 		<name>contrails.right</name>     
 		<offsets>
 			<x-m> 10.6645</x-m>
@@ -391,7 +391,7 @@
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/Jumbolino/Models/Effects/contrail.xm</path>
+		<path>Aircraft/Jumbolino/Models/Effects/contrail.xml</path>
 		<name>contrails.left</name>     
 		<offsets>
 			<x-m> 20.3057</x-m>
@@ -401,7 +401,7 @@
 	</model>
 
 	<model>
-		<path>Aircraft/Jumbolino/Models/Effects/contrail.xm</path>	
+		<path>Aircraft/Jumbolino/Models/Effects/contrail.xml</path>	
 		<name>contrails.right</name>     
 		<offsets>
 			<x-m> 10.6645</x-m>
