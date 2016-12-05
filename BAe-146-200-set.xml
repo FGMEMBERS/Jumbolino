@@ -36,7 +36,8 @@
 
 		<!-- Splash screen while loading -->
 		<startup>
-			<splash-texture>Aircraft/Jumbolino/splash.png</splash-texture>
+			<splash-texture>Aircraft/Jumbolino/Splash/splash.png</splash-texture>
+		        <splash-texture>Aircraft/Jumbolino/Splash/forcachape.png</splash-texture>
 		</startup>
 
 		<!-- Settings for model -->
