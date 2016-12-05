@@ -19,9 +19,9 @@
         <property>/controls/electric/APU-generator</property>
 	</condition>  
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
 		</position>      
    	  <volume>
         <property>engines/engine/n1</property>
@@ -53,10 +53,18 @@
         <property>/controls/engines/engine/starter</property>	
 	</condition>  
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>0.33175</x>
+			<y>-6.65874</y>
+			<z>-0.00211</z>
 		</position>      
+            <orientation>
+                <x>-1</x>
+                <y>0</y>
+                <z>0</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>220</outer-angle>
+                <outer-gain>0.3</outer-gain>
+         </orientation>
    	  <volume>
         <property>engines/engine/n1</property>
         <factor> 0.09 </factor>
@@ -84,10 +92,18 @@
        <property>/controls/engines/engine[1]/starter</property>
 	</condition>      
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>-0.32961</x>
+			<y>-4.20425</y>
+			<z>0.06401</z>
 		</position>      
+            <orientation>
+                <x>-1</x>
+                <y>0</y>
+                <z>0</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>220</outer-angle>
+                <outer-gain>0.3</outer-gain>
+         </orientation>
    	  <volume>
         <property>engines/engine[1]/n1</property>
         <factor> 0.09 </factor>
@@ -115,10 +131,18 @@
         <property>/controls/engines/engine[2]/starter</property>	
 	</condition>      
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>-0.33182</x>
+			<y>4.18267</y>
+			<z>-0.06911</z>
 		</position>      
+            <orientation>
+                <x>-1</x>
+                <y>0</y>
+                <z>0</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>220</outer-angle>
+                <outer-gain>0.3</outer-gain>
+           </orientation>
    	  <volume>
         <property>engines/engine[2]/n1</property>
         <factor> 0.09 </factor>
@@ -146,10 +170,18 @@
         <property>/controls/engines/engine[3]/starter</property>
 	</condition>      
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>0.33065</x>
+			<y>6.66262</y>
+			<z>-0.00211</z>
 		</position>      
+            <orientation>
+                <x>-1</x>
+                <y>0</y>
+                <z>0</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>220</outer-angle>
+                <outer-gain>0.3</outer-gain>
+           </orientation>
    	  <volume>
         <property>engines/engine[3]/n1</property>
         <factor> 0.09 </factor>
@@ -180,9 +212,9 @@
         <property>/engines/engine/n2</property>
 	</condition>      
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>0.33175</x>
+			<y>-6.65874</y>
+			<z>-0.00211</z>
 		</position>
       <volume>
         <property>engines/engine/n1</property>
@@ -190,6 +222,14 @@
         <min> 0.01 </min>
         <max> 0.3 </max>
       </volume>
+            <orientation>
+                <x>-1</x>
+                <y>0</y>
+                <z>0</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>220</outer-angle>
+                <outer-gain>0.3</outer-gain>
+         </orientation>
       <pitch>
         <property>engines/engine/n1</property>
         <factor> 0.01 </factor>
@@ -212,9 +252,9 @@
         <property>/engines/engine[1]/n1</property>
 	</condition>      
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>-0.32961</x>
+			<y>-4.20425</y>
+			<z>0.06401</z>
 		</position>
       <volume>
         <property>engines/engine[1]/n1</property>
@@ -222,6 +262,14 @@
         <min> 0.01 </min>
         <max> 0.3 </max>
       </volume>
+            <orientation>
+                <x>-1</x>
+                <y>0</y>
+                <z>0</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>220</outer-angle>
+                <outer-gain>0.3</outer-gain>
+         </orientation>
       <pitch>
         <property>engines/engine[1]/n1</property>
         <factor> 0.01 </factor>
@@ -245,9 +293,9 @@
         <property>/engines/engine[2]/n1</property>
 	</condition>
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>-0.33182</x>
+			<y>4.18267</y>
+			<z>-0.06911</z>
 		</position>
       <volume>
         <property>engines/engine[2]/n1</property>
@@ -255,6 +303,14 @@
         <min> 0.01 </min>
         <max> 0.3 </max>
       </volume>
+            <orientation>
+                <x>-1</x>
+                <y>0</y>
+                <z>0</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>220</outer-angle>
+                <outer-gain>0.3</outer-gain>
+           </orientation>
       <pitch>
         <property>engines/engine[2]/n1</property>
         <factor> 0.01 </factor>
@@ -278,9 +334,9 @@
         <property>/engines/engine[3]/n1</property>
 	</condition>      
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>0.33065</x>
+			<y>6.66262</y>
+			<z>-0.00211</z>
 		</position>
       <volume>
         <property>engines/engine[3]/n1</property>
@@ -288,6 +344,14 @@
         <min> 0.01 </min>
         <max> 0.3 </max>
       </volume>
+            <orientation>
+                <x>-1</x>
+                <y>0</y>
+                <z>0</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>220</outer-angle>
+                <outer-gain>0.3</outer-gain>
+           </orientation>
       <pitch>
         <property>engines/engine[3]/n1</property>
         <factor> 0.01 </factor>
@@ -311,14 +375,22 @@
 	<property>/engines/engine/n1</property>
 	</condition>
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>0.33175</x>
+			<y>-6.65874</y>
+			<z>-0.00211</z>
 		</position>
    <volume>
     <property>/engines/engine/thrust_lb</property>
     <factor>0.000034551</factor>
    </volume>
+          <orientation>
+                <x>1</x>
+                <y>0</y>
+                <z>1</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>210</outer-angle>
+                <outer-gain>0.5</outer-gain>
+         </orientation>
       <pitch>
         <property>engines/engine/n1</property>
         <factor> 0.06 </factor>
@@ -338,12 +410,20 @@
 	<property>/engines/engine[1]/n1</property>
 	</condition>
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>-0.32961</x>
+			<y>-4.20425</y>
+			<z>0.06401</z>
 		</position>
    <volume>
-    <property>/engines/engine[1]/thrust_lb</property>
+          <orientation>
+                <x>1</x>
+                <y>0</y>
+                <z>1</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>210</outer-angle>
+                <outer-gain>0.5</outer-gain>
+         </orientation>
+   <property>/engines/engine[1]/thrust_lb</property>
     <factor>0.000034551</factor>
    </volume>
       <pitch>
@@ -365,11 +445,19 @@
 	<property>/engines/engine[2]/n1</property>
 	</condition>
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>-0.33182</x>
+			<y>4.18267</y>
+			<z>-0.06911</z>
 		</position>
    <volume>
+          <orientation>
+                <x>1</x>
+                <y>0</y>
+                <z>1</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>210</outer-angle>
+                <outer-gain>0.5</outer-gain>
+         </orientation>
     <property>/engines/engine[2]/thrust_lb</property>
     <factor>0.000034551</factor>
    </volume>
@@ -392,11 +480,19 @@
 	<property>/engines/engine[3]/n1</property>
 	</condition>
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>0.33065</x>
+			<y>6.66262</y>
+			<z>-0.00211</z>
 		</position>
    <volume>
+          <orientation>
+                <x>1</x>
+                <y>0</y>
+                <z>1</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>210</outer-angle>
+                <outer-gain>0.5</outer-gain>
+         </orientation>
     <property>/engines/engine[3]/thrust_lb</property>
     <factor>0.000034551</factor>
    </volume>
@@ -423,9 +519,9 @@
 		<property>/controls/APU/off-start-run</property>	
 	</condition>  
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
 		</position>      
    	  <volume>
         <property>/controls/APU/off-start-run</property>
@@ -456,9 +552,9 @@
 		<property>/controls/engines/engine/starter</property>	
 	</condition>  
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>0.33175</x>
+			<y>-6.65874</y>
+			<z>-0.00211</z>
 		</position>      
    	  <volume>
         <property>engines/engine/n1</property>
@@ -466,6 +562,14 @@
         <min> 0.01 </min>
         <max> 0.4 </max>
       </volume>
+            <orientation>
+                <x>-1</x>
+                <y>0</y>
+                <z>0</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>220</outer-angle>
+                <outer-gain>0.3</outer-gain>
+         </orientation>
       <pitch>
         <property>engines/engine/n1</property>
         <factor> 0.01 </factor>
@@ -485,9 +589,9 @@
 		<property>/controls/engines/engine[1]/starter</property>
 	</condition>      
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>-0.32961</x>
+			<y>-4.20425</y>
+			<z>0.06401</z>
 		</position>      
    	  <volume>
         <property>engines/engine[1]/n1</property>
@@ -495,6 +599,14 @@
         <min> 0.01 </min>
         <max> 0.4 </max>
       </volume>
+            <orientation>
+                <x>-1</x>
+                <y>0</y>
+                <z>0</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>220</outer-angle>
+                <outer-gain>0.3</outer-gain>
+         </orientation>
       <pitch>
         <property>engines/engine[1]/n1</property>
         <factor> 0.01 </factor>
@@ -514,9 +626,9 @@
 		<property>/controls/engines/engine[2]/starter</property>	
 	</condition>      
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>-0.33182</x>
+			<y>4.18267</y>
+			<z>-0.06911</z>
 		</position>      
    	  <volume>
         <property>engines/engine[2]/n1</property>
@@ -524,6 +636,14 @@
         <min> 0.01 </min>
         <max> 0.4 </max>
       </volume>
+            <orientation>
+                <x>-1</x>
+                <y>0</y>
+                <z>0</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>220</outer-angle>
+                <outer-gain>0.3</outer-gain>
+           </orientation>
       <pitch>
         <property>engines/engine[2]/n1</property>
         <factor> 0.01 </factor>
@@ -543,9 +663,9 @@
 		<property>/controls/engines/engine[3]/starter</property>
 	</condition>      
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>0.33065</x>
+			<y>6.66262</y>
+			<z>-0.00211</z>
 		</position>      
    	  <volume>
         <property>engines/engine[3]/n1</property>
@@ -553,6 +673,14 @@
         <min> 0.01 </min>
         <max> 0.4 </max>
       </volume>
+            <orientation>
+                <x>-1</x>
+                <y>0</y>
+                <z>0</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>220</outer-angle>
+                <outer-gain>0.3</outer-gain>
+           </orientation>
       <pitch>
         <property>engines/engine[3]/n1</property>
         <factor> 0.01 </factor>
@@ -577,9 +705,9 @@
 	<property>/engines/engine/n1</property>	
 	</condition>	
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>0.33175</x>
+			<y>-6.65874</y>
+			<z>-0.00211</z>
 		</position>      
    	  <volume>
         <property>engines/engine/n1</property>
@@ -587,6 +715,14 @@
         <min> 0.01 </min>
         <max> 0.06 </max>
       </volume>
+            <orientation>
+                <x>-1</x>
+                <y>0</y>
+                <z>0</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>220</outer-angle>
+                <outer-gain>0.3</outer-gain>
+           </orientation>
       <pitch>
         <property>engines/engine/n1</property>
         <factor> 0.01 </factor>
@@ -608,9 +744,9 @@
 	<property>/engines/engine[1]/n1</property>		
 	</condition>	
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>-0.32961</x>
+			<y>-4.20425</y>
+			<z>0.06401</z>
 		</position>      
    	  <volume>
         <property>engines/engine[1]/n1</property>
@@ -618,6 +754,14 @@
         <min> 0.01 </min>
         <max> 0.06 </max>
       </volume>
+            <orientation>
+                <x>-1</x>
+                <y>0</y>
+                <z>0</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>220</outer-angle>
+                <outer-gain>0.3</outer-gain>
+           </orientation>
       <pitch>
         <property>engines/engine[1]/n1</property>
         <factor> 0.01 </factor>
@@ -639,9 +783,9 @@
 	<property>/engines/engine[2]/n1</property>		
 	</condition>	
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>-0.33182</x>
+			<y>4.18267</y>
+			<z>-0.06911</z>
 		</position>      
    	  <volume>
         <property>engines/engine[2]/n1</property>
@@ -649,6 +793,14 @@
         <min> 0.01 </min>
         <max> 0.06 </max>
       </volume>
+            <orientation>
+                <x>-1</x>
+                <y>0</y>
+                <z>0</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>220</outer-angle>
+                <outer-gain>0.3</outer-gain>
+           </orientation>
       <pitch>
         <property>engines/engine[2]/n1</property>
         <factor> 0.01 </factor>
@@ -670,9 +822,9 @@
 	<property>/engines/engine[3]/n1</property>	
 	</condition>	
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>0.33065</x>
+			<y>6.66262</y>
+			<z>-0.00211</z>
 		</position>      
    	  <volume>
         <property>engines/engine[3]/n1</property>
@@ -680,6 +832,14 @@
         <min> 0.01 </min>
         <max> 0.06 </max>
       </volume>
+            <orientation>
+                <x>-1</x>
+                <y>0</y>
+                <z>0</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>220</outer-angle>
+                <outer-gain>0.3</outer-gain>
+           </orientation>
       <pitch>
         <property>engines/engine[3]/n1</property>
         <factor> 0.01 </factor>
@@ -703,11 +863,19 @@
 		<property>/engines/engine/n1</property>
 	</condition>
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>0.33175</x>
+			<y>-6.65874</y>
+			<z>-0.00211</z>
 		</position>
    <volume>
+          <orientation>
+                <x>1</x>
+                <y>0</y>
+                <z>1</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>210</outer-angle>
+                <outer-gain>0.5</outer-gain>
+         </orientation>
     <property>/engines/engine/thrust_lb</property>
     <factor>0.0001233</factor>
    </volume>
@@ -724,11 +892,19 @@
 		<property>/engines/engine[1]/n1</property>
 	</condition>
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>-0.32961</x>
+			<y>-4.20425</y>
+			<z>0.06401</z>
 		</position>
    <volume>
+          <orientation>
+                <x>1</x>
+                <y>0</y>
+                <z>1</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>210</outer-angle>
+                <outer-gain>0.5</outer-gain>
+         </orientation>
     <property>/engines/engine[1]/thrust_lb</property>
     <factor>0.0001233</factor>
    </volume>
@@ -745,9 +921,9 @@
 		<property>/engines/engine[2]/n1</property>
 	</condition>
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>-0.33182</x>
+			<y>4.18267</y>
+			<z>-0.06911</z>
 		</position>
    <volume>
     <property>/engines/engine[2]/thrust_lb</property>
@@ -766,11 +942,19 @@
 		<property>/engines/engine[3]/n1</property>
 	</condition>
 		<position>
-			<x>-30.0</x>
-			<y>40.0</y>
-			<z>0.0</z>
+			<x>0.33065</x>
+			<y>6.66262</y>
+			<z>-0.00211</z>
 		</position>
    <volume>
+          <orientation>
+                <x>1</x>
+                <y>0</y>
+                <z>1</z>
+                <inner-angle>75</inner-angle>
+                <outer-angle>210</outer-angle>
+                <outer-gain>0.5</outer-gain>
+         </orientation>
     <property>/engines/engine[3]/thrust_lb</property>
     <factor>0.0001233</factor>
    </volume>
