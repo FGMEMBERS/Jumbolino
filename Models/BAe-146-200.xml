@@ -114,7 +114,8 @@
       <!-- Pushback -->
       <model>
 	<name>Pushback</name>
-	<path>Aircraft/Jumbolino/Models/Pushback/Goldhofert.xml</path>
+	<!-- path>Aircraft/Jumbolino/Models/Pushback/Goldhofert.xml</path -->
+	<path>Models/Airport/Pushback/Goldhofert.xml</path>
 	<condition>
 	  <less-than-equals>
 	    <property>velocities/airspeed-kt</property>
@@ -122,11 +123,20 @@
 	  </less-than-equals>
 	</condition>
 	<offsets>
-	  <x-m>-23.0</x-m>
+	  <!-- x-m>-23.0</x-m>
 	  <y-m>-0.03</y-m>
-	  <z-m>-6.00</z-m>
+	  <z-m>-6.00</z-m -->
+	  <x-m>-12.0</x-m>
+	  <y-m>0</y-m>
+      <z-m>-4.6</z-m>
 	</offsets>
       </model>
+	  
+	  <name>Pushback</name>
+  
+  <offsets>
+   
+  </offsets>
 
 	<!-- Une ombre pour OSG -->
 	<!-- model>
@@ -1266,7 +1276,7 @@
    
 <!-- forward top turret -->
 <!-- model>
-	<path>Aircraft/JPack/Voodoomaster/Models/Turrets/Turret/turretForward.xml</path>
+	<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Turrets/Turret/turretForward.xml</path>
 	<offsets>
 			<x-m>10.3519</x-m>
 			<y-m>0.0</y-m>

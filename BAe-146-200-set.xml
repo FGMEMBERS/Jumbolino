@@ -13,7 +13,7 @@
 		************************************************************************
 	-->
 
-	<PropertyList include="Aircraft/JPack/Interface.xml">
+	<PropertyList include="Aircraft/Jumbolino/JPack/Interface.xml">
 
 	<sim>
 
@@ -64,7 +64,7 @@
 		<!-- Subsection for submodels -->
 		<!-- submodels>
 			<serviceable type="bool">1</serviceable>
-			<path>Aircraft/JPack/Voodoomaster/Services/Military/MilitarySub.xml</path>
+			<path>Aircraft/Jumbolino/JPack/Voodoomaster/Services/Military/MilitarySub.xml</path>
 		</submodels -->  
 
 		<!-- basic startup settings for sim -->
@@ -110,7 +110,7 @@
 		<!-- Integrated Systems -->
 		<systems>
 			<autopilot>
-				<path>Aircraft/JPack/Voodoomaster/Systems/SYS8_0_autopilot.xml</path>
+				<path>Aircraft/Jumbolino/JPack/Voodoomaster/Systems/SYS8_0_autopilot.xml</path>
 			</autopilot>
 		</systems>
 
@@ -131,7 +131,7 @@
 			</redout>
 		</rendering>
 
-		<!-- All the views (crew stations + 1 more to allow moving around + extras liek Tail Camera) -->
+		<!-- All the views (crew stations + 1 more to allow moving around + extras like Tail Camera) -->
 
 		<view n="0">
 			<name>Pilot</name>
@@ -150,7 +150,7 @@
 			</config>
 		</view>
 
-		<view n="1">
+		<view n="105">
 			<name>First Officer</name>
 			<type>lookfrom</type>
 			<internal type="bool">true</internal>
@@ -350,7 +350,7 @@
 							<command>nasal</command>
 							<script>
 								var autopilot = gui.Dialog.new("sim/gui/dialogs/autopilot/dialog", 
-											"Aircraft/JPack/Voodoomaster/Dialogs/autopilot8.xml");
+											"Aircraft/Jumbolino/JPack/Voodoomaster/Dialogs/autopilot8.xml");
 								autopilot.open();
 							</script>
 						</binding>
@@ -727,8 +727,8 @@
 			<!-- file>Aircraft/Jumbolino/Nasal/lighting.nas</file -->
 			<!-- file>Aircraft/Jumbolino/Nasal/Sys-Info.nas</file -->
 			<!-- file>Aircraft/Jumbolino/Nasal/Anti-Ice.nas</file -->
-			<!-- file>Aircraft/JPack/Voodoomaster/Nasal/Instruments/MFD/mfd-navigation.nas</file -->
-			<!-- file>Aircraft/JPack/Voodoomaster/Nasal/Instruments/MFD/nd-fullscreen.nas</file -->
+			<!-- file>Aircraft/Jumbolino/JPack/Voodoomaster/Nasal/Instruments/MFD/mfd-navigation.nas</file -->
+			<!-- file>Aircraft/Jumbolino/JPack/Voodoomaster/Nasal/Instruments/MFD/nd-fullscreen.nas</file -->
 		</Jumbolino>
 		<!-- walk>
 			<file>Aircraft/Jumbolino/Nasal/walk.nas</file>

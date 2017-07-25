@@ -1,0 +1,12 @@
+<PropertyList>
+
+	<SkyNet-Version type="string">00.01.02</SkyNet-Version>
+
+	<username type="string">"*"</username>
+	<callsign type="string">"*"</callsign>
+	<password type="string">"****"</password>
+	<login-pending type="bool">false</login-pending>
+	<session type="string">null</session>
+
+</PropertyList>
+

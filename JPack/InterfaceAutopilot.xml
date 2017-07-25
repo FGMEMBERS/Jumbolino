@@ -1,0 +1,17 @@
+<PropertyList>
+
+	<settings>
+		<kts-mach-select type="string">kts</kts-mach-select>
+		<max-pitch type="double">4.0</max-pitch>
+		<min-pitch type="double">-4.0</min-pitch>
+		<bank-angle-limit-deg type="int">35</bank-angle-limit-deg>
+	</settings>
+
+	<internal>
+		<target-pitch-deg type="double">0.00</target-pitch-deg>
+		<max-pitch type="double">4.0</max-pitch>
+		<min-pitch type="double">-4.0</min-pitch>
+	</internal>
+
+</PropertyList>
+

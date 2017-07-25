@@ -169,7 +169,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- EPR1 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/epr_1.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/epr_1.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.23579</y-m>
@@ -191,7 +191,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- EPR2 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/epr_2.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/epr_2.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.17679</y-m>
@@ -209,7 +209,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- EPR3 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/epr_3.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/epr_3.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.11579</y-m>
@@ -227,7 +227,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- EPR4 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/epr_4.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/epr_4.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.05679</y-m>
@@ -245,7 +245,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- N1_1 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/n1_1.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/n1_1.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.23579</y-m>
@@ -263,7 +263,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- N1_2 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/n1_2.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/n1_2.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.17679</y-m>
@@ -281,7 +281,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- N1_3 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/n1_3.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/n1_3.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.11579</y-m>
@@ -299,7 +299,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- N1_4 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/n1_4.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/n1_4.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.05679</y-m>
@@ -317,7 +317,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- N2_1 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/n2_1.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/n2_1.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.23579</y-m>
@@ -335,7 +335,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- N2_2 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/n2_2.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/n2_2.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.17679</y-m>
@@ -353,7 +353,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- N2_3 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/n2_3.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/n2_3.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.11579</y-m>
@@ -371,7 +371,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- N2_4 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/n2_4.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/n2_4.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.05679</y-m>
@@ -389,7 +389,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- EXH1 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/exh_1.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/exh_1.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.23579</y-m>
@@ -407,7 +407,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- EXH2 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/exh_2.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/exh_2.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.17679</y-m>
@@ -425,7 +425,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- EXH3 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/exh_3.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/exh_3.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.11579</y-m>
@@ -443,7 +443,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- EXH4 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/exh_4.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/exh_4.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.05679</y-m>
@@ -461,7 +461,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- FFKGH1 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/ffkgh_1.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/ffkgh_1.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.23579</y-m>
@@ -479,7 +479,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- FFKGH2 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/ffkgh_2.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/ffkgh_2.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.17679</y-m>
@@ -497,7 +497,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- FFKG3 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/ffkgh_3.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/ffkgh_3.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.11579</y-m>
@@ -515,7 +515,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- FFKGH4 -->
 	<model>
-		<path>Aircraft/JPack/Voodoomaster/Models/Instruments/Engines/ffkgh_4.xml</path>
+		<path>Aircraft/Jumbolino/JPack/Voodoomaster/Models/Instruments/Engines/ffkgh_4.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.05679</y-m>
