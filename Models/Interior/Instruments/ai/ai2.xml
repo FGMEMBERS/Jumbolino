@@ -76,7 +76,7 @@
     <animation>
         <type>translate</type>
         <object-name>glide-slope-index</object-name>
-        <property>instrumentation/nav/gs-needle-deflection</property>
+        <property>instrumentation/nav/gs-needle-deflection-norm</property>
         <interpolation>
             <entry><ind>-2.0</ind><dep>-0.022</dep></entry>
             <entry><ind> 0.0</ind><dep> 0</dep></entry>

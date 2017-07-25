@@ -39,7 +39,7 @@
 			<splash-texture>Aircraft/Jumbolino/Splash/splash.png</splash-texture>
 		        <splash-texture>Aircraft/Jumbolino/Splash/forcachape.png</splash-texture>
 		</startup>
-
+		
 		<!-- Settings for model -->
 		<model>
 			<!-- Path to main model file -->
@@ -143,7 +143,7 @@
 				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
 				<x-offset-m type="double">-0.55</x-offset-m>	<!-- Right -->
 				<y-offset-m type="double">-5.75</y-offset-m>	<!-- Up -->
-				<z-offset-m type="double">-9.175</z-offset-m>	<!-- Back -->
+				<z-offset-m type="double">-9.375</z-offset-m>	<!-- Back -->
 				<pitch-offset-deg>0.00</pitch-offset-deg>
 				<heading-offset-deg> 0 </heading-offset-deg>
 				<default-field-of-view-deg type="double">60.0</default-field-of-view-deg>
@@ -160,7 +160,7 @@
 				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
 				<x-offset-m type="double"> 0.55</x-offset-m>	<!-- Right -->
 				<y-offset-m type="double">-5.75</y-offset-m>	<!-- Up -->
-				<z-offset-m type="double">-9.175</z-offset-m>	<!-- Back -->
+				<z-offset-m type="double">-9.375</z-offset-m>	<!-- Back -->
 				<pitch-offset-deg>0.00</pitch-offset-deg>
 				<heading-offset-deg> 0 </heading-offset-deg>
 				<default-field-of-view-deg type="double">60.0</default-field-of-view-deg>
