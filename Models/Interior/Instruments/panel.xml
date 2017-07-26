@@ -139,7 +139,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 	</model>
 	
 	<animation>
-		<object-name>alt1</object-name>>
+		<object-name>alt2</object-name>>
 		<type>scale</type>
 		<x-offset>1.25</x-offset>
 		<y-offset>1.25</y-offset>
@@ -620,7 +620,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 	
 	<!-- VSI: F/O -->
 	<model>
-		<path>Aircraft/Jumbolino/Models/Interior/Instruments/VSI/vsi.xml</path>
+		<path>Aircraft/Jumbolino/Models/Interior/Instruments/VSI/vsi2.xml</path>
 		<offsets>
 			<x-m>-10.36250</x-m>
 			<y-m> 0.57779</y-m>
@@ -629,7 +629,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 	</model>
 	
 	<animation>
-		<object-name>vsi</object-name>>
+		<object-name>vsi2</object-name>>
 		<type>scale</type>
 		<x-offset>1.25</x-offset>
 		<y-offset>1.25</y-offset>
