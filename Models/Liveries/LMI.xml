@@ -4,7 +4,7 @@
   <sim>
     <model>
       <livery>
-	<name type="string">Forca Chape -- LMI - LaMia</name>
+	<name type="string">LMI - LaMia - Forca Chape</name>
 	<texture>Liveries/LMI.png</texture>
       </livery>
     </model>
