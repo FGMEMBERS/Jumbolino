@@ -1,0 +1,12 @@
+<PropertyList>
+
+	<Voodoomaster-Version type="string">01.00.32</Voodoomaster-Version>
+
+	<steering-mode-rudder type="bool">true</steering-mode-rudder>
+	<steering-mode-aileron type="bool">false</steering-mode-aileron>
+	<migraine-mode type="bool">false</migraine-mode>
+
+	<menubar2 include="Aircraft/Jumbolino/JPack/Voodoomaster/Dialogs/menubar.xml"></menubar2>
+
+</PropertyList>
+

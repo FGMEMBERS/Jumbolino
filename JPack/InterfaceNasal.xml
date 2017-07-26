@@ -1,0 +1,11 @@
+<PropertyList>
+
+	<Voodoomaster>
+		<file>Aircraft/JPack/Voodoomaster/Steering/Steering.nas</file>
+	</Voodoomaster>
+	<SkyNet>
+		<file>Aircraft/JPack/SkyNet/Nasal/Login.nas</file>
+	</SkyNet>
+
+</PropertyList>
+

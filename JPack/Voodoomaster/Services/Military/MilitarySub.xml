@@ -1,0 +1,26 @@
+<PropertyList>
+	<submodel>
+		<name>Military-Pushback</name>
+		<model>Aircraft/JPack/Voodoomaster/Services/Military2.xml</model>
+		<trigger>voodoomaster/pushback/activated</trigger>
+		<repeat>false</repeat>
+		<count>1</count>
+		<speed>0</speed>
+		<wind>false</wind>
+		<aero-stabilised>false</aero-stabilised>
+		<eda>1.42</eda>
+		<cd>0.75</cd>
+		<weight>5000</weight>
+
+		<x-offset>  8.033 </x-offset>
+		<y-offset>  0.000 </y-offset>
+		<z-offset> -0.802 </z-offset>
+
+		<pitch-offset>0</pitch-offset>
+		<yaw-offset>0</yaw-offset>
+		<life>90000</life>
+		<delay>0</delay>
+		<impact>false</impact>
+		<impact-reports>voodoomaster/pushback/connected</impact-reports>
+	</submodel>
+</PropertyList>

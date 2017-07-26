@@ -1,0 +1,96 @@
+<PropertyList>
+
+	<default>
+		<menu n="101">
+			<label>Voodoomaster</label>
+			<enabled type="bool">true</enabled>
+
+			<item>
+				<name>Pushback</name>
+				<label>Pushback</label>
+				<binding>
+					<command>nasal</command>
+					<script>
+						var pushback = gui.Dialog.new(
+							"sim/gui/voodoomaster/services/dialog", 
+							"Aircraft/JPack/Voodoomaster/Services/Push_Pull.xml"
+						);
+						pushback.open();
+					</script>
+				</binding>
+			</item>
+		
+			<item>
+				<name>SteeringMode</name>
+				<label>SteeringConfiguration</label>
+				<binding>
+					<command>nasal</command>
+					<script>
+						var steering = gui.Dialog.new(
+							"sim/gui/voodoomaster/steering/dialog", 
+							"Aircraft/JPack/Voodoomaster/Steering/SteeringDialog.xml"
+						);
+						steering.open();
+					</script>
+				</binding>
+			</item>
+
+			<item>
+				<name>MigraineMode</name>
+				<label>Migraine mode</label>
+				<binding>
+					<command>property-toggle</command>
+					<property>voodoomaster/migraine-mode</property>
+				</binding>
+			</item>
+
+			<item>
+				<name>GroundCrew</name>
+				<label>Ground Crew</label>
+				<binding>
+					<command>nasal</command>
+					<script>
+						var crew = gui.Dialog.new(
+							"sim/gui/voodoomaster/services/dialog", 
+							"Aircraft/JPack/Voodoomaster/Services/GroundServiceDialog.xml"
+						);
+						crew.open();
+					</script>
+				</binding>
+			</item>
+		</menu>
+
+		<menu n="102">
+			<name>SkyNet</name>
+			<label>SkyNet</label>
+			<enabled type="bool">true</enabled>
+
+			<item>
+				<name>SkyNetLogin</name>
+				<label>Login</label>
+				<enabled type="bool">true</enabled>
+				<binding>
+					<command>nasal</command>
+					<script>
+						var login=gui.Dialog.new("sim/gui/dialogs/ground/dialog", "Aircraft/JPack/SkyNet/Dialogs/Login.xml");
+						login.open();
+					</script>
+				</binding>
+			</item>
+
+			<item>
+				<name>SkyNetLogout</name>
+				<label>Logout</label>
+				<enabled type="bool">false</enabled>
+				<binding>
+					<command>nasal</command>
+					<script>
+						SkyNet.logout();
+					</script>
+				</binding>
+			</item>
+		</menu>
+	</default>
+
+</PropertyList>
+

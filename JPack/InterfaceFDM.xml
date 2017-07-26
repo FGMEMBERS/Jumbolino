@@ -1,0 +1,12 @@
+<PropertyList>
+
+	<jsbsim>
+		<systems>
+			<pushback>
+				<linked type="int">0</linked>
+			</pushback>
+		</systems>
+	</jsbsim>
+
+</PropertyList>
+
