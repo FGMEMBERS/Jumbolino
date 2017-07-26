@@ -300,11 +300,6 @@
 			</key>
 
 			<key>
-				<name>Delete</name>
-				<desc>toggle thrust reversers</desc>
-			</key>
-
-			<key>
 				<name>g/G</name>
 				<desc>raise/lower landing gear</desc>
 			</key>
@@ -337,7 +332,7 @@
 			<text>
 				=== Takeoff Procedure ===
 				Pre-departure:
-				1. - Allocate your fuel, passengers and weight under Equipment/fuel and payload
+				1. - Allocate your fuel, passengers and weight under Equipment/Fuel and Payload
 				   - Once passengers and baggage are loaded and weights defined, close the exit doors
 				     and ensure stairways are disconnected
 				   - Ensure a complete systems checklist is carried out
@@ -346,33 +341,32 @@
 				   - In poor weather conditions, or crowded airport aprons, A Followme truck should be used if required
 
 				Departure:
-				2. Select 767-300ER/Autostart (or hold s) to get the engines running
-				3. set your flaps suitably for the conditions and runway length
-				4. Release the parking brakes
-				5. Apply throttle gently, until at 75% throttle
-				6. Rotate at around 140-160kt
-				7. Raise landing gear at positive climb
-				8. Maintain positive climb
+				2. Select Jumbolino/Autostart to get the engines running.
+				3. Set your flaps suitably for the conditions and runway length.
+				4. Release the parking brakes.
+				5. Apply throttle gently, until at 75% throttle.
+				6. Rotate at around 140-160kt.
+				7. Raise landing gear at positive climb.
+				8. Maintain positive climb.
 
 				Captain Notes:
 				- Never reverse from terminal without aid from a pushback. It should be used until the aircraft is on the taxiway.
-				- Ensure you allow enough room to manoeuvre around the airport, given that it is a long aircraft.
+				- Ensure you allow enough room to manoeuvre around the airport.
 				- On a short or wet runway, flaps should be set lower on both landing and takeoff, and throttle set to full on takeoff.
-				- There are risks of overrunning the runway apron upon landing and takeoff, aswell as overrunning the taxiway corners in the 767. In wet 					conditions especially; take care and ensure that the correct speed guidelines and height are maintained.
+				- There are risks of overrunning the runway upon landing and takeoff, as well as overrunning the taxiway corners in the BAe 146-200. In wet conditions especially, take care and ensure that the correct speed guidelines and height are maintained.
 				- During turbulant conditions, The seatbelt warning sound should be initiated by the captain.
 
 				=== Cruising ===
-				Cruising Speed: Mach 0.80
-				Service Ceiling: 42,000ft
+				Cruise Speed: Mach 0.70
+				Service Ceiling: 35,000ft
 
 				=== Landing ===
-				1. Decend through 200kt, reaching roughly 160kt 1mile before reaching the apron
-				2. set flaps accordingly
-				3. Land at roughly 140kt, touch down carefully and smoothly at 135kt.
-				4. Apply Speedbrakes
-				5. Apply thrust reversal and apply throttle
-				6. Lower throttle and deactivate thrust reversers
-				7. If necessary, Emergency brakes should be used
+				1. Decend through 200kt, reaching roughly 160kt 1 mile before reaching the runway landing zone.
+				2. Set flaps accordingly.
+				3. Land at roughly 140kt, reduce throttle levers to idle, touch down carefully and smoothly at 135kt.
+				4. Apply wing and tail spoilers.
+				5. Slow down to about 20 knots.
+				6. If necessary, emergency brakes should be used.
 			</text>
 		</help>
 
