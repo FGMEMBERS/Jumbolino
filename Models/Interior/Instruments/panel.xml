@@ -76,11 +76,11 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- ALT pilot side main -->
 	<model>
-		<path>Aircraft/Jumbolino/Models/Interior/Instruments/ALT/alt1.xml</path>
+		<path>Aircraft/Jumbolino/Models/Interior/Instruments/ALT/alt-cp.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
-			<y-m>-0.45379</y-m>
-			<z-m>-1.79916</z-m>
+			<y-m>-0.45879</y-m>
+			<z-m>-1.80416</z-m>
 		</offsets>
 	</model>
 	
@@ -130,11 +130,11 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 	<!-- ALT first officer side -->
 	<model>
-		<path>Aircraft/Jumbolino/Models/Interior/Instruments/ALT/alt2.xml</path>
+		<path>Aircraft/Jumbolino/Models/Interior/Instruments/ALT/alt-fo.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
-			<y-m> 0.58379</y-m>
-			<z-m>-1.79916</z-m>
+			<y-m> 0.57479</y-m>
+			<z-m>-1.80416</z-m>
 		</offsets>
 	</model>
 	
@@ -602,11 +602,11 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 	
 	<!-- VSI: Captain -->
 	<model>
-		<path>Aircraft/Jumbolino/Models/Interior/Instruments/vsi-6/vsi-3d.xml</path>
+		<path>Aircraft/Jumbolino/Models/Interior/Instruments/VSI/vsi.xml</path>
 		<offsets>
 			<x-m>-10.36250</x-m>
-			<y-m>-0.45379</y-m>
-			<z-m>-1.89716</z-m>
+			<y-m>-0.45879</y-m>
+			<z-m>-1.91716</z-m>
 		</offsets>
 	</model>
 	
@@ -620,11 +620,11 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 	
 	<!-- VSI: F/O -->
 	<model>
-		<path>Aircraft/Jumbolino/Models/Interior/Instruments/vsi-6/vsi-3d.xml</path>
+		<path>Aircraft/Jumbolino/Models/Interior/Instruments/VSI/vsi.xml</path>
 		<offsets>
 			<x-m>-10.36250</x-m>
-			<y-m> 0.58279</y-m>
-			<z-m>-1.89716</z-m>
+			<y-m> 0.57779</y-m>
+			<z-m>-1.91716</z-m>
 		</offsets>
 	</model>
 	
@@ -636,4 +636,39 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<z-offset>1.25</z-offset>
 	</animation>
 	
+	<!-- Standby AI -->
+	<model>
+		<path>Aircraft/Jumbolino/Models/Interior/Instruments/STBYai/backupai.xml</path>
+		<offsets>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.36979</y-m>
+			<z-m>-1.80416</z-m>
+		</offsets>
+	</model>
+	
+	<animation>
+		<object-name>backupai</object-name>>
+		<type>scale</type>
+		<x-offset>1.25</x-offset>
+		<y-offset>1.25</y-offset>
+		<z-offset>1.25</z-offset>
+	</animation>
+	
+	<!-- Standby ALT -->
+	<model>
+		<path>Aircraft/Jumbolino/Models/Interior/Instruments/ALT/alt-cp.xml</path>
+		<offsets>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.36979</y-m>
+			<z-m>-1.89716</z-m>
+		</offsets>
+	</model>
+	
+	<animation>
+		<object-name>alt1</object-name>>
+		<type>scale</type>
+		<x-offset>1.25</x-offset>
+		<y-offset>1.25</y-offset>
+		<z-offset>1.25</z-offset>
+	</animation>
 </PropertyList>
