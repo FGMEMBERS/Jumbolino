@@ -671,4 +671,58 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<y-offset>1.25</y-offset>
 		<z-offset>1.25</z-offset>
 	</animation>
+	
+	<!-- Left Tank Fuel Gauge -->
+	<model>
+		<path>Aircraft/Jumbolino/Models/Interior/Instruments/FUEL/fuelgauge.xml</path>
+		<offsets>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.20629</y-m>
+			<z-m>-2.04016</z-m>
+		</offsets>
+	</model>
+	
+	<animation>
+		<object-name>fuelgauge</object-name>>
+		<type>scale</type>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
+	</animation>
+	
+	<!-- Center Tank Fuel Gauge -->
+	<model>
+		<path>Aircraft/Jumbolino/Models/Interior/Instruments/FUEL/fuelgauge2.xml</path>
+		<offsets>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.14629</y-m>
+			<z-m>-2.04016</z-m>
+		</offsets>
+	</model>
+	
+	<animation>
+		<object-name>fuelgauge</object-name>>
+		<type>scale</type>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
+	</animation>
+	
+	<!-- Right Tank Fuel Gauge -->
+	<model>
+		<path>Aircraft/Jumbolino/Models/Interior/Instruments/FUEL/fuelgauge3.xml</path>
+		<offsets>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.08629</y-m>
+			<z-m>-2.04016</z-m>
+		</offsets>
+	</model>
+	
+	<animation>
+		<object-name>fuelgauge</object-name>>
+		<type>scale</type>
+		<x-offset>1.4</x-offset>
+		<y-offset>1.4</y-offset>
+		<z-offset>1.4</z-offset>
+	</animation>
 </PropertyList>
