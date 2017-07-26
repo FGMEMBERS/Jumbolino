@@ -150,6 +150,42 @@
 			</config>
 		</view>
 		
+		<view n="1">
+			<config>
+				<target-y-offset-m archive="y" type="double">-5.75</target-y-offset-m>
+			</config>
+		</view>
+
+		<view n="2">
+			<config>
+				<target-y-offset-m archive="y" type="double">-5.75</target-y-offset-m>
+			</config>
+		</view>
+
+		<view n="3">
+			<config>
+				<target-y-offset-m archive="y" type="double">-5.75</target-y-offset-m>
+			</config>
+		</view>
+
+		<view n="4">
+			<config>
+				<target-y-offset-m archive="y" type="double">-5.75</target-y-offset-m>
+			</config>
+		</view>
+		
+		<view n="5">
+			<config>
+				<target-y-offset-m archive="y" type="double">-5.75</target-y-offset-m>
+			</config>
+		</view>
+		
+		<view n="6">
+			<config>
+				<target-y-offset-m archive="y" type="double">-5.75</target-y-offset-m>
+			</config>
+		</view>
+		
 		<view n="105">
 			<name>First Officer View</name>
 			<type>lookfrom</type>

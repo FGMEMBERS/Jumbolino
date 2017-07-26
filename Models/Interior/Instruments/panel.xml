@@ -133,7 +133,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<path>Aircraft/Jumbolino/Models/Interior/Instruments/ALT/alt-fo.xml</path>
 		<offsets>
 			<x-m>-10.35650</x-m>
-			<y-m> 0.57479</y-m>
+			<y-m> 0.57979</y-m>
 			<z-m>-1.80416</z-m>
 		</offsets>
 	</model>
