@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<PropertyList>
+	
+	<path>pitch-trim-wheel.ac</path>
+	
+	<animation>
+		<type>pick</type>
+		<object-name>PitchTrimWheels</object-name>
+		<action>
+			<button>3</button>
+			<repeatable>true</repeatable>
+			<binding>
+				<command>property-adjust</command>
+				<property>/controls/flight/elevator-trim</property>
+				<step>0.01d</step>
+				<max>1</max>
+			</binding>
+		</action>
+		
+		<action>
+			<button>4</button>
+			<repeatable>true</repeatable>
+			<binding>
+				<command>property-adjust</command>
+				<property>/controls/flight/elevator-trim</property>
+				<step>-0.01d</step>
+				<min>-1</min>
+			</binding>
+		</action>
+	</animation>
+	
+	<animation>
+		<type>rotate</type>
+		<object-name>PitchTrimWheels</object-name>
+		<property>/controls/flight/elevator-trim</property>
+		<factor>-200</factor>
+		<center>
+            <x-m>-10.07143</x-m>
+            <y-m>-0.03056</y-m>
+            <z-m>-2.23082</z-m>
+        </center>
+		<axis>
+            <x>0</x>
+            <y>1</y>
+            <z>0</z>
+        </axis>
+	</animation>
+</PropertyList>

@@ -7,7 +7,7 @@ MATERIAL "Material.001" rgb 0.8000 0.8000 0.8000  amb 1.0000 1.0000 1.0000  emis
 MATERIAL "metal.001" rgb 0.7000 0.7000 0.7000  amb 0.7000 0.7000 0.7000  emis 0.0000 0.0000 0.0000  spec 0.9014 0.9014 0.9014  shi 128 trans 0.0000
 MATERIAL "interior" rgb 0.8000 0.8000 0.8000  amb 0.8000 0.8000 0.8000  emis 0.0000 0.0000 0.0000  spec 0.0000 0.0000 0.0000  shi 128 trans 0.0000
 OBJECT world
-name "Blender_export__panel-test.ac"
+name "Blender_export__panel-new.ac"
 kids 18
 OBJECT poly
 name "Cabin"
@@ -9609,7 +9609,7 @@ refs 4
 kids 0
 OBJECT poly
 name "panel"
-loc -10.3618975 -1.8526754 0.0430001
+loc -10.3618975 -1.8526754 0.0430000
 crease 61.0
 texture "grayPanel.png"
 texrep 1 1
