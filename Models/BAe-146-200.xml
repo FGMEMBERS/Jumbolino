@@ -1250,11 +1250,11 @@
 		<property>surface-positions/speedbrake-pos-norm</property>
 		<factor>-75</factor>
 		<axis>
-			<x1-m>10.3519</x1-m>
-			<y1-m>-0.1</y1-m>
+			<x1-m>10.50420</x1-m>
+			<y1-m>-0.69788</y1-m>
 			<z1-m>-2.3841</z1-m>
-			<x2-m>10.3519</x2-m>
-			<y2-m>-0.1</y2-m>
+			<x2-m>10.50420</x2-m>
+			<y2-m>-0.69788</y2-m>
 			<z2-m>-1.3841</z2-m>
 		</axis>
 	</animation>  
@@ -1265,11 +1265,11 @@
 		<property>surface-positions/speedbrake-pos-norm</property>
 		<factor>75</factor>
 		<axis>
-			<x1-m>10.3519</x1-m>
-			<y1-m> 0.1</y1-m>
+			<x1-m>10.50420</x1-m>
+			<y1-m> 0.69788</y1-m>
 			<z1-m>-2.3841</z1-m>
-			<x2-m>10.3519</x2-m>
-			<y2-m> 0.1</y2-m>
+			<x2-m>10.50420</x2-m>
+			<y2-m> 0.69788</y2-m>
 			<z2-m>-1.3841</z2-m>
 		</axis>
 	</animation>  

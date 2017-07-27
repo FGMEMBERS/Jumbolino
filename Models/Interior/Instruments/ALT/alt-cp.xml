@@ -277,8 +277,8 @@
 			<binding>
 				<command>set-tooltip</command>
 				<tooltip-id>altimeter-pressure-[0]</tooltip-id>
-				<label>Altimeter: %.1f</label>
-				<property>/b733/instrumentation/altimeter[0]/setting-hpa</property>
+				<label>Altimeter: %1f</label>
+				<property>/instrumentation/altimeter[0]/setting-inhg</property>
 			</binding>
 		</hovered>
 	</animation>
