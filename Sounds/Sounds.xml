@@ -50,7 +50,7 @@
 		<not>
 	<property>sim/current-view/internal</property>
 		</not>
-        <property>/controls/engines/engine/starter</property>	
+        	
 	</condition>  
 		<position>
 			<x>0.33175</x>
@@ -89,7 +89,7 @@
 		<not>
 	<property>sim/current-view/internal</property>
 		</not>
-       <property>/controls/engines/engine[1]/starter</property>
+       
 	</condition>      
 		<position>
 			<x>-0.32961</x>
@@ -128,7 +128,7 @@
 		<not>
 	<property>sim/current-view/internal</property>
 		</not>
-        <property>/controls/engines/engine[2]/starter</property>	
+        
 	</condition>      
 		<position>
 			<x>-0.33182</x>
@@ -167,7 +167,7 @@
 		<not>
 	<property>sim/current-view/internal</property>
 		</not>
-        <property>/controls/engines/engine[3]/starter</property>
+        
 	</condition>      
 		<position>
 			<x>0.33065</x>
@@ -549,7 +549,7 @@
    		<mode>looped</mode>
 	<condition>
 		<property>sim/current-view/internal</property>
-		<property>/controls/engines/engine/starter</property>	
+		<property>/engines/engine/n2</property>
 	</condition>  
 		<position>
 			<x>0.33175</x>
@@ -560,7 +560,7 @@
         <property>engines/engine/n1</property>
         <factor> 0.09 </factor>
         <min> 0.01 </min>
-        <max> 0.4 </max>
+        <max> 0.06 </max>
       </volume>
             <orientation>
                 <x>-1</x>
@@ -586,7 +586,7 @@
    		<mode>looped</mode>
 	<condition>
 		<property>sim/current-view/internal</property>
-		<property>/controls/engines/engine[1]/starter</property>
+		<property>/engines/engine[1]/n2</property>
 	</condition>      
 		<position>
 			<x>-0.32961</x>
@@ -597,7 +597,7 @@
         <property>engines/engine[1]/n1</property>
         <factor> 0.09 </factor>
         <min> 0.01 </min>
-        <max> 0.4 </max>
+        <max> 0.06 </max>
       </volume>
             <orientation>
                 <x>-1</x>
@@ -623,7 +623,7 @@
    		<mode>looped</mode>
 	<condition>
 		<property>sim/current-view/internal</property>
-		<property>/controls/engines/engine[2]/starter</property>	
+		<property>/engines/engine[2]/n2</property>
 	</condition>      
 		<position>
 			<x>-0.33182</x>
@@ -634,7 +634,7 @@
         <property>engines/engine[2]/n1</property>
         <factor> 0.09 </factor>
         <min> 0.01 </min>
-        <max> 0.4 </max>
+        <max> 0.06 </max>
       </volume>
             <orientation>
                 <x>-1</x>
@@ -660,7 +660,7 @@
    		<mode>looped</mode>
 	<condition>
 		<property>sim/current-view/internal</property>
-		<property>/controls/engines/engine[3]/starter</property>
+		<property>/engines/engine[3]/n2</property>
 	</condition>      
 		<position>
 			<x>0.33065</x>
@@ -671,7 +671,7 @@
         <property>engines/engine[3]/n1</property>
         <factor> 0.09 </factor>
         <min> 0.01 </min>
-        <max> 0.4 </max>
+        <max> 0.06 </max>
       </volume>
             <orientation>
                 <x>-1</x>
@@ -699,11 +699,11 @@
    		<path>Aircraft/Jumbolino/Sounds/whine.wav</path>
    		<mode>looped</mode>
 	<condition>
-			<property>sim/current-view/internal</property>	
-	</condition>  
-	<condition>
-	<property>/engines/engine/n1</property>	
-	</condition>	
+		<and>
+			<property>sim/current-view/internal</property>
+			<property>/engines/engine/n1</property>	
+		</and>
+	</condition>
 		<position>
 			<x>0.33175</x>
 			<y>-6.65874</y>
@@ -738,11 +738,11 @@
    		<path>Aircraft/Jumbolino/Sounds/whine.wav</path>
    		<mode>looped</mode>
 	<condition>
+		<and>
 			<property>sim/current-view/internal</property>	
+			<property>/engines/engine[1]/n1</property>	
+		</and>
 	</condition>  
-	<condition>
-	<property>/engines/engine[1]/n1</property>		
-	</condition>	
 		<position>
 			<x>-0.32961</x>
 			<y>-4.20425</y>
@@ -777,11 +777,11 @@
    		<path>Aircraft/Jumbolino/Sounds/whine.wav</path>
    		<mode>looped</mode>
 	<condition>
+		<and>
 			<property>sim/current-view/internal</property>	
-	</condition>  
-	<condition>
-	<property>/engines/engine[2]/n1</property>		
-	</condition>	
+			<property>/engines/engine[2]/n1</property>		
+		</and>
+	</condition>  	
 		<position>
 			<x>-0.33182</x>
 			<y>4.18267</y>
@@ -816,11 +816,11 @@
    		<path>Aircraft/Jumbolino/Sounds/whine.wav</path>
    		<mode>looped</mode>
 	<condition>
-			<property>sim/current-view/internal</property>	
+		<and>
+			<property>sim/current-view/internal</property>
+			<property>/engines/engine[3]/n1</property>
+		</and>
 	</condition>  
-	<condition>
-	<property>/engines/engine[3]/n1</property>	
-	</condition>	
 		<position>
 			<x>0.33065</x>
 			<y>6.66262</y>
