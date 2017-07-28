@@ -65,14 +65,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 			<z-m>-1.78616</z-m>
 		</offsets>
 	</model>
-	
-	<animation>
-		<object-name>ai1_1</object-name>>
-		<type>scale</type>
-		<x-offset>1.25</x-offset>
-		<y-offset>1.25</y-offset>
-		<z-offset>1.25</z-offset>
-	</animation>
 
 	<!-- ALT pilot side main -->
 	<model>
@@ -83,14 +75,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 			<z-m>-1.80416</z-m>
 		</offsets>
 	</model>
-	
-	<animation>
-		<object-name>alt1</object-name>>
-		<type>scale</type>
-		<x-offset>1.25</x-offset>
-		<y-offset>1.25</y-offset>
-		<z-offset>1.25</z-offset>
-	</animation>
 
 	<!-- ASI pilot side -->
 	<model>
@@ -101,14 +85,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 			<z-m>-1.79916</z-m>
 		</offsets>
 	</model>
-	
-	<animation>
-		<object-name>asi1</object-name>>
-		<type>scale</type>
-		<x-offset>1.25</x-offset>
-		<y-offset>1.25</y-offset>
-		<z-offset>1.25</z-offset>
-	</animation>
 
 	<!-- AI first officer side -->
 	<model>
@@ -119,14 +95,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 			<z-m>-1.78616</z-m>
 		</offsets>
 	</model>
-	
-	<animation>
-		<object-name>ai1_2</object-name>>
-		<type>scale</type>
-		<x-offset>1.25</x-offset>
-		<y-offset>1.25</y-offset>
-		<z-offset>1.25</z-offset>
-	</animation>
 
 	<!-- ALT first officer side -->
 	<model>
@@ -137,14 +105,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 			<z-m>-1.80416</z-m>
 		</offsets>
 	</model>
-	
-	<animation>
-		<object-name>alt2</object-name>>
-		<type>scale</type>
-		<x-offset>1.25</x-offset>
-		<y-offset>1.25</y-offset>
-		<z-offset>1.25</z-offset>
-	</animation>
 
 	<!-- ASI first officer side -->
 	<model>
@@ -155,14 +115,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 			<z-m>-1.79916</z-m>
 		</offsets>
 	</model>
-	
-	<animation>
-		<object-name>asi2</object-name>>
-		<type>scale</type>
-		<x-offset>1.25</x-offset>
-		<y-offset>1.25</y-offset>
-		<z-offset>1.25</z-offset>
-	</animation>
 
 	<!-- EPR1 -->
 	<model>
@@ -177,9 +129,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 	<animation>
 		<object-name>epr1</object-name>>
 		<type>scale</type>
-		<x-offset>1.5</x-offset>
-		<y-offset>1.5</y-offset>
-		<z-offset>1.5</z-offset>
+		<x-offset>1.25</x-offset> <!-- original: 1.5 -->
+		<y-offset>1.25</y-offset>
+		<z-offset>1.25</z-offset>
 	</animation>
 
 	<!--
@@ -199,9 +151,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 	<animation>
 		<object-name>epr2</object-name>>
 		<type>scale</type>
-		<x-offset>1.5</x-offset>
-		<y-offset>1.5</y-offset>
-		<z-offset>1.5</z-offset>
+		<x-offset>1.25</x-offset>
+		<y-offset>1.25</y-offset>
+		<z-offset>1.25</z-offset>
 	</animation>
 
 	<!-- EPR3 -->
@@ -217,9 +169,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 	<animation>
 		<object-name>epr3</object-name>>
 		<type>scale</type>
-		<x-offset>1.5</x-offset>
-		<y-offset>1.5</y-offset>
-		<z-offset>1.5</z-offset>
+		<x-offset>1.25</x-offset>
+		<y-offset>1.25</y-offset>
+		<z-offset>1.25</z-offset>
 	</animation>
 
 	<!-- EPR4 -->
@@ -235,9 +187,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 	<animation>
 		<object-name>epr4</object-name>>
 		<type>scale</type>
-		<x-offset>1.5</x-offset>
-		<y-offset>1.5</y-offset>
-		<z-offset>1.5</z-offset>
+		<x-offset>1.25</x-offset>
+		<y-offset>1.25</y-offset>
+		<z-offset>1.25</z-offset>
 	</animation>
 
 	<!-- N1_1 -->
@@ -246,16 +198,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.23579</y-m>
-			<z-m>-1.78516</z-m>
+			<z-m>-1.77916</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>n1_1</object-name>>
 		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
+		<x-offset>1.17</x-offset> <!-- original: 1.4 -->
+		<y-offset>1.17</y-offset>
+		<z-offset>1.17</z-offset>
 	</animation>
 
 	<!-- N1_2 -->
@@ -264,16 +216,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.17679</y-m>
-			<z-m>-1.78516</z-m>
+			<z-m>-1.77916</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>n1_2</object-name>>
 		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
+		<x-offset>1.17</x-offset>
+		<y-offset>1.17</y-offset>
+		<z-offset>1.17</z-offset>
 	</animation>
 
 	<!-- N1_3 -->
@@ -282,16 +234,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.11579</y-m>
-			<z-m>-1.78516</z-m>
+			<z-m>-1.77916</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>n1_3</object-name>>
 		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
+		<x-offset>1.17</x-offset>
+		<y-offset>1.17</y-offset>
+		<z-offset>1.17</z-offset>
 	</animation>
 
 	<!-- N1_4 -->
@@ -300,16 +252,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.05679</y-m>
-			<z-m>-1.78516</z-m>
+			<z-m>-1.77916</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>n1_4</object-name>>
 		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
+		<x-offset>1.17</x-offset>
+		<y-offset>1.17</y-offset>
+		<z-offset>1.17</z-offset>
 	</animation>
 
 	<!-- N2_1 -->
@@ -318,16 +270,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.23579</y-m>
-			<z-m>-1.85016</z-m>
+			<z-m>-1.83816</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>n2_1</object-name>>
 		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
+		<x-offset>1.17</x-offset> <!-- original: 1.4 -->
+		<y-offset>1.17</y-offset>
+		<z-offset>1.17</z-offset>
 	</animation>
 
 	<!-- N2_2 -->
@@ -336,16 +288,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.17679</y-m>
-			<z-m>-1.85016</z-m>
+			<z-m>-1.83816</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>n2_2</object-name>>
 		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
+		<x-offset>1.17</x-offset>
+		<y-offset>1.17</y-offset>
+		<z-offset>1.17</z-offset>
 	</animation>
 
 	<!-- N2_3 -->
@@ -354,16 +306,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.11579</y-m>
-			<z-m>-1.85016</z-m>
+			<z-m>-1.83816</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>n2_3</object-name>>
 		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
+		<x-offset>1.17</x-offset>
+		<y-offset>1.17</y-offset>
+		<z-offset>1.17</z-offset>
 	</animation>
 
 	<!-- N2_4 -->
@@ -372,16 +324,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.05679</y-m>
-			<z-m>-1.85016</z-m>
+			<z-m>-1.83816</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>n2_4</object-name>>
 		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
+		<x-offset>1.17</x-offset>
+		<y-offset>1.17</y-offset>
+		<z-offset>1.17</z-offset>
 	</animation>
 
 	<!-- EXH1 -->
@@ -390,16 +342,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.23579</y-m>
-			<z-m>-1.91516</z-m>
+			<z-m>-1.89716</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>exh1</object-name>>
 		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
+		<x-offset>1.17</x-offset> <!-- original: 1.4 -->
+		<y-offset>1.17</y-offset>
+		<z-offset>1.17</z-offset>
 	</animation>
 
 	<!-- EXH2 -->
@@ -408,16 +360,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.17679</y-m>
-			<z-m>-1.91516</z-m>
+			<z-m>-1.89716</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>exh2</object-name>>
 		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
+		<x-offset>1.17</x-offset>
+		<y-offset>1.17</y-offset>
+		<z-offset>1.17</z-offset>
 	</animation>
 
 	<!-- EXH3 -->
@@ -426,16 +378,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.11579</y-m>
-			<z-m>-1.91516</z-m>
+			<z-m>-1.89716</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>exh3</object-name>>
 		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
+		<x-offset>1.17</x-offset>
+		<y-offset>1.17</y-offset>
+		<z-offset>1.17</z-offset>
 	</animation>
 
 	<!-- EXH4 -->
@@ -444,16 +396,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.05679</y-m>
-			<z-m>-1.91516</z-m>
+			<z-m>-1.89716</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>exh4</object-name>>
 		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
+		<x-offset>1.17</x-offset>
+		<y-offset>1.17</y-offset>
+		<z-offset>1.17</z-offset>
 	</animation>
 
 	<!-- FFKGH1 -->
@@ -462,16 +414,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.23579</y-m>
-			<z-m>-1.98016</z-m>
+			<z-m>-1.95616</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>ffkgh_1</object-name>>
 		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
+		<x-offset>1.17</x-offset> <!-- original: 1.4 -->
+		<y-offset>1.17</y-offset>
+		<z-offset>1.17</z-offset>
 	</animation>
 
 	<!-- FFKGH2 -->
@@ -480,16 +432,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.17679</y-m>
-			<z-m>-1.98016</z-m>
+			<z-m>-1.95616</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>ffkgh_2</object-name>>
 		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
+		<x-offset>1.17</x-offset>
+		<y-offset>1.17</y-offset>
+		<z-offset>1.17</z-offset>
 	</animation>
 
 	<!-- FFKG3 -->
@@ -498,16 +450,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.11579</y-m>
-			<z-m>-1.98016</z-m>
+			<z-m>-1.95616</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>ffkgh_3</object-name>>
 		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
+		<x-offset>1.17</x-offset>
+		<y-offset>1.17</y-offset>
+		<z-offset>1.17</z-offset>
 	</animation>
 
 	<!-- FFKGH4 -->
@@ -516,17 +468,63 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		<offsets>
 			<x-m>-10.35650</x-m>
 			<y-m>-0.05679</y-m>
-			<z-m>-1.98016</z-m>
+			<z-m>-1.95616</z-m>
 		</offsets>
 	</model>
 	
 	<animation>
 		<object-name>ffkgh_4</object-name>>
 		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
+		<x-offset>1.17</x-offset>
+		<y-offset>1.17</y-offset>
+		<z-offset>1.17</z-offset>
 	</animation>
+	
+	<!-- Left Tank Fuel Gauge -->
+	<model>
+		<path>Aircraft/Jumbolino/Models/Interior/Instruments/FUEL/fuelgauge.xml</path>
+		<offsets>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.20629</y-m>
+			<z-m>-2.00716</z-m>
+		</offsets>
+	</model>
+	
+	<animation>
+		<object-name>body</object-name>>
+		<type>scale</type>
+		<x-offset>0.83</x-offset>
+		<y-offset>0.83</y-offset>
+		<z-offset>0.83</z-offset>
+	</animation>
+	
+	<!-- Center Tank Fuel Gauge -->
+	<model>
+		<path>Aircraft/Jumbolino/Models/Interior/Instruments/FUEL/fuelgauge2.xml</path>
+		<offsets>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.14629</y-m>
+			<z-m>-2.00716</z-m>
+		</offsets>
+	</model>
+	
+	<animation>
+		<object-name>face</object-name>>
+		<type>scale</type>
+		<x-offset>0.83</x-offset>
+		<y-offset>0.83</y-offset>
+		<z-offset>0.83</z-offset>
+	</animation>
+	
+	<!-- Right Tank Fuel Gauge -->
+	<model>
+		<path>Aircraft/Jumbolino/Models/Interior/Instruments/FUEL/fuelgauge3.xml</path>
+		<offsets>
+			<x-m>-10.35650</x-m>
+			<y-m>-0.08629</y-m>
+			<z-m>-2.00716</z-m>
+		</offsets>
+	</model>
 	
 	<!-- HSI: Captain -->
 	<model>
@@ -538,14 +536,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		</offsets>
 	</model>
 	
-	<animation>
-		<object-name>hsi1</object-name>>
-		<type>scale</type>
-		<x-offset>1.25</x-offset>
-		<y-offset>1.25</y-offset>
-		<z-offset>1.25</z-offset>
-	</animation>
-	
 	<!-- HSI: F/O -->
 	<model>
 		<path>Aircraft/Jumbolino/Models/Interior/Instruments/HSI/hsi2.xml</path>
@@ -555,14 +545,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 			<z-m>-1.90616</z-m>
 		</offsets>
 	</model>
-	
-	<animation>
-		<object-name>hsi2</object-name>>
-		<type>scale</type>
-		<x-offset>1.25</x-offset>
-		<y-offset>1.25</y-offset>
-		<z-offset>1.25</z-offset>
-	</animation>
 	
 	<!-- Compass: Captain -->
 	<model>
@@ -574,14 +556,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		</offsets>
 	</model>
 	
-	<animation>
-		<object-name>rmi1</object-name>>
-		<type>scale</type>
-		<x-offset>1.25</x-offset>
-		<y-offset>1.25</y-offset>
-		<z-offset>1.25</z-offset>
-	</animation>
-	
 	<!-- Compass: F/O -->
 	<model>
 		<path>Aircraft/Jumbolino/Models/Interior/Instruments/RMI/rmi2.xml</path>
@@ -591,14 +565,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 			<z-m>-1.89716</z-m>
 		</offsets>
 	</model>
-	
-	<animation>
-		<object-name>rmi2</object-name>>
-		<type>scale</type>
-		<x-offset>1.25</x-offset>
-		<y-offset>1.25</y-offset>
-		<z-offset>1.25</z-offset>
-	</animation>
 	
 	<!-- VSI: Captain -->
 	<model>
@@ -610,14 +576,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		</offsets>
 	</model>
 	
-	<animation>
-		<object-name>vsi</object-name>>
-		<type>scale</type>
-		<x-offset>1.25</x-offset>
-		<y-offset>1.25</y-offset>
-		<z-offset>1.25</z-offset>
-	</animation>
-	
 	<!-- VSI: F/O -->
 	<model>
 		<path>Aircraft/Jumbolino/Models/Interior/Instruments/VSI/vsi2.xml</path>
@@ -627,14 +585,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 			<z-m>-1.91716</z-m>
 		</offsets>
 	</model>
-	
-	<animation>
-		<object-name>vsi2</object-name>>
-		<type>scale</type>
-		<x-offset>1.25</x-offset>
-		<y-offset>1.25</y-offset>
-		<z-offset>1.25</z-offset>
-	</animation>
 	
 	<!-- Standby AI -->
 	<model>
@@ -646,14 +596,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 		</offsets>
 	</model>
 	
-	<animation>
-		<object-name>backupai</object-name>>
-		<type>scale</type>
-		<x-offset>1.25</x-offset>
-		<y-offset>1.25</y-offset>
-		<z-offset>1.25</z-offset>
-	</animation>
-	
 	<!-- Standby ALT -->
 	<model>
 		<path>Aircraft/Jumbolino/Models/Interior/Instruments/ALT/alt-cp.xml</path>
@@ -663,68 +605,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 			<z-m>-1.89716</z-m>
 		</offsets>
 	</model>
-	
-	<animation>
-		<object-name>alt1</object-name>>
-		<type>scale</type>
-		<x-offset>1.25</x-offset>
-		<y-offset>1.25</y-offset>
-		<z-offset>1.25</z-offset>
-	</animation>
-	
-	<!-- Left Tank Fuel Gauge -->
-	<model>
-		<path>Aircraft/Jumbolino/Models/Interior/Instruments/FUEL/fuelgauge.xml</path>
-		<offsets>
-			<x-m>-10.35650</x-m>
-			<y-m>-0.20629</y-m>
-			<z-m>-2.04016</z-m>
-		</offsets>
-	</model>
-	
-	<animation>
-		<object-name>fuelgauge</object-name>>
-		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
-	</animation>
-	
-	<!-- Center Tank Fuel Gauge -->
-	<model>
-		<path>Aircraft/Jumbolino/Models/Interior/Instruments/FUEL/fuelgauge2.xml</path>
-		<offsets>
-			<x-m>-10.35650</x-m>
-			<y-m>-0.14629</y-m>
-			<z-m>-2.04016</z-m>
-		</offsets>
-	</model>
-	
-	<animation>
-		<object-name>fuelgauge</object-name>>
-		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
-	</animation>
-	
-	<!-- Right Tank Fuel Gauge -->
-	<model>
-		<path>Aircraft/Jumbolino/Models/Interior/Instruments/FUEL/fuelgauge3.xml</path>
-		<offsets>
-			<x-m>-10.35650</x-m>
-			<y-m>-0.08629</y-m>
-			<z-m>-2.04016</z-m>
-		</offsets>
-	</model>
-	
-	<animation>
-		<object-name>fuelgauge</object-name>>
-		<type>scale</type>
-		<x-offset>1.4</x-offset>
-		<y-offset>1.4</y-offset>
-		<z-offset>1.4</z-offset>
-	</animation>
 	
 	<!-- Pitch Trim Wheels -->
 	<model>
